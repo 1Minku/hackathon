@@ -1,82 +1,132 @@
-# TenderWatch — Public Procurement Anomaly Agent
+# TenderWatch
 
-TenderWatch is an autonomous procurement investigation agent designed to analyze government tenders for irregularities and instantly generate ready-to-file Right to Information (RTI) query templates for suspicious cases. 
+> TenderWatch AI is an MCP-powered autonomous agent that analyzes public procurement data, detects suspicious tender patterns, and generates evidence-backed RT…
 
-## Key Architecture
+![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-blue) ![Built with Nitrostack](https://img.shields.io/badge/Built%20with-Nitrostack-0A66FF) ![Status](https://img.shields.io/badge/status-live-brightgreen)
 
-```
-                    ┌─────────────────────────┐
-                    │   Batch of Tender Records │
-                    │       (25-record dataset)       │
-                    └────────────┬──────────────┘
-                                 │
-                    ┌────────────▼──────────────┐
-                    │   Orchestrator Agent       │
-                    │   (LLM w/ tool-calling    │
-                    │    or local fallback)     │
-                    └────────────┬──────────────┘
-                                 │
-        ┌────────────────────────┼────────────────────────┐
-        │                        │                        │
-   ┌────▼─────────┐      ┌───────▼──────────┐    ┌────────▼─────────┐
-   │ TOOL:         │      │ TOOL:             │    │ TOOL:             │
-   │ check_price_  │      │ check_vendor_     │    │ check_bidder_     │
-   │ anomaly()     │      │ history()         │    │ relationship()    │
-   └────┬─────────┘      └───────┬──────────┘    └────────┬─────────┘
-        │                        │                        │
-        │  RESOURCE:              │  RESOURCE:               │  RESOURCE:
-        │  market_rates.json     │  vendor_history.json   │  bidder_registry.json
-        └────────────────────────┴────────────────────────┘
-```
+**TenderWatch** is an [MCP (Model Context Protocol)](https://nitrostack.ai) server that extends AI assistants — like Claude, Cursor, and any MCP-compatible client — with new, real-world capabilities. It is built and deployed on [Nitrostack](https://nitrostack.ai), the fastest way to build, deploy, and share MCP apps.
 
-The Orchestrator operates as a single model call with tool-calling enabled. It autonomously reasons over its findings to decide what checks to perform next, whether to stop early, and whether the combination of findings warrants escalation. This is what makes it an **agentic loop** rather than a fixed if/else pipeline.
+## Table of Contents
 
-- **check_price_anomaly**: Checks price deviation against market reference tables.
-- **check_vendor_history**: Computes vendor award concentration in the awarding department to surface potential bias.
-- **check_bidder_relationship**: Cross-references registration and corporate filings to find competing bidders sharing addresses or directors (bid-rigging).
+- [Overview](#overview)
+- [What is MCP?](#what-is-mcp)
+- [Features](#features)
+- [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
+- [Connect to an MCP Client](#connect-to-an-mcp-client)
+- [Deploy Your Own MCP App](#deploy-your-own-mcp-app)
+- [Explore More MCP Apps](#explore-more-mcp-apps)
+- [FAQ](#faq)
+- [Keywords](#keywords)
+- [License](#license)
 
----
+## Overview
 
-## Directory Structure
+TenderWatch AI is an MCP-powered autonomous agent that analyzes public procurement data, detects suspicious tender patterns, and generates evidence-backed RTI drafts to improve transparency and accountability.
 
-- `/data` — Contains the mock data layers (tender database, market rates, vendor history, bidder registry).
-- `/mcp-server` — Node.js MCP server exposing the 3 tools and 3 resources.
-- `/orchestrator` — The LLM agent wrapper (Claude Sonnet 3.5 tool-use client + RTI generation engine + batch runner).
-- `/api` — Express API server exposing endpoints to fetch results and stream live investigations via SSE.
-- `/ui` — Single-page dashboard rendered with glassmorphism styling and live tool-use animations.
+## What is MCP?
 
----
+The **Model Context Protocol (MCP)** is an open standard that lets AI assistants securely connect to external tools, data sources, and services. Instead of being limited to what it was trained on, an AI model can call **MCP servers** to fetch live data, run actions, and integrate with real systems.
+
+This project is one such MCP server. Learn more about building and shipping MCP apps at [nitrostack.ai](https://nitrostack.ai).
+
+## Features
+
+- 🔌 **MCP-native** — works with any MCP-compatible client (Claude, Cursor, and more)
+- 🛠️ **Tools, resources & prompts** — exposes structured capabilities to AI agents
+- ⚡ **Deployed on Nitrostack** — reliable, hosted, and instantly shareable
+- 🔐 **Secure by design** — secrets stay in environment variables, never in code
+- 🧩 **Composable** — combine with other MCP apps to build powerful AI workflows
+
+## Live Demo
+
+🚀 **Live MCP endpoint:** https://tenderwatch-a-thunder-bolts-amrita-university-amritapuri-campus.app.nitrocloud.ai
+
+Point your MCP client at the endpoint above to try it instantly. Prefer a hosted setup? Deploy your own in minutes on [Nitrostack](https://nitrostack.ai).
 
 ## Getting Started
 
-### 1. Requirements
-- Node.js (v18+)
-- NPM
+### Prerequisites
 
-### 2. Environment Setup
-Create a `.env` file in the root directory:
-```env
-ANTHROPIC_API_KEY=your_anthropic_api_key_here
-PORT=3001
-```
-*Note: If no Anthropic API key is provided, the orchestrator automatically falls back to a high-fidelity local deterministic mock agent that calls the real MCP server tools, allowing offline testing and presentation.*
+- Node.js 18+ (or your project runtime)
+- An MCP-compatible client (Claude Desktop, Cursor, etc.)
 
-### 3. Run the App
-To start the API server and UI dashboard, run:
+### Installation
+
 ```bash
-npm start
+git clone https://github.com/your-username/your-mcp-project.git
+cd tenderwatch
+npm install
 ```
-Open [http://localhost:3001](http://localhost:3001) in your browser.
 
-To run the interactive CLI agent in your terminal (which connects to the local MCP tools and lets you audit tenders interactively):
+### Configuration
+
+Copy the example environment file and add your own values:
+
 ```bash
-npm run cli
+cp .env.example .env
 ```
-*CLI Commands: `help`, `list`, `check <tender_id>`, `rti <tender_id>`, `exit`*
+
+### Run
+
+```bash
+npm run start
+```
+
+## Connect to an MCP Client
+
+Add this server to your MCP client configuration. A typical entry looks like:
+
+```json
+{
+  "mcpServers": {
+    "tenderwatch": {
+      "url": "https://tenderwatch-a-thunder-bolts-amrita-university-amritapuri-campus.app.nitrocloud.ai"
+    }
+  }
+}
+```
+
+Restart your client and the tools from this MCP server will be available to your AI assistant.
+
+## Deploy Your Own MCP App
+
+Want to build and ship an MCP server like this one? **[Nitrostack](https://nitrostack.ai)** lets you create, deploy, and host MCP apps in minutes — no infrastructure to manage.
+
+👉 **Start building:** [https://nitrostack.ai](https://nitrostack.ai)
+
+## Explore More MCP Apps
+
+- 🌙 Discover and share MCP projects with the community on [r/mcptothemoon](https://www.reddit.com/r/mcptothemoon/)
+- 🧰 Browse a growing catalog of MCP apps on [Nitrostack](https://nitrostack.ai/apps)
+
+## FAQ
+
+### What is an MCP server?
+
+An MCP server implements the Model Context Protocol to expose tools, resources, and prompts that AI assistants can call. It lets an AI model take real actions and access live data.
+
+### What does TenderWatch do?
+
+TenderWatch AI is an MCP-powered autonomous agent that analyzes public procurement data, detects suspicious tender patterns, and generates evidence-backed RT…
+
+### Which AI clients does this work with?
+
+Any MCP-compatible client, including Claude Desktop and Cursor. New clients are adding MCP support regularly.
+
+### How do I deploy my own MCP app?
+
+Use [Nitrostack](https://nitrostack.ai) to build, deploy, and host MCP apps without managing infrastructure.
+
+## Keywords
+
+`Open Innovation` · `TenderWatch` · `MCP` · `Model Context Protocol` · `MCP server` · `MCP app` · `AI tools` · `AI agents` · `LLM tools` · `Claude MCP` · `Nitrostack` · `deploy MCP server` · `build MCP app`
+
+## License
+
+MIT © 2026
 
 ---
 
-## Demo Walkthrough Points
-1. **Agentic vs. Pipeline Flow**: Show how on clean tenders (like T-001) the agent stops after calling `check_price_anomaly`, saving LLM costs. On suspicious tenders (like T-007), it dynamically decides to invoke all 3 tools.
-2. **The "Bitumen Road" Anomaly (T-007)**: Show how a single-bidder road tender with 78% inflated pricing and extreme vendor department concentration (91%) triggers a multi-tool escalation.
-3. **RTI Generation**: Show the drafted RTI Act 2005 queries. Citing specific departments and framing questions as request for administrative clarification (not legal verdicts).
+Built with ❤️ using the Model Context Protocol on [Nitrostack](https://nitrostack.ai). Share your MCP app on [r/mcptothemoon](https://www.reddit.com/r/mcptothemoon/).
+
