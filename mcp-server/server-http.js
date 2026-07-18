@@ -264,7 +264,7 @@ function buildServer() {
 const args = process.argv.slice(2);
 const useStdio = args.includes('--stdio');
 const useBoth  = args.includes('--both');
-const HTTP_PORT = parseInt(process.env.MCP_HTTP_PORT || '3002');
+const HTTP_PORT = parseInt(process.env.PORT || process.env.MCP_HTTP_PORT || '3002');
 
 async function startHttp() {
   const app = express();
