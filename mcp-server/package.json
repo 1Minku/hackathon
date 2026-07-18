@@ -1,0 +1,14 @@
+{
+  "name": "tenderwatch-mcp-server",
+  "version": "1.0.0",
+  "description": "TenderWatch MCP Server — exposes procurement anomaly investigation tools",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^5.2.1"
+  }
+}

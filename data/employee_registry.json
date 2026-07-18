@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": "EMP-001",
+      "password_hash": "admin123",
+      "name": "Rajesh Kumar",
+      "role": "Director, Procurement Audit Division",
+      "email": "rajesh.kumar@tenderwatch.gov.in",
+      "department": "Procurement Audit Division — HQ New Delhi",
+      "clearance_level": "LEVEL 1 — FULL ACCESS",
+      "clearance_code": "l1",
+      "specialisation": "Infrastructure procurement, NHAI contracts, cross-state anomaly analysis",
+      "active_cases": ["#T-007", "#T-014", "#T-023", "#T-041"],
+      "phone": "+91 98110 45678",
+      "status": "Active",
+      "last_login": "18 Jul 2026 · 09:14 IST"
+    },
+    {
+      "id": "EMP-002",
+      "password_hash": "audit456",
+      "name": "Priya Sharma",
+      "role": "Senior Audit Officer, Financial Forensics",
+      "email": "priya.sharma@tenderwatch.gov.in",
+      "department": "Financial Forensics Unit — Regional Office, Mumbai",
+      "clearance_level": "LEVEL 2 — RESTRICTED",
+      "clearance_code": "l2",
+      "specialisation": "Bidder collusion detection, price anomaly benchmarking, RTI drafting",
+      "active_cases": ["#T-002", "#T-009", "#T-031"],
+      "phone": "+91 99200 12345",
+      "status": "Active",
+      "last_login": "18 Jul 2026 · 08:52 IST"
+    },
+    {
+      "id": "EMP-003",
+      "password_hash": "officer789",
+      "name": "Arjun Mehta",
+      "role": "Data Analyst, Procurement Intelligence",
+      "email": "arjun.mehta@tenderwatch.gov.in",
+      "department": "Data Analytics Cell — Centre for Excellence, Bengaluru",
+      "clearance_level": "LEVEL 3 — STANDARD",
+      "clearance_code": "l3",
+      "specialisation": "Statistical modelling, heuristic rate variance analysis, MoRTH SOR benchmarking",
+      "active_cases": ["#T-018", "#T-029"],
+      "phone": "+91 97323 67890",
+      "status": "Active",
+      "last_login": "17 Jul 2026 · 17:30 IST"
+    },
+    {
+      "id": "EMP-004",
+      "password_hash": "review321",
+      "name": "Sunita Bose",
+      "role": "Document Review Officer, RTI Cell",
+      "email": "sunita.bose@tenderwatch.gov.in",
+      "department": "RTI & Compliance Cell — Kolkata Regional Office",
+      "clearance_level": "LEVEL 4 — READ-ONLY",
+      "clearance_code": "l4",
+      "specialisation": "RTI application drafting, audit documentation review, compliance verification",
+      "active_cases": ["#T-004"],
+      "phone": "+91 98300 54321",
+      "status": "On Leave",
+      "last_login": "15 Jul 2026 · 11:08 IST"
+    }
+  ]
+}

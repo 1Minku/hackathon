@@ -1,0 +1,16 @@
+{
+  "name": "tenderwatch-orchestrator",
+  "version": "1.0.0",
+  "description": "TenderWatch Orchestrator — LLM agent with tool-calling that investigates tenders",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "agent": "node agent.js",
+    "batch": "node batch_runner.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tenderwatch",
+  "version": "1.0.0",
+  "description": "TenderWatch — Public Procurement Anomaly Agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix mcp-server && npm install --prefix orchestrator && npm install --prefix api",
+    "start:mcp": "node mcp-server/server.js",
+    "start:api": "node api/server.js",
+    "start": "node api/server.js",
+    "batch": "node orchestrator/batch_runner.js",
+    "investigate": "node orchestrator/agent.js",
+    "cli": "node orchestrator/cli_agent.js",
+    "supervisor": "node orchestrator/supervisor.js",
+    "demo": "node api/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}

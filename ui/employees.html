@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TenderWatch — Employee Directory</title>
+  <meta name="description" content="Official TenderWatch Audit Terminal — Employee Directory and Profiles">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #f4f3ef;
+      --surface:    #ffffff;
+      --border:     #e0ddd6;
+      --border-s:   #0d0d0d;
+      --text:       #0d0d0d;
+      --muted:      #9a9a94;
+      --secondary:  #5a5a56;
+      --green:      #2d7a4e;
+      --green-bg:   rgba(45,122,78,0.07);
+      --green-bdr:  rgba(45,122,78,0.3);
+      --amber:      #b45309;
+      --amber-bg:   rgba(180,83,9,0.07);
+      --amber-bdr:  rgba(180,83,9,0.3);
+      --red:        #c8102e;
+      --red-bg:     rgba(200,16,46,0.06);
+      --red-bdr:    rgba(200,16,46,0.3);
+      --mono: 'JetBrains Mono', monospace;
+      --sans: 'Inter', system-ui, sans-serif;
+    }
+
+    html, body {
+      min-height: 100%;
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Top header ── */
+    .header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 54px;
+      background: #ffffff;
+      border-bottom: 2px solid var(--border-s);
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      gap: 12px;
+      z-index: 100;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .logo-name {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
+
+    .header-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border-s);
+      padding: 3px 9px;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+    }
+
+    .badge-dot {
+      width: 7px; height: 7px;
+      background: var(--text);
+      display: inline-block;
+    }
+
+    .header-spacer { flex: 1; }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--secondary);
+      text-decoration: none;
+      font-family: var(--mono);
+      letter-spacing: 0.5px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      transition: all 0.12s;
+    }
+    .nav-link:hover { border-color: var(--border-s); color: var(--text); }
+    .nav-link.active { background: var(--text); color: #fff; border-color: var(--text); }
+
+    /* ── Page layout ── */
+    .page {
+      padding: 80px 40px 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ── Page header ── */
+    .page-header {
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .page-section-label {
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+      border-top: 2px solid var(--text);
+      padding-top: 10px;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .page-title {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      margin-bottom: 6px;
+    }
+
+    .page-subtitle {
+      font-size: 13px;
+      color: var(--secondary);
+      line-height: 1.6;
+    }
+
+    /* ── Department summary bar ── */
+    .dept-summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      border: 1px solid var(--border);
+      margin-bottom: 36px;
+      background: #fff;
+    }
+
+    .dept-stat {
+      padding: 16px 20px;
+      border-right: 1px solid var(--border);
+    }
+    .dept-stat:last-child { border-right: none; }
+
+    .dept-stat-label {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+      margin-bottom: 4px;
+    }
+
+    .dept-stat-val {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      line-height: 1;
+    }
+
+    /* ── Employees grid ── */
+    .employees-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    /* ── Profile card ── */
+    .profile-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .profile-card:hover {
+      border-color: var(--border-s);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .profile-card-header {
+      padding: 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background: #fff;
+    }
+
+    /* ── Avatar circle ── */
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .avatar::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+
+    .avatar-1 { background: linear-gradient(135deg, #1e3a5f 0%, #2d6a9f 100%); }
+    .avatar-2 { background: linear-gradient(135deg, #1e5f3a 0%, #2d9a6a 100%); }
+    .avatar-3 { background: linear-gradient(135deg, #5f3a1e 0%, #9a6a2d 100%); }
+    .avatar-4 { background: linear-gradient(135deg, #3a1e5f 0%, #6a2d9a 100%); }
+
+    .profile-info {}
+
+    .profile-name {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      margin-bottom: 3px;
+    }
+
+    .profile-role {
+      font-size: 12px;
+      color: var(--secondary);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .profile-id {
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .profile-status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      border: 1px solid;
+      margin-top: 8px;
+    }
+    .profile-status-badge.active { color: var(--green); border-color: var(--green-bdr); background: var(--green-bg); }
+    .profile-status-badge.leave  { color: var(--amber); border-color: var(--amber-bdr); background: var(--amber-bg); }
+
+    .status-pulse {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+    }
+    .active .status-pulse { background: var(--green); }
+    .leave  .status-pulse { background: var(--amber); }
+
+    /* ── Profile data section ── */
+    .profile-data {
+      padding: 0;
+    }
+
+    .profile-data-row {
+      display: flex;
+      align-items: flex-start;
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--border);
+      gap: 16px;
+    }
+    .profile-data-row:last-child { border-bottom: none; }
+
+    .data-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+      min-width: 110px;
+      padding-top: 1px;
+    }
+
+    .data-value {
+      font-size: 13px;
+      color: var(--text);
+      font-weight: 500;
+      flex: 1;
+      line-height: 1.4;
+    }
+
+    .data-value.mono {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--secondary);
+    }
+
+    /* Clearance badge */
+    .clearance-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      border: 1px solid;
+    }
+    .clearance-badge.l1 { color: var(--red);   border-color: var(--red-bdr);   background: var(--red-bg); }
+    .clearance-badge.l2 { color: var(--amber);  border-color: var(--amber-bdr); background: var(--amber-bg); }
+    .clearance-badge.l3 { color: var(--green);  border-color: var(--green-bdr); background: var(--green-bg); }
+    .clearance-badge.l4 { color: var(--muted);  border-color: var(--border);    background: #f4f3ef; }
+
+    /* ── Active case indicator ── */
+    .case-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .case-pill {
+      font-family: var(--mono);
+      font-size: 10px;
+      padding: 2px 7px;
+      border: 1px solid var(--border);
+      color: var(--secondary);
+      background: #f4f3ef;
+    }
+
+    /* ── Profile footer ── */
+    .profile-footer {
+      background: #f4f3ef;
+      border-top: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .profile-footer-left {
+      font-size: 10px;
+      font-family: var(--mono);
+      color: var(--muted);
+    }
+
+    .btn-view-profile {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border-s);
+      background: transparent;
+      padding: 6px 14px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      color: var(--text);
+      font-family: var(--sans);
+      text-decoration: none;
+      transition: all 0.12s;
+    }
+    .btn-view-profile:hover { background: var(--text); color: #fff; }
+
+    /* ── Info notice ── */
+    .info-notice {
+      border: 1px solid var(--border);
+      padding: 12px 18px;
+      background: #fff;
+      font-size: 11px;
+      font-family: var(--mono);
+      color: var(--muted);
+      letter-spacing: 0.2px;
+      margin-top: 36px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 800px) {
+      .employees-grid { grid-template-columns: 1fr; }
+      .dept-summary { grid-template-columns: repeat(2, 1fr); }
+      .page { padding: 72px 20px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <svg width="22" height="22" viewBox="0 0 32 32" fill="none">
+        <rect x="3" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+        <rect x="19" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+        <rect x="3" y="19" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+        <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2"/>
+        <path d="M27.5 27.5 L31 31" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+      </svg>
+      <span class="logo-name">TenderWatch</span>
+    </a>
+    <div class="header-badge">
+      <span class="badge-dot"></span>
+      Official Audit Terminal
+    </div>
+    <div class="header-spacer"></div>
+    <nav class="header-nav">
+      <a href="index.html" class="nav-link">← Dashboard</a>
+      <a href="login.html" class="nav-link">Login Portal</a>
+      <a href="employees.html" class="nav-link active">Directory</a>
+    </nav>
+  </header>
+
+  <!-- Page -->
+  <main class="page">
+    <div class="page-header">
+      <div class="page-section-label">II. Personnel Registry</div>
+      <h1 class="page-title">Employee Directory</h1>
+      <p class="page-subtitle">Authorised audit personnel registered under the TenderWatch Procurement Intelligence System.</p>
+    </div>
+
+    <!-- Summary bar -->
+    <div class="dept-summary">
+      <div class="dept-stat">
+        <div class="dept-stat-label">Total Officers</div>
+        <div class="dept-stat-val">4</div>
+      </div>
+      <div class="dept-stat">
+        <div class="dept-stat-label">Active On-Duty</div>
+        <div class="dept-stat-val">3</div>
+      </div>
+      <div class="dept-stat">
+        <div class="dept-stat-label">Dept. Clearance L1</div>
+        <div class="dept-stat-val">1</div>
+      </div>
+      <div class="dept-stat">
+        <div class="dept-stat-label">Active Dossiers</div>
+        <div class="dept-stat-val">23</div>
+      </div>
+    </div>
+
+    <!-- Employee cards grid — populated dynamically from /api/employees -->
+    <div class="employees-grid" id="employeesGrid">
+      <div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--muted);font-family:var(--mono);font-size:13px;">
+        Loading employee directory…
+      </div>
+    </div>
+
+    <div class="info-notice">
+      NOTICE: Employee personnel data is classified and maintained under the Official Secrets Act, 1923.
+      Unauthorised disclosure of employee records is a cognisable offence. All access is logged.
+      For onboarding or credential reset, contact the System Administrator at admin@tenderwatch.gov.in
+    </div>
+
+  </main>
+
+  <script>
+    const AVATAR_COLORS = ['avatar-1', 'avatar-2', 'avatar-3', 'avatar-4'];
+
+    function initials(name) {
+      return name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+    }
+
+    function renderCard(emp, idx) {
+      const statusClass = emp.status === 'Active' ? 'active' : 'leave';
+      const casePills   = (emp.active_cases || []).map(c => `<span class="case-pill">${c}</span>`).join('');
+      return `
+        <div class="profile-card">
+          <div class="profile-card-header">
+            <div class="avatar ${AVATAR_COLORS[idx % 4]}">${initials(emp.name)}</div>
+            <div class="profile-info">
+              <div class="profile-name">${emp.name}</div>
+              <div class="profile-role">${emp.role}</div>
+              <div class="profile-id">${emp.id}</div>
+              <div class="profile-status-badge ${statusClass}">
+                <span class="status-pulse"></span>
+                ${emp.status}
+              </div>
+            </div>
+          </div>
+          <div class="profile-data">
+            <div class="profile-data-row">
+              <span class="data-label">Email</span>
+              <span class="data-value mono">${emp.email}</span>
+            </div>
+            <div class="profile-data-row">
+              <span class="data-label">Department</span>
+              <span class="data-value">${emp.department}</span>
+            </div>
+            <div class="profile-data-row">
+              <span class="data-label">Clearance</span>
+              <span class="data-value"><span class="clearance-badge ${emp.clearance_code}">${emp.clearance_level}</span></span>
+            </div>
+            <div class="profile-data-row">
+              <span class="data-label">Specialisation</span>
+              <span class="data-value">${emp.specialisation}</span>
+            </div>
+            <div class="profile-data-row">
+              <span class="data-label">Active Cases</span>
+              <span class="data-value"><div class="case-pills">${casePills || '<span style="color:var(--muted)">None</span>'}</div></span>
+            </div>
+            <div class="profile-data-row">
+              <span class="data-label">Phone</span>
+              <span class="data-value mono">${emp.phone}</span>
+            </div>
+          </div>
+          <div class="profile-footer">
+            <span class="profile-footer-left">Last login: ${emp.last_login}</span>
+            <a href="login.html" class="btn-view-profile">Access Terminal →</a>
+          </div>
+        </div>`;
+    }
+
+    async function loadEmployees() {
+      const grid = document.getElementById('employeesGrid');
+      try {
+        const res  = await fetch('/api/employees');
+        const data = await res.json();
+        if (!data.success || !data.profiles) throw new Error(data.error || 'No profiles returned');
+
+        const profiles  = data.profiles;
+        const active    = profiles.filter(p => p.status === 'Active').length;
+        const l1        = profiles.filter(p => p.clearance_code === 'l1').length;
+        const dossiers  = profiles.reduce((sum, p) => sum + (p.active_cases?.length || 0), 0);
+
+        // Update summary stats dynamically
+        document.querySelectorAll('.dept-stat-val')[0].textContent = profiles.length;
+        document.querySelectorAll('.dept-stat-val')[1].textContent = active;
+        document.querySelectorAll('.dept-stat-val')[2].textContent = l1;
+        document.querySelectorAll('.dept-stat-val')[3].textContent = dossiers;
+
+        grid.innerHTML = profiles.map((emp, i) => renderCard(emp, i)).join('');
+      } catch (err) {
+        grid.innerHTML = `
+          <div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--red);font-family:var(--mono);font-size:13px;">
+            ⚠ Could not load employee directory.<br>
+            <span style="color:var(--muted);font-size:11px;margin-top:8px;display:block;">
+              Ensure the API server is running on port 3001. (${err.message})
+            </span>
+          </div>`;
+      }
+    }
+
+    loadEmployees();
+  </script>
+</body>
+</html>
+

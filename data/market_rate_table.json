@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "source": "Ministry of Road Transport & Highways rate schedule, NIC GeM historical averages, CPWD Schedule of Rates 2024-25",
+    "last_updated": "2025-06-01",
+    "note": "Rates are indicative national averages; ±15% variation is considered within acceptable range"
+  },
+  "categories": [
+    {
+      "category": "bitumen",
+      "unit": "per metric ton",
+      "market_rate_per_unit": 62800,
+      "acceptable_variance_pct": 15,
+      "source": "Indian Oil Corporation ex-refinery price + logistics (June 2025)",
+      "notes": "VG-30 grade bitumen. Price fluctuates with crude oil; verify against month-of-award rate."
+    },
+    {
+      "category": "cement",
+      "unit": "per bag (50kg)",
+      "market_rate_per_unit": 370,
+      "acceptable_variance_pct": 12,
+      "source": "GeM historical average (OPC 53 grade), Q1 FY2025-26",
+      "notes": "Brand-agnostic average. PPC grade ~5% lower."
+    },
+    {
+      "category": "steel",
+      "unit": "per metric ton",
+      "market_rate_per_unit": 65000,
+      "acceptable_variance_pct": 10,
+      "source": "SAIL/JSW TMT Fe500D bar, BSE commodity index Q2 FY2025-26",
+      "notes": "Fe500D TMT bars. Structural steel ~8% higher."
+    },
+    {
+      "category": "stationery",
+      "unit": "per kit",
+      "market_rate_per_unit": 27500,
+      "acceptable_variance_pct": 20,
+      "source": "GeM Directorate average for standard government office kit (2024-25)",
+      "notes": "Kit composition varies; 20% variance allowed for specification differences."
+    },
+    {
+      "category": "IT hardware",
+      "unit": "per unit (laptop + projector + accessories)",
+      "market_rate_per_unit": 80000,
+      "acceptable_variance_pct": 15,
+      "source": "GeM historical average for combined classroom unit (2024-25)",
+      "notes": "Includes i5/Ryzen 5 laptop, 3500 lumen projector, UPS, accessories."
+    },
+    {
+      "category": "solar panels",
+      "unit": "per kWp",
+      "market_rate_per_unit": 45000,
+      "acceptable_variance_pct": 15,
+      "source": "MNRE benchmark rate, Q1 FY2025-26 (grid-connected rooftop)",
+      "notes": "Supply + installation. Mono-PERC panels. Remote location premium allowed."
+    },
+    {
+      "category": "water pipes",
+      "unit": "per metre",
+      "market_rate_per_unit": 410,
+      "acceptable_variance_pct": 20,
+      "source": "CPWD SOR 2024-25, HDPE 110mm OD PN6",
+      "notes": "Varies significantly by diameter; 20% allowed for spec variation."
+    },
+    {
+      "category": "diesel",
+      "unit": "per litre",
+      "market_rate_per_unit": 90,
+      "acceptable_variance_pct": 5,
+      "source": "Indian Oil retail price (Delhi), June 2025 average",
+      "notes": "Bulk procurement should be at or below retail. 5% variance for logistics."
+    },
+    {
+      "category": "medical supplies",
+      "unit": "per kit",
+      "market_rate_per_unit": 19000,
+      "acceptable_variance_pct": 25,
+      "source": "CMSS average, HLL Lifecare benchmark 2024-25",
+      "notes": "High variance allowed due to kit composition variability."
+    },
+    {
+      "category": "paint",
+      "unit": "per litre",
+      "market_rate_per_unit": 400,
+      "acceptable_variance_pct": 15,
+      "source": "GeM historical average, interior emulsion, major brands (2024-25)",
+      "notes": "Exterior paint ~10% higher. Enamel ~20% higher."
+    },
+    {
+      "category": "gravel",
+      "unit": "per cubic metre",
+      "market_rate_per_unit": 1800,
+      "acceptable_variance_pct": 20,
+      "source": "PMGSY rate schedule, regional average (2024-25)",
+      "notes": "Highly location-dependent. Hill regions may command 30-40% premium."
+    },
+    {
+      "category": "sand",
+      "unit": "per cubic metre",
+      "market_rate_per_unit": 1400,
+      "acceptable_variance_pct": 20,
+      "source": "CPWD SOR 2024-25, river sand average",
+      "notes": "Manufactured sand (M-Sand) is ~15% cheaper."
+    },
+    {
+      "category": "bricks",
+      "unit": "per 1000 bricks",
+      "market_rate_per_unit": 7000,
+      "acceptable_variance_pct": 15,
+      "source": "CPWD SOR 2024-25, fly-ash bricks (standard size)",
+      "notes": "Traditional clay bricks may be 10-15% higher in some regions."
+    },
+    {
+      "category": "furniture",
+      "unit": "per workstation set",
+      "market_rate_per_unit": 22000,
+      "acceptable_variance_pct": 20,
+      "source": "GeM average for office workstation (desk + chair + pedestal), 2024-25",
+      "notes": "Premium ergonomic sets can be 50% higher; verify specifications."
+    },
+    {
+      "category": "electrical cable",
+      "unit": "per metre",
+      "market_rate_per_unit": 180,
+      "acceptable_variance_pct": 15,
+      "source": "GeM historical average, 4-core 16mm2 armoured cable (2024-25)",
+      "notes": "Varies significantly by cross-section and armoring. 15% allowed."
+    }
+  ]
+}

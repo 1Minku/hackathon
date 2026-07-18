@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TenderWatch — Official Audit Terminal</title>
+  <meta name="description" content="Official procurement anomaly detection and audit pipeline for Indian government tenders. Automated forensic analysis, RTI query generation, and dossier ledger.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ─── Header ─────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+            <rect x="19" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+            <rect x="3" y="19" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+            <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2"/>
+            <path d="M27.5 27.5 L31 31" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">TenderWatch</span>
+        </div>
+      </div>
+      <div class="audit-terminal-badge">
+        <span class="audit-badge-dot"></span>
+        Official Audit Terminal
+      </div>
+    </div>
+
+    <!-- Header center stats -->
+    <div class="header-center">
+      <div class="hdr-stat">
+        <div class="hdr-stat-label">Total Dossiers</div>
+        <div class="hdr-stat-value" id="hdrTotal">—</div>
+      </div>
+      <div class="hdr-stat">
+        <div class="hdr-stat-label">Verified Clean</div>
+        <div class="hdr-stat-value" id="hdrClean">—</div>
+      </div>
+      <div class="hdr-stat">
+        <div class="hdr-stat-label">Audit Notes</div>
+        <div class="hdr-stat-value" id="hdrNote">—</div>
+      </div>
+      <div class="hdr-stat">
+        <div class="hdr-stat-label">Escalations</div>
+        <div class="hdr-stat-value red" id="hdrEscalate">—</div>
+      </div>
+    </div>
+
+    <!-- Hidden status for JS compat -->
+    <div class="status-bar" id="statusBar">
+      <div class="status-dot idle"></div>
+      <span id="statusText">Ready</span>
+    </div>
+
+    <div class="header-right">
+      <div class="stats-row">
+        <div class="stat-pill" id="statTotal"><span class="stat-n">—</span><span class="stat-l">Total</span></div>
+        <div class="stat-pill green" id="statClean"><span class="stat-n">—</span><span class="stat-l">Clean</span></div>
+        <div class="stat-pill amber" id="statNote"><span class="stat-n">—</span><span class="stat-l">Note</span></div>
+        <div class="stat-pill red" id="statEscalate"><span class="stat-n">—</span><span class="stat-l">Escalate</span></div>
+      </div>
+      <a href="employees.html" style="display:flex;align-items:center;gap:6px;border:1px solid var(--border-bright);padding:7px 13px;font-size:11.5px;font-weight:600;color:var(--text-primary);text-decoration:none;font-family:var(--font-sans);transition:all 0.12s;flex-shrink:0;" onmouseover="this.style.borderColor='var(--border-strong)'" onmouseout="this.style.borderColor='var(--border-bright)'">
+        👥 Directory
+      </a>
+      <div class="btn-group">
+        <button class="btn-secondary" id="btnRunBatch" title="Direct batch investigation">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/></svg>
+          Run Batch
+        </button>
+        <button class="btn-primary btn-supervisor" id="btnRunSupervisor" title="Autonomous 3-phase: Plan → Investigate → Brief">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/></svg>
+          Audit Supervisor
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ─── Main Layout ─────────────────────────────────────────── -->
+  <main class="main">
+    <!-- Left Panel -->
+    <aside class="panel-left">
+      <!-- Sidebar tabs -->
+      <div class="sidebar-nav">
+        <button class="s-nav-tab active" data-view="tenders">Tenders</button>
+        <button class="s-nav-tab" data-view="benchmarks">Rates</button>
+        <button class="s-nav-tab" data-view="analytics">Stats</button>
+      </div>
+
+      <!-- VIEW 1: Tenders list -->
+      <div class="sidebar-view active" id="viewTenders">
+        <div class="panel-header">
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search Audit Records..." class="search-input">
+          </div>
+          <div class="filter-pills">
+            <button class="filter-pill red" data-filter="escalate" id="filterEscalate">High Risk</button>
+            <button class="filter-pill active" data-filter="all" id="filterAll">All</button>
+            <button class="filter-pill amber" data-filter="worth_noting" id="filterNote">Pending</button>
+            <button class="filter-pill green" data-filter="clean" id="filterClean">Verified</button>
+          </div>
+        </div>
+        <div class="tender-list" id="tenderList">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading dossiers...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 2: Benchmarks -->
+      <div class="sidebar-view" id="viewBenchmarks" style="display:none">
+        <div class="panel-header">
+          <h2>Market References</h2>
+          <p style="font-size:11px;color:var(--text-muted);margin-top:4px">Standard MoRTH &amp; CPWD rates registry</p>
+        </div>
+        <div class="benchmarks-list" id="benchmarksList"></div>
+      </div>
+
+      <!-- VIEW 3: Analytics -->
+      <div class="sidebar-view" id="viewAnalytics" style="display:none">
+        <div class="panel-header">
+          <h2>Risk Statistics</h2>
+          <p style="font-size:11px;color:var(--text-muted);margin-top:4px">Departmental &amp; regional anomaly ratios</p>
+        </div>
+        <div class="analytics-content" id="analyticsContent"></div>
+      </div>
+    </aside>
+
+    <!-- Right Panel -->
+    <section class="panel-right" id="panelRight">
+
+      <!-- Welcome / empty state -->
+      <div class="empty-state" id="emptyState">
+        <div class="welcome-default" id="welcomeDefault">
+          <!-- Hidden old elements (kept for JS compat) -->
+          <div class="pipeline-diagram"></div>
+          <div class="quick-start"></div>
+
+          <!-- New: Page title -->
+          <h1 class="page-title">Audit Pipeline &amp; Forensic Analysis</h1>
+          <p class="page-subtitle">
+            Automated verification protocols for inbound government tender documentation.
+            Systematic rate benchmarking and compliance verification against regional schedules of rates.
+          </p>
+          <hr class="page-divider">
+
+          <!-- Section I: Pipeline -->
+          <div class="pipeline-section">
+            <div class="section-label">I. Processing Pipeline Workflow</div>
+            <div class="pipeline-box">
+              <div class="pipe-node">
+                <div class="pipe-icon">📋</div>
+                <div class="pipe-label">Data Ingestion</div>
+                <div class="pipe-sublabel">JSON Source</div>
+              </div>
+              <div class="pipe-arrow">›</div>
+              <div class="pipe-node">
+                <div class="pipe-icon">🤖</div>
+                <div class="pipe-label">Verification Engine</div>
+                <div class="pipe-sublabel">Heuristic v4.2</div>
+              </div>
+              <div class="pipe-arrow">›</div>
+              <div class="pipe-tools-group">
+                <div class="pipe-tool-item"><span class="pipe-tool-icon">📊</span>Collusion Analysis</div>
+                <div class="pipe-tool-item"><span class="pipe-tool-icon">💰</span>Benchmark Pricing</div>
+                <div class="pipe-tool-item"><span class="pipe-tool-icon">📄</span>Draft Generation</div>
+              </div>
+              <div class="pipe-arrow">›</div>
+              <div class="pipe-node">
+                <div class="pipe-icon dark">🛡</div>
+                <div class="pipe-label">Certification</div>
+                <div class="pipe-sublabel">Final Report</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section II: KPIs -->
+          <div class="kpi-section">
+            <div class="section-label">II. Key Performance Indicators</div>
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <div class="kpi-header">
+                  <span class="kpi-label">Audit Throughput</span>
+                  <span class="kpi-icon">🕐</span>
+                </div>
+                <div class="kpi-value" id="kpiSpeed">4.2s</div>
+                <span class="kpi-sublabel">Avg Processing</span>
+                <div class="kpi-bar-bg"><div class="kpi-bar-fill" style="width:72%"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-header">
+                  <span class="kpi-label">Anomaly Detection Rate</span>
+                  <span class="kpi-icon alert">!</span>
+                </div>
+                <div class="kpi-value" id="kpiAnomalyRate">—</div>
+                <span class="kpi-sublabel">Of Audited Tenders <span class="kpi-deviation" id="kpiDeviation"></span></span>
+                <div class="kpi-bar-bg"><div class="kpi-bar-fill red" id="kpiAnomalyBar" style="width:0%"></div></div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-header">
+                  <span class="kpi-label">Verification Integrity</span>
+                  <span class="kpi-icon">🛡</span>
+                </div>
+                <div class="kpi-value" id="kpiIntegrity">—</div>
+                <span class="kpi-sublabel">Auto-Certified</span>
+                <div class="kpi-bar-bg"><div class="kpi-bar-fill green" id="kpiIntegrityBar" style="width:0%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section III: Dossier Ledger -->
+          <div class="ledger-section" id="ledgerSection">
+            <div class="ledger-header">
+              <span class="ledger-title">III. Official System Dossier Ledger</span>
+              <button class="btn-export" id="btnExportLedger" onclick="window.print()">Export Record (PDF)</button>
+            </div>
+            <table class="ledger-table" id="ledgerTable">
+              <thead>
+                <tr>
+                  <th>System Timestamp</th>
+                  <th>Action Event Entity</th>
+                  <th>Classification</th>
+                  <th>Reference ID</th>
+                </tr>
+              </thead>
+              <tbody id="ledgerBody">
+                <tr>
+                  <td colspan="4" style="text-align:center;color:var(--text-muted);font-size:12px;padding:20px;font-family:var(--font-mono)">
+                    No audit records. Run investigation to populate ledger.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="ledger-footer">
+              <p>End of current record page. All transactions are cryptographically signed and logged within the institutional audit trail. Unauthorized modification is subject to regulatory review.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Supervisor Executive Brief Section -->
+        <div class="supervisor-brief-section" id="supervisorBriefSection" style="display:none">
+          <div class="brief-card">
+            <div class="brief-header">
+              <div class="brief-badge">📊 SUPERVISOR REPORT</div>
+              <h3>Procurement Intelligence Summary</h3>
+            </div>
+            <div class="brief-stats-row">
+              <div class="b-stat">
+                <div class="b-val" id="briefTotalVal">₹0</div>
+                <div class="b-lbl">Total Audited Value</div>
+              </div>
+              <div class="b-stat">
+                <div class="b-val" id="briefRiskVal" style="color:var(--red)">₹0</div>
+                <div class="b-lbl">Escalated Risk Value</div>
+              </div>
+              <div class="b-stat">
+                <div class="b-val" id="briefRiskRate">0%</div>
+                <div class="b-lbl">Escalated Ratio</div>
+              </div>
+            </div>
+            <div class="brief-body">
+              <h4 style="margin-bottom:8px">Strategic Assessment</h4>
+              <p class="brief-note" id="briefStrategicNote"></p>
+              <h4 style="margin-top:16px; margin-bottom:8px">Systemic High-Risk Entity Watchlist</h4>
+              <div class="entity-list" id="briefEntityList"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Investigation detail view -->
+      <div class="investigation-view" id="investigationView" style="display:none">
+        <div class="inv-header">
+          <div class="inv-header-top">
+            <div class="inv-id" id="invId"></div>
+            <div class="severity-badge" id="invSeverityBadge"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px">
+            <h1 id="invTitle" style="flex:1; margin:0"></h1>
+            <button class="btn-secondary" id="btnPrintDossier" style="display:none" title="Print/Export Audit Dossier">
+              <svg viewBox="0 0 20 20" fill="currentColor" style="width:13px; height:13px"><path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zM5 13H4v-3h12v3h-1m-1 1H6v3h8v-3z" clip-rule="evenodd"/></svg>
+              Export Dossier
+            </button>
+          </div>
+          <div class="inv-meta" id="invMeta"></div>
+        </div>
+
+        <!-- Live investigation -->
+        <div class="live-investigation" id="liveInvestigation" style="display:none">
+          <div class="live-header">
+            <div class="live-pulse"></div>
+            <span>Agent investigating...</span>
+          </div>
+          <div class="tool-call-trace" id="toolCallTrace"></div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="inv-tabs" id="invTabs" style="display:none">
+          <button class="inv-tab active" data-tab="findings" id="tabFindings">Findings</button>
+          <button class="inv-tab" data-tab="reasoning" id="tabReasoning">Reasoning</button>
+          <button class="inv-tab" data-tab="rti" id="tabRTI">RTI Draft</button>
+        </div>
+
+        <!-- Tab content -->
+        <div class="tab-content" id="tabContent">
+          <div class="tab-pane active" id="paneFindings">
+            <div class="findings-grid" id="findingsGrid"></div>
+            <div class="relationship-visualizer" id="relationshipVisualizer" style="display:none">
+              <h4>👥 Bidder Relationship Audit Graph</h4>
+              <div class="relation-graph" id="relationGraph"></div>
+            </div>
+            <div class="tool-trace-section" id="toolTraceSection" style="display:none">
+              <h4>Agent Tool Call Trace</h4>
+              <div class="tool-trace-list" id="toolTraceList"></div>
+            </div>
+          </div>
+          <div class="tab-pane" id="paneReasoning" style="display:none">
+            <div class="reasoning-card" id="reasoningCard"></div>
+          </div>
+          <div class="tab-pane" id="paneRTI" style="display:none">
+            <div class="rti-container" id="rtiContainer">
+              <div class="rti-no-rti">
+                <span>🟢</span>
+                <p>No RTI query generated — this tender did not meet the escalation threshold.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

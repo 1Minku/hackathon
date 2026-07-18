@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TenderWatch — Secure Login</title>
+  <meta name="description" content="Official TenderWatch Audit Terminal — Secure Employee Authentication Portal">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #f4f3ef;
+      --surface:    #ffffff;
+      --border:     #e0ddd6;
+      --border-s:   #0d0d0d;
+      --text:       #0d0d0d;
+      --muted:      #9a9a94;
+      --secondary:  #5a5a56;
+      --red:        #c8102e;
+      --red-bg:     rgba(200,16,46,0.06);
+      --mono: 'JetBrains Mono', monospace;
+      --sans: 'Inter', system-ui, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Background grid pattern ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(13,13,13,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(13,13,13,0.04) 1px, transparent 1px);
+      background-size: 36px 36px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── Top header bar ── */
+    .login-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 54px;
+      background: #ffffff;
+      border-bottom: 2px solid var(--border-s);
+      display: flex;
+      align-items: center;
+      padding: 0 24px;
+      gap: 12px;
+      z-index: 10;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-icon {
+      width: 26px; height: 26px;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .logo-name {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+    }
+
+    .header-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border-s);
+      padding: 3px 9px;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+    }
+
+    .badge-dot {
+      width: 7px; height: 7px;
+      background: var(--text);
+      display: inline-block;
+    }
+
+    .header-spacer { flex: 1; }
+
+    .header-link {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--secondary);
+      text-decoration: none;
+      font-family: var(--mono);
+      letter-spacing: 0.5px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      transition: all 0.12s;
+    }
+    .header-link:hover { border-color: var(--border-s); color: var(--text); }
+
+    /* ── Main layout ── */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px 40px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── Left column decorative strip ── */
+    .login-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 900px;
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+    }
+
+    /* ── Left info panel ── */
+    .login-info {
+      background: var(--text);
+      color: #ffffff;
+      padding: 48px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .login-info-top {}
+
+    .info-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 3px 10px;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 24px;
+    }
+
+    .info-badge-dot {
+      width: 6px; height: 6px;
+      background: #4ade80;
+      border-radius: 50%;
+      animation: blink 1.5s ease-in-out infinite;
+    }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    .login-info h1 {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.8px;
+      margin-bottom: 16px;
+    }
+
+    .login-info p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.7;
+      max-width: 300px;
+    }
+
+    .info-stats {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border: 1px solid rgba(255,255,255,0.12);
+      margin-top: 40px;
+    }
+
+    .info-stat {
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+    .info-stat:last-child { border-bottom: none; }
+
+    .info-stat-val {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .info-stat-lbl {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      color: rgba(255,255,255,0.45);
+    }
+
+    .login-info-bottom {
+      font-size: 9.5px;
+      font-family: var(--mono);
+      color: rgba(255,255,255,0.3);
+      letter-spacing: 0.3px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 16px;
+      margin-top: 32px;
+      line-height: 1.6;
+    }
+
+    /* ── Right form panel ── */
+    .login-form-panel {
+      padding: 48px 40px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .form-section-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+      border-top: 2px solid var(--text);
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .form-title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .form-subtitle {
+      font-size: 13px;
+      color: var(--secondary);
+      line-height: 1.5;
+      margin-bottom: 32px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+
+    .form-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-family: var(--mono);
+    }
+
+    .form-input {
+      width: 100%;
+      background: #f4f3ef;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 11px 14px;
+      font-size: 13.5px;
+      font-family: var(--sans);
+      outline: none;
+      transition: border-color 0.12s, background 0.12s;
+    }
+    .form-input:focus {
+      border-color: var(--border-s);
+      background: #ffffff;
+    }
+    .form-input::placeholder { color: var(--muted); }
+
+    .form-input-mono {
+      font-family: var(--mono);
+      letter-spacing: 0.5px;
+    }
+
+    .form-error {
+      display: none;
+      font-size: 11px;
+      color: var(--red);
+      font-family: var(--mono);
+      padding: 8px 12px;
+      border: 1px solid rgba(200,16,46,0.25);
+      background: var(--red-bg);
+      margin-bottom: 14px;
+    }
+    .form-error.show { display: block; }
+
+    .btn-login {
+      width: 100%;
+      background: var(--text);
+      color: #ffffff;
+      border: none;
+      padding: 13px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.12s;
+      font-family: var(--sans);
+      letter-spacing: 0.2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn-login:hover { background: #1d1d1d; }
+    .btn-login:active { background: #000; }
+    .btn-login:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .form-hint {
+      margin-top: 20px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      background: #f9f8f5;
+    }
+
+    .form-hint-title {
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .form-hint-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+    }
+    .form-hint-row:last-child { border-bottom: none; }
+
+    .hint-id {
+      font-family: var(--mono);
+      font-weight: 600;
+      font-size: 11px;
+      color: var(--text);
+    }
+    .hint-pass { color: var(--muted); font-size: 10.5px; }
+    .hint-role {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      font-family: var(--mono);
+      padding: 2px 6px;
+      border: 1px solid var(--border);
+      color: var(--secondary);
+    }
+
+    /* ── Footer ── */
+    .login-footer {
+      margin-top: 28px;
+      font-size: 10px;
+      font-family: var(--mono);
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 0.3px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 680px) {
+      .login-container { grid-template-columns: 1fr; }
+      .login-info { display: none; }
+      .login-form-panel { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="login-header">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+          <rect x="19" y="3" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+          <rect x="3" y="19" width="10" height="10" stroke="currentColor" stroke-width="2"/>
+          <circle cx="24" cy="24" r="5" stroke="currentColor" stroke-width="2"/>
+          <path d="M27.5 27.5 L31 31" stroke="currentColor" stroke-width="2" stroke-linecap="square"/>
+        </svg>
+      </div>
+      <span class="logo-name">TenderWatch</span>
+    </div>
+    <div class="header-badge">
+      <span class="badge-dot"></span>
+      Official Audit Terminal
+    </div>
+    <div class="header-spacer"></div>
+    <a href="employees.html" class="header-link">Employee Directory →</a>
+  </header>
+
+  <!-- Main login page -->
+  <main class="page">
+    <div class="login-container">
+
+      <!-- Left info column -->
+      <div class="login-info">
+        <div class="login-info-top">
+          <div class="info-badge">
+            <span class="info-badge-dot"></span>
+            System Online
+          </div>
+          <h1>Procurement<br>Audit &amp;<br>Intelligence</h1>
+          <p>Access the official audit pipeline for analysing Indian government tender procurement anomalies and generating RTI documentation.</p>
+
+          <div class="info-stats">
+            <div class="info-stat">
+              <span class="info-stat-val">150</span>
+              <span class="info-stat-lbl">Active Dossiers</span>
+            </div>
+            <div class="info-stat">
+              <span class="info-stat-val">60</span>
+              <span class="info-stat-lbl">Escalations Flagged</span>
+            </div>
+            <div class="info-stat">
+              <span class="info-stat-val">₹532 Cr</span>
+              <span class="info-stat-lbl">Value Under Review</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="login-info-bottom">
+          Government of India · Ministry of Finance<br>
+          Procurement Transparency Initiative v4.2<br>
+          Session encrypted · AES-256 · ISO 27001
+        </div>
+      </div>
+
+      <!-- Right form column -->
+      <div class="login-form-panel">
+        <div class="form-section-label">I. Secure Authentication</div>
+        <h2 class="form-title">Officer Login</h2>
+        <p class="form-subtitle">Enter your employee credentials to access the audit terminal.</p>
+
+        <div class="form-error" id="formError">
+          ⚠ Invalid Employee ID or Password. Please try again.
+        </div>
+
+        <form id="loginForm" onsubmit="handleLogin(event)">
+          <div class="form-group">
+            <label class="form-label" for="empId">Employee ID</label>
+            <input
+              type="text"
+              id="empId"
+              class="form-input form-input-mono"
+              placeholder="e.g. EMP-001"
+              autocomplete="username"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="empPass">Password</label>
+            <input
+              type="password"
+              id="empPass"
+              class="form-input"
+              placeholder="Enter your password"
+              autocomplete="current-password"
+              required
+            >
+          </div>
+
+          <button type="submit" class="btn-login" id="btnLogin">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            Authenticate &amp; Enter Terminal
+          </button>
+        </form>
+
+        <div class="form-hint">
+          <div class="form-hint-title">Demo Credentials</div>
+          <div class="form-hint-row">
+            <span class="hint-id">EMP-001</span>
+            <span class="hint-pass">admin123</span>
+            <span class="hint-role">Director</span>
+          </div>
+          <div class="form-hint-row">
+            <span class="hint-id">EMP-002</span>
+            <span class="hint-pass">audit456</span>
+            <span class="hint-role">Sr. Auditor</span>
+          </div>
+          <div class="form-hint-row">
+            <span class="hint-id">EMP-003</span>
+            <span class="hint-pass">officer789</span>
+            <span class="hint-role">Analyst</span>
+          </div>
+          <div class="form-hint-row">
+            <span class="hint-id">EMP-004</span>
+            <span class="hint-pass">review321</span>
+            <span class="hint-role">Reviewer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-footer">
+      All access attempts are logged and monitored. Unauthorised access is prohibited under Section 66 of the IT Act, 2000.
+    </div>
+  </main>
+
+  <script>
+    async function handleLogin(e) {
+      e.preventDefault();
+      const id   = document.getElementById('empId').value.trim().toUpperCase();
+      const pass = document.getElementById('empPass').value;
+      const errorEl = document.getElementById('formError');
+      const btn     = document.getElementById('btnLogin');
+
+      btn.disabled = true;
+      btn.textContent = 'Authenticating…';
+      errorEl.classList.remove('show');
+
+      try {
+        const res  = await fetch('/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ employee_id: id, password: pass })
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          // Store session info
+          sessionStorage.setItem('tw_user', data.profile.id);
+          sessionStorage.setItem('tw_profile', JSON.stringify(data.profile));
+          // Redirect to main dashboard
+          setTimeout(() => { window.location.href = 'index.html'; }, 500);
+        } else {
+          errorEl.classList.add('show');
+          document.getElementById('empPass').value = '';
+          document.getElementById('empPass').focus();
+          btn.disabled = false;
+          btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Authenticate &amp; Enter Terminal`;
+        }
+      } catch (err) {
+        errorEl.textContent = '⚠ Could not reach authentication server. Is the API running?';
+        errorEl.classList.add('show');
+        btn.disabled = false;
+        btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Authenticate &amp; Enter Terminal`;
+      }
+    }
+
+    // Auto-fill on hint click
+    document.querySelectorAll('.form-hint-row').forEach(row => {
+      row.style.cursor = 'pointer';
+      row.title = 'Click to auto-fill';
+      row.addEventListener('click', () => {
+        document.getElementById('empId').value  = row.querySelector('.hint-id').textContent;
+        document.getElementById('empPass').value = row.querySelector('.hint-pass').textContent;
+        document.getElementById('formError').classList.remove('show');
+      });
+    });
+  </script>
+</body>
+</html>

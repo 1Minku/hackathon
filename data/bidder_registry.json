@@ -1,0 +1,4100 @@
+{
+  "metadata": {
+    "source": "Ministry of Corporate Affairs (MCA21), GeM vendor registration records",
+    "note": "Suspicious pairs: BID-1401/BID-1402 share address; BID-2302/BID-2303 share address and director"
+  },
+  "bidders": [
+    {
+      "bidder_id": "BID-101",
+      "name": "Rajasthan Cement Traders",
+      "registration_number": "RJ/GST/2019/001201",
+      "address": "45, Industrial Area Phase-I, Jaipur",
+      "pincode": "302013",
+      "gst_number": "08AABCR1234A1Z5",
+      "director_name": "Ramesh Kumar Sharma",
+      "phone": "9414001201"
+    },
+    {
+      "bidder_id": "BID-102",
+      "name": "Ambuja Cement Dealers",
+      "registration_number": "RJ/GST/2017/000847",
+      "address": "Plot 12, Sitapura Industrial Area, Jaipur",
+      "pincode": "302022",
+      "gst_number": "08AABCA5678B2Z6",
+      "director_name": "Suresh Agarwal",
+      "phone": "9414000847"
+    },
+    {
+      "bidder_id": "BID-103",
+      "name": "UltraTech Distributor – Jaipur",
+      "registration_number": "RJ/GST/2020/002456",
+      "address": "78, Malviya Nagar Industrial Area, Jaipur",
+      "pincode": "302017",
+      "gst_number": "08AABCU9012C3Z7",
+      "director_name": "Pradeep Mehta",
+      "phone": "9414002456"
+    },
+    {
+      "bidder_id": "BID-104",
+      "name": "Shree Cement Authorised Dealer",
+      "registration_number": "RJ/GST/2018/001089",
+      "address": "23, RICCO Industrial Area, Bhiwadi",
+      "pincode": "301019",
+      "gst_number": "08AABCS3456D4Z8",
+      "director_name": "Vijay Bansal",
+      "phone": "9414001089"
+    },
+    {
+      "bidder_id": "BID-201",
+      "name": "Bharat Office Supplies",
+      "registration_number": "UP/GST/2018/005632",
+      "address": "144, Vibhuti Khand, Gomti Nagar, Lucknow",
+      "pincode": "226010",
+      "gst_number": "09AABCB2345E5Z9",
+      "director_name": "Arvind Verma",
+      "phone": "9415005632"
+    },
+    {
+      "bidder_id": "BID-202",
+      "name": "Hindustan Stationery Mart",
+      "registration_number": "UP/GST/2016/003218",
+      "address": "67, Aminabad, Lucknow",
+      "pincode": "226018",
+      "gst_number": "09AABCH6789F6Z0",
+      "director_name": "Santosh Gupta",
+      "phone": "9415003218"
+    },
+    {
+      "bidder_id": "BID-203",
+      "name": "National Paper House",
+      "registration_number": "UP/GST/2019/007845",
+      "address": "Plot 5, Aishbagh, Lucknow",
+      "pincode": "226004",
+      "gst_number": "09AABCN0123G7Z1",
+      "director_name": "Rakesh Tiwari",
+      "phone": "9415007845"
+    },
+    {
+      "bidder_id": "BID-204",
+      "name": "Sundar Stationers",
+      "registration_number": "UP/GST/2020/009123",
+      "address": "12, Hazratganj, Lucknow",
+      "pincode": "226001",
+      "gst_number": "09AABCS4567H8Z2",
+      "director_name": "Sunita Pandey",
+      "phone": "9415009123"
+    },
+    {
+      "bidder_id": "BID-205",
+      "name": "Prime Office Essentials",
+      "registration_number": "UP/GST/2017/004567",
+      "address": "89, Mahanagar, Lucknow",
+      "pincode": "226006",
+      "gst_number": "09AABCP8901I9Z3",
+      "director_name": "Manoj Srivastava",
+      "phone": "9415004567"
+    },
+    {
+      "bidder_id": "BID-301",
+      "name": "IndianOil Distributor – Bhopal",
+      "registration_number": "MP/GST/2015/001234",
+      "address": "Plot 7, Govindpura Industrial Area, Bhopal",
+      "pincode": "462023",
+      "gst_number": "23AABCI2345J0Z4",
+      "director_name": "Govind Das",
+      "phone": "9425001234"
+    },
+    {
+      "bidder_id": "BID-302",
+      "name": "BPCL Authorized Dealer – MP",
+      "registration_number": "MP/GST/2016/002567",
+      "address": "45, Piplani Industrial Area, Bhopal",
+      "pincode": "462021",
+      "gst_number": "23AABCB6789K1Z5",
+      "director_name": "Kishore Pathak",
+      "phone": "9425002567"
+    },
+    {
+      "bidder_id": "BID-303",
+      "name": "Bharat Petroleum Traders",
+      "registration_number": "MP/GST/2018/004321",
+      "address": "23, Misrod, Bhopal",
+      "pincode": "462047",
+      "gst_number": "23AABCB0123L2Z6",
+      "director_name": "Lalit Dubey",
+      "phone": "9425004321"
+    },
+    {
+      "bidder_id": "BID-701",
+      "name": "Shree Ganesh Road Materials Pvt Ltd",
+      "registration_number": "HR/GST/2014/000123",
+      "address": "Plot 1, Sector 37, IMT Manesar, Gurugram",
+      "pincode": "122050",
+      "gst_number": "06AABCS1234M3Z7",
+      "director_name": "Suresh Ganesh Sharma",
+      "phone": "9810000123"
+    },
+    {
+      "bidder_id": "BID-1401",
+      "name": "DigiTech Solutions Pvt Ltd",
+      "registration_number": "TS/GST/2020/008901",
+      "address": "Unit 4B, Cyber Towers, Hitech City, Hyderabad",
+      "pincode": "500081",
+      "gst_number": "36AABCD1234N4Z8",
+      "director_name": "Kiran Kumar Reddy",
+      "phone": "9885008901"
+    },
+    {
+      "bidder_id": "BID-1402",
+      "name": "InfoEdge Hardware Pvt Ltd",
+      "registration_number": "TS/GST/2021/011234",
+      "address": "Unit 4B, Cyber Towers, Hitech City, Hyderabad",
+      "pincode": "500081",
+      "gst_number": "36AABCI5678O5Z9",
+      "director_name": "Suresh Reddy",
+      "phone": "9885011234",
+      "_flag": "SHARED_ADDRESS_WITH_BID-1401"
+    },
+    {
+      "bidder_id": "BID-1901",
+      "name": "Ashoka Cement Dealers",
+      "registration_number": "HR/GST/2019/006789",
+      "address": "12, DLF Phase-2, Gurugram",
+      "pincode": "122022",
+      "gst_number": "06AABCA2345P6Z0",
+      "director_name": "Rajiv Sharma",
+      "phone": "9810006789"
+    },
+    {
+      "bidder_id": "BID-1902",
+      "name": "Mahalaxmi Building Materials",
+      "registration_number": "HR/GST/2017/003456",
+      "address": "78, Sector 14, Gurugram",
+      "pincode": "122001",
+      "gst_number": "06AABCM6789Q7Z1",
+      "director_name": "Parveen Yadav",
+      "phone": "9810003456"
+    },
+    {
+      "bidder_id": "BID-1903",
+      "name": "Sunrise Construction Materials",
+      "registration_number": "HR/GST/2018/004567",
+      "address": "Plot 56, Sector 29, Gurugram",
+      "pincode": "122022",
+      "gst_number": "06AABCS0123R8Z2",
+      "director_name": "Aman Hooda",
+      "phone": "9810004567"
+    },
+    {
+      "bidder_id": "BID-2301",
+      "name": "National Office Mart",
+      "registration_number": "MP/GST/2016/002134",
+      "address": "44, New Market, TT Nagar, Bhopal",
+      "pincode": "462003",
+      "gst_number": "23AABCN4567S9Z3",
+      "director_name": "Mukesh Jain",
+      "phone": "9425002134"
+    },
+    {
+      "bidder_id": "BID-2302",
+      "name": "Central Stationery Hub",
+      "registration_number": "MP/GST/2019/007823",
+      "address": "Plot 17B, Karond Square, Bhopal",
+      "pincode": "462038",
+      "gst_number": "23AABCC8901T0Z4",
+      "director_name": "Ramesh Agarwal",
+      "phone": "9425007823"
+    },
+    {
+      "bidder_id": "BID-2303",
+      "name": "Allied Office Products",
+      "registration_number": "MP/GST/2020/009456",
+      "address": "Plot 17B, Karond Square, Bhopal",
+      "pincode": "462038",
+      "gst_number": "23AABCA2345U1Z5",
+      "director_name": "Ramesh Agarwal",
+      "phone": "9425009456",
+      "_flag": "SHARED_ADDRESS_AND_DIRECTOR_WITH_BID-2302"
+    },
+    {
+      "bidder_id": "BID-801",
+      "name": "MediCare Distributors Pvt Ltd",
+      "registration_number": "BR/GST/2017/003421",
+      "address": "Plot 7, Patliputra Industrial Area, Patna",
+      "pincode": "800013",
+      "gst_number": "10AABCM3456V2Z6",
+      "director_name": "Dr. Rakesh Kumar",
+      "phone": "9431003421"
+    },
+    {
+      "bidder_id": "BID-802",
+      "name": "Apollo Medical Supplies",
+      "registration_number": "BR/GST/2019/006234",
+      "address": "45, Boring Road, Patna",
+      "pincode": "800001",
+      "gst_number": "10AABCA7890W3Z7",
+      "director_name": "Sanjay Mishra",
+      "phone": "9431006234"
+    },
+    {
+      "bidder_id": "BID-803",
+      "name": "National Health Products",
+      "registration_number": "BR/GST/2018/004567",
+      "address": "23, Rajendra Nagar, Patna",
+      "pincode": "800016",
+      "gst_number": "10AABCN1234X4Z8",
+      "director_name": "Anita Singh",
+      "phone": "9431004567"
+    },
+    {
+      "bidder_id": "BID-804",
+      "name": "Bihar Medical Traders",
+      "registration_number": "BR/GST/2020/008901",
+      "address": "78, Kankarbagh, Patna",
+      "pincode": "800020",
+      "gst_number": "10AABCB5678Y5Z9",
+      "director_name": "Ramdev Prasad",
+      "phone": "9431008901"
+    },
+    {
+      "bidder_id": "BID-2401",
+      "name": "MediPrime Equipment Pvt Ltd",
+      "registration_number": "WB/GST/2018/005432",
+      "address": "34, Park Street, Kolkata",
+      "pincode": "700016",
+      "gst_number": "19AABCM9012Z6Z0",
+      "director_name": "Soumya Bhattacharya",
+      "phone": "9831005432"
+    },
+    {
+      "bidder_id": "BID-2402",
+      "name": "Bengal Medical Systems",
+      "registration_number": "WB/GST/2016/002109",
+      "address": "12, Salt Lake Sector V, Kolkata",
+      "pincode": "700091",
+      "gst_number": "19AABCB3456A7Z1",
+      "director_name": "Partha Sarkar",
+      "phone": "9831002109"
+    },
+    {
+      "bidder_id": "BID-2403",
+      "name": "Eastern Health Solutions",
+      "registration_number": "WB/GST/2019/007834",
+      "address": "56, Ultadanga, Kolkata",
+      "pincode": "700067",
+      "gst_number": "19AABCE7890B8Z2",
+      "director_name": "Mita Ghosh",
+      "phone": "9831007834"
+    },
+    {
+      "bidder_id": "BID-2404",
+      "name": "Kolkata Medical Traders",
+      "registration_number": "WB/GST/2017/003267",
+      "address": "89, Bagbazar, Kolkata",
+      "pincode": "700003",
+      "gst_number": "19AABCK1234C9Z3",
+      "director_name": "Subhash Bose",
+      "phone": "9831003267"
+    },
+    {
+      "bidder_id": "BID-2405",
+      "name": "National Pharma Distributors",
+      "registration_number": "WB/GST/2020/009123",
+      "address": "23, Shyambazar, Kolkata",
+      "pincode": "700004",
+      "gst_number": "19AABCN5678D0Z4",
+      "director_name": "Rina Mukherjee",
+      "phone": "9831009123"
+    },
+    {
+      "bidder_id": "BID-2406",
+      "name": "IndoMed Supplies Ltd",
+      "registration_number": "WB/GST/2018/004789",
+      "address": "45, Behala, Kolkata",
+      "pincode": "700034",
+      "gst_number": "19AABCI9012E1Z5",
+      "director_name": "Tapan Das",
+      "phone": "9831004789"
+    },
+    {
+      "bidder_id": "BID-GEN-26-0",
+      "name": "Jyoti Medical Supplies",
+      "registration_number": "Od/GST/2022/00260",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560336",
+      "gst_number": "29AABC260A1Z9",
+      "director_name": "Director Jyoti Medical Supplies",
+      "phone": "9900000260"
+    },
+    {
+      "bidder_id": "BID-GEN-26-1",
+      "name": "Co-Bidder BID-GEN-26-1",
+      "registration_number": "Od/GST/2022/00261",
+      "address": "15, Commercial Street, Bhubaneswar",
+      "pincode": "560997",
+      "gst_number": "29AABC261A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-26-1",
+      "phone": "9900000261"
+    },
+    {
+      "bidder_id": "BID-GEN-27-0",
+      "name": "Eastern Pharma Hub",
+      "registration_number": "Ta/GST/2022/00270",
+      "address": "10, Commercial Street, Trichy",
+      "pincode": "560154",
+      "gst_number": "29AABC270A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000270"
+    },
+    {
+      "bidder_id": "BID-GEN-28-0",
+      "name": "Indo Cement Traders",
+      "registration_number": "Ka/GST/2022/00280",
+      "address": "10, Commercial Street, Hubballi",
+      "pincode": "560673",
+      "gst_number": "29AABC280A1Z9",
+      "director_name": "Director Indo Cement Traders",
+      "phone": "9900000280"
+    },
+    {
+      "bidder_id": "BID-GEN-28-1",
+      "name": "Co-Bidder BID-GEN-28-1",
+      "registration_number": "Ka/GST/2022/00281",
+      "address": "15, Commercial Street, Hubballi",
+      "pincode": "560155",
+      "gst_number": "29AABC281A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-28-1",
+      "phone": "9900000281"
+    },
+    {
+      "bidder_id": "BID-GEN-28-2",
+      "name": "Co-Bidder BID-GEN-28-2",
+      "registration_number": "Ka/GST/2022/00282",
+      "address": "20, Commercial Street, Hubballi",
+      "pincode": "560623",
+      "gst_number": "29AABC282A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-28-2",
+      "phone": "9900000282"
+    },
+    {
+      "bidder_id": "BID-GEN-29-0",
+      "name": "Delta IT Solutions",
+      "registration_number": "Ta/GST/2022/00290",
+      "address": "10, Commercial Street, Coimbatore",
+      "pincode": "560594",
+      "gst_number": "29AABC290A1Z9",
+      "director_name": "Director Delta IT Solutions",
+      "phone": "9900000290"
+    },
+    {
+      "bidder_id": "BID-GEN-29-1",
+      "name": "Co-Bidder BID-GEN-29-1",
+      "registration_number": "Ta/GST/2022/00291",
+      "address": "15, Commercial Street, Coimbatore",
+      "pincode": "560699",
+      "gst_number": "29AABC291A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-29-1",
+      "phone": "9900000291"
+    },
+    {
+      "bidder_id": "BID-GEN-29-2",
+      "name": "Co-Bidder BID-GEN-29-2",
+      "registration_number": "Ta/GST/2022/00292",
+      "address": "20, Commercial Street, Coimbatore",
+      "pincode": "560285",
+      "gst_number": "29AABC292A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-29-2",
+      "phone": "9900000292"
+    },
+    {
+      "bidder_id": "BID-GEN-29-3",
+      "name": "Co-Bidder BID-GEN-29-3",
+      "registration_number": "Ta/GST/2022/00293",
+      "address": "25, Commercial Street, Coimbatore",
+      "pincode": "560787",
+      "gst_number": "29AABC293A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-29-3",
+      "phone": "9900000293"
+    },
+    {
+      "bidder_id": "BID-GEN-30-0",
+      "name": "Indo Cement Traders",
+      "registration_number": "Od/GST/2022/00300",
+      "address": "10, Commercial Street, Rourkela",
+      "pincode": "560117",
+      "gst_number": "29AABC300A1Z9",
+      "director_name": "Director Indo Cement Traders",
+      "phone": "9900000300"
+    },
+    {
+      "bidder_id": "BID-GEN-30-1",
+      "name": "Co-Bidder BID-GEN-30-1",
+      "registration_number": "Od/GST/2022/00301",
+      "address": "15, Commercial Street, Rourkela",
+      "pincode": "560074",
+      "gst_number": "29AABC301A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-30-1",
+      "phone": "9900000301"
+    },
+    {
+      "bidder_id": "BID-GEN-30-2",
+      "name": "Co-Bidder BID-GEN-30-2",
+      "registration_number": "Od/GST/2022/00302",
+      "address": "20, Commercial Street, Rourkela",
+      "pincode": "560649",
+      "gst_number": "29AABC302A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-30-2",
+      "phone": "9900000302"
+    },
+    {
+      "bidder_id": "BID-GEN-30-3",
+      "name": "Co-Bidder BID-GEN-30-3",
+      "registration_number": "Od/GST/2022/00303",
+      "address": "25, Commercial Street, Rourkela",
+      "pincode": "560597",
+      "gst_number": "29AABC303A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-30-3",
+      "phone": "9900000303"
+    },
+    {
+      "bidder_id": "BID-GEN-30-4",
+      "name": "Co-Bidder BID-GEN-30-4",
+      "registration_number": "Od/GST/2022/00304",
+      "address": "30, Commercial Street, Rourkela",
+      "pincode": "560634",
+      "gst_number": "29AABC304A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-30-4",
+      "phone": "9900000304"
+    },
+    {
+      "bidder_id": "BID-GEN-31-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Gu/GST/2022/00310",
+      "address": "10, Commercial Street, Vadodara",
+      "pincode": "560005",
+      "gst_number": "29AABC310A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000310"
+    },
+    {
+      "bidder_id": "BID-GEN-32-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Ta/GST/2022/00320",
+      "address": "10, Commercial Street, Coimbatore",
+      "pincode": "560942",
+      "gst_number": "29AABC320A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000320"
+    },
+    {
+      "bidder_id": "BID-GEN-32-1",
+      "name": "Co-Bidder BID-GEN-32-1",
+      "registration_number": "Ta/GST/2022/00321",
+      "address": "15, Commercial Street, Coimbatore",
+      "pincode": "560777",
+      "gst_number": "29AABC321A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-32-1",
+      "phone": "9900000321"
+    },
+    {
+      "bidder_id": "BID-GEN-32-2",
+      "name": "Co-Bidder BID-GEN-32-2",
+      "registration_number": "Ta/GST/2022/00322",
+      "address": "20, Commercial Street, Coimbatore",
+      "pincode": "560831",
+      "gst_number": "29AABC322A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-32-2",
+      "phone": "9900000322"
+    },
+    {
+      "bidder_id": "BID-GEN-32-3",
+      "name": "Co-Bidder BID-GEN-32-3",
+      "registration_number": "Ta/GST/2022/00323",
+      "address": "25, Commercial Street, Coimbatore",
+      "pincode": "560126",
+      "gst_number": "29AABC323A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-32-3",
+      "phone": "9900000323"
+    },
+    {
+      "bidder_id": "BID-GEN-32-4",
+      "name": "Co-Bidder BID-GEN-32-4",
+      "registration_number": "Ta/GST/2022/00324",
+      "address": "30, Commercial Street, Coimbatore",
+      "pincode": "560057",
+      "gst_number": "29AABC324A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-32-4",
+      "phone": "9900000324"
+    },
+    {
+      "bidder_id": "BID-GEN-33-0",
+      "name": "Indo Cement Traders",
+      "registration_number": "Od/GST/2022/00330",
+      "address": "10, Commercial Street, Cuttack",
+      "pincode": "560973",
+      "gst_number": "29AABC330A1Z9",
+      "director_name": "Director Indo Cement Traders",
+      "phone": "9900000330"
+    },
+    {
+      "bidder_id": "BID-GEN-33-1",
+      "name": "Co-Bidder BID-GEN-33-1",
+      "registration_number": "Od/GST/2022/00331",
+      "address": "15, Commercial Street, Cuttack",
+      "pincode": "560129",
+      "gst_number": "29AABC331A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-33-1",
+      "phone": "9900000331"
+    },
+    {
+      "bidder_id": "BID-GEN-33-2",
+      "name": "Co-Bidder BID-GEN-33-2",
+      "registration_number": "Od/GST/2022/00332",
+      "address": "20, Commercial Street, Cuttack",
+      "pincode": "560187",
+      "gst_number": "29AABC332A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-33-2",
+      "phone": "9900000332"
+    },
+    {
+      "bidder_id": "BID-GEN-34-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "We/GST/2022/00340",
+      "address": "10, Commercial Street, Howrah",
+      "pincode": "560404",
+      "gst_number": "29AABC340A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000340"
+    },
+    {
+      "bidder_id": "BID-GEN-35-0",
+      "name": "GreenPower Energy Systems",
+      "registration_number": "Gu/GST/2022/00350",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560225",
+      "gst_number": "29AABC350A1Z9",
+      "director_name": "Director GreenPower Energy Systems",
+      "phone": "9900000350"
+    },
+    {
+      "bidder_id": "BID-GEN-35-1",
+      "name": "Co-Bidder BID-GEN-35-1",
+      "registration_number": "Gu/GST/2022/00351",
+      "address": "15, Commercial Street, Ahmedabad",
+      "pincode": "560465",
+      "gst_number": "29AABC351A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-35-1",
+      "phone": "9900000351"
+    },
+    {
+      "bidder_id": "BID-GEN-36-0",
+      "name": "Indo Cement Traders",
+      "registration_number": "Gu/GST/2022/00360",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560343",
+      "gst_number": "29AABC360A1Z9",
+      "director_name": "Director Indo Cement Traders",
+      "phone": "9900000360"
+    },
+    {
+      "bidder_id": "BID-GEN-36-1",
+      "name": "Co-Bidder BID-GEN-36-1",
+      "registration_number": "Gu/GST/2022/00361",
+      "address": "15, Commercial Street, Rajkot",
+      "pincode": "560085",
+      "gst_number": "29AABC361A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-36-1",
+      "phone": "9900000361"
+    },
+    {
+      "bidder_id": "BID-GEN-36-2",
+      "name": "Co-Bidder BID-GEN-36-2",
+      "registration_number": "Gu/GST/2022/00362",
+      "address": "20, Commercial Street, Rajkot",
+      "pincode": "560753",
+      "gst_number": "29AABC362A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-36-2",
+      "phone": "9900000362"
+    },
+    {
+      "bidder_id": "BID-GEN-36-3",
+      "name": "Co-Bidder BID-GEN-36-3",
+      "registration_number": "Gu/GST/2022/00363",
+      "address": "25, Commercial Street, Rajkot",
+      "pincode": "560643",
+      "gst_number": "29AABC363A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-36-3",
+      "phone": "9900000363"
+    },
+    {
+      "bidder_id": "BID-GEN-37-0",
+      "name": "Indo Cement Traders",
+      "registration_number": "Od/GST/2022/00370",
+      "address": "10, Commercial Street, Rourkela",
+      "pincode": "560161",
+      "gst_number": "29AABC370A1Z9",
+      "director_name": "Director Indo Cement Traders",
+      "phone": "9900000370"
+    },
+    {
+      "bidder_id": "BID-GEN-37-1",
+      "name": "Co-Bidder BID-GEN-37-1",
+      "registration_number": "Od/GST/2022/00371",
+      "address": "15, Commercial Street, Rourkela",
+      "pincode": "560520",
+      "gst_number": "29AABC371A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-37-1",
+      "phone": "9900000371"
+    },
+    {
+      "bidder_id": "BID-GEN-37-2",
+      "name": "Co-Bidder BID-GEN-37-2",
+      "registration_number": "Od/GST/2022/00372",
+      "address": "20, Commercial Street, Rourkela",
+      "pincode": "560796",
+      "gst_number": "29AABC372A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-37-2",
+      "phone": "9900000372"
+    },
+    {
+      "bidder_id": "BID-GEN-38-0",
+      "name": "Hindustan Pipe Distributors",
+      "registration_number": "Gu/GST/2022/00380",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560337",
+      "gst_number": "29AABC380A1Z9",
+      "director_name": "Director Hindustan Pipe Distributors",
+      "phone": "9900000380"
+    },
+    {
+      "bidder_id": "BID-GEN-38-1",
+      "name": "Co-Bidder BID-GEN-38-1",
+      "registration_number": "Gu/GST/2022/00381",
+      "address": "15, Commercial Street, Ahmedabad",
+      "pincode": "560741",
+      "gst_number": "29AABC381A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-38-1",
+      "phone": "9900000381"
+    },
+    {
+      "bidder_id": "BID-GEN-38-2",
+      "name": "Co-Bidder BID-GEN-38-2",
+      "registration_number": "Gu/GST/2022/00382",
+      "address": "20, Commercial Street, Ahmedabad",
+      "pincode": "560608",
+      "gst_number": "29AABC382A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-38-2",
+      "phone": "9900000382"
+    },
+    {
+      "bidder_id": "BID-GEN-38-3",
+      "name": "Co-Bidder BID-GEN-38-3",
+      "registration_number": "Gu/GST/2022/00383",
+      "address": "25, Commercial Street, Ahmedabad",
+      "pincode": "560100",
+      "gst_number": "29AABC383A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-38-3",
+      "phone": "9900000383"
+    },
+    {
+      "bidder_id": "BID-GEN-38-4",
+      "name": "Co-Bidder BID-GEN-38-4",
+      "registration_number": "Gu/GST/2022/00384",
+      "address": "30, Commercial Street, Ahmedabad",
+      "pincode": "560240",
+      "gst_number": "29AABC384A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-38-4",
+      "phone": "9900000384"
+    },
+    {
+      "bidder_id": "BID-GEN-39-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Gu/GST/2022/00390",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560314",
+      "gst_number": "29AABC390A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000390"
+    },
+    {
+      "bidder_id": "BID-GEN-39-1",
+      "name": "Co-Bidder BID-GEN-39-1",
+      "registration_number": "Gu/GST/2022/00391",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560314",
+      "gst_number": "29AABC391A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000391"
+    },
+    {
+      "bidder_id": "BID-GEN-39-2",
+      "name": "Co-Bidder BID-GEN-39-2",
+      "registration_number": "Gu/GST/2022/00392",
+      "address": "20, Commercial Street, Ahmedabad",
+      "pincode": "560822",
+      "gst_number": "29AABC392A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-39-2",
+      "phone": "9900000392"
+    },
+    {
+      "bidder_id": "BID-GEN-39-3",
+      "name": "Co-Bidder BID-GEN-39-3",
+      "registration_number": "Gu/GST/2022/00393",
+      "address": "25, Commercial Street, Ahmedabad",
+      "pincode": "560152",
+      "gst_number": "29AABC393A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-39-3",
+      "phone": "9900000393"
+    },
+    {
+      "bidder_id": "BID-GEN-39-4",
+      "name": "Co-Bidder BID-GEN-39-4",
+      "registration_number": "Gu/GST/2022/00394",
+      "address": "30, Commercial Street, Ahmedabad",
+      "pincode": "560172",
+      "gst_number": "29AABC394A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-39-4",
+      "phone": "9900000394"
+    },
+    {
+      "bidder_id": "BID-GEN-40-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Od/GST/2022/00400",
+      "address": "10, Commercial Street, Rourkela",
+      "pincode": "560705",
+      "gst_number": "29AABC400A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000400"
+    },
+    {
+      "bidder_id": "BID-GEN-41-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "We/GST/2022/00410",
+      "address": "10, Commercial Street, Howrah",
+      "pincode": "560310",
+      "gst_number": "29AABC410A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000410"
+    },
+    {
+      "bidder_id": "BID-GEN-42-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Gu/GST/2022/00420",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560734",
+      "gst_number": "29AABC420A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000420"
+    },
+    {
+      "bidder_id": "BID-GEN-42-1",
+      "name": "Co-Bidder BID-GEN-42-1",
+      "registration_number": "Gu/GST/2022/00421",
+      "address": "15, Commercial Street, Rajkot",
+      "pincode": "560075",
+      "gst_number": "29AABC421A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-42-1",
+      "phone": "9900000421"
+    },
+    {
+      "bidder_id": "BID-GEN-42-2",
+      "name": "Co-Bidder BID-GEN-42-2",
+      "registration_number": "Gu/GST/2022/00422",
+      "address": "20, Commercial Street, Rajkot",
+      "pincode": "560046",
+      "gst_number": "29AABC422A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-42-2",
+      "phone": "9900000422"
+    },
+    {
+      "bidder_id": "BID-GEN-42-3",
+      "name": "Co-Bidder BID-GEN-42-3",
+      "registration_number": "Gu/GST/2022/00423",
+      "address": "25, Commercial Street, Rajkot",
+      "pincode": "560508",
+      "gst_number": "29AABC423A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-42-3",
+      "phone": "9900000423"
+    },
+    {
+      "bidder_id": "BID-GEN-42-4",
+      "name": "Co-Bidder BID-GEN-42-4",
+      "registration_number": "Gu/GST/2022/00424",
+      "address": "30, Commercial Street, Rajkot",
+      "pincode": "560977",
+      "gst_number": "29AABC424A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-42-4",
+      "phone": "9900000424"
+    },
+    {
+      "bidder_id": "BID-GEN-43-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Ka/GST/2022/00430",
+      "address": "10, Commercial Street, Mangaluru",
+      "pincode": "560141",
+      "gst_number": "29AABC430A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000430"
+    },
+    {
+      "bidder_id": "BID-GEN-43-1",
+      "name": "Co-Bidder BID-GEN-43-1",
+      "registration_number": "Ka/GST/2022/00431",
+      "address": "15, Commercial Street, Mangaluru",
+      "pincode": "560666",
+      "gst_number": "29AABC431A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-43-1",
+      "phone": "9900000431"
+    },
+    {
+      "bidder_id": "BID-GEN-43-2",
+      "name": "Co-Bidder BID-GEN-43-2",
+      "registration_number": "Ka/GST/2022/00432",
+      "address": "20, Commercial Street, Mangaluru",
+      "pincode": "560696",
+      "gst_number": "29AABC432A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-43-2",
+      "phone": "9900000432"
+    },
+    {
+      "bidder_id": "BID-GEN-44-0",
+      "name": "Cauvery Construction Materials",
+      "registration_number": "We/GST/2022/00440",
+      "address": "10, Commercial Street, Kolkata",
+      "pincode": "560199",
+      "gst_number": "29AABC440A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000440"
+    },
+    {
+      "bidder_id": "BID-GEN-44-1",
+      "name": "Co-Bidder BID-GEN-44-1",
+      "registration_number": "We/GST/2022/00441",
+      "address": "15, Commercial Street, Kolkata",
+      "pincode": "560436",
+      "gst_number": "29AABC441A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-44-1",
+      "phone": "9900000441"
+    },
+    {
+      "bidder_id": "BID-GEN-44-2",
+      "name": "Co-Bidder BID-GEN-44-2",
+      "registration_number": "We/GST/2022/00442",
+      "address": "20, Commercial Street, Kolkata",
+      "pincode": "560234",
+      "gst_number": "29AABC442A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-44-2",
+      "phone": "9900000442"
+    },
+    {
+      "bidder_id": "BID-GEN-44-3",
+      "name": "Co-Bidder BID-GEN-44-3",
+      "registration_number": "We/GST/2022/00443",
+      "address": "25, Commercial Street, Kolkata",
+      "pincode": "560117",
+      "gst_number": "29AABC443A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-44-3",
+      "phone": "9900000443"
+    },
+    {
+      "bidder_id": "BID-GEN-44-4",
+      "name": "Co-Bidder BID-GEN-44-4",
+      "registration_number": "We/GST/2022/00444",
+      "address": "30, Commercial Street, Kolkata",
+      "pincode": "560284",
+      "gst_number": "29AABC444A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-44-4",
+      "phone": "9900000444"
+    },
+    {
+      "bidder_id": "BID-GEN-45-0",
+      "name": "GreenPower Energy Systems",
+      "registration_number": "We/GST/2022/00450",
+      "address": "10, Commercial Street, Durgapur",
+      "pincode": "560964",
+      "gst_number": "29AABC450A1Z9",
+      "director_name": "Director GreenPower Energy Systems",
+      "phone": "9900000450"
+    },
+    {
+      "bidder_id": "BID-GEN-45-1",
+      "name": "Co-Bidder BID-GEN-45-1",
+      "registration_number": "We/GST/2022/00451",
+      "address": "15, Commercial Street, Durgapur",
+      "pincode": "560775",
+      "gst_number": "29AABC451A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-45-1",
+      "phone": "9900000451"
+    },
+    {
+      "bidder_id": "BID-GEN-45-2",
+      "name": "Co-Bidder BID-GEN-45-2",
+      "registration_number": "We/GST/2022/00452",
+      "address": "20, Commercial Street, Durgapur",
+      "pincode": "560578",
+      "gst_number": "29AABC452A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-45-2",
+      "phone": "9900000452"
+    },
+    {
+      "bidder_id": "BID-GEN-45-3",
+      "name": "Co-Bidder BID-GEN-45-3",
+      "registration_number": "We/GST/2022/00453",
+      "address": "25, Commercial Street, Durgapur",
+      "pincode": "560840",
+      "gst_number": "29AABC453A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-45-3",
+      "phone": "9900000453"
+    },
+    {
+      "bidder_id": "BID-GEN-46-0",
+      "name": "Eastern Pharma Hub",
+      "registration_number": "We/GST/2022/00460",
+      "address": "10, Commercial Street, Durgapur",
+      "pincode": "560864",
+      "gst_number": "29AABC460A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000460"
+    },
+    {
+      "bidder_id": "BID-GEN-46-1",
+      "name": "Co-Bidder BID-GEN-46-1",
+      "registration_number": "We/GST/2022/00461",
+      "address": "15, Commercial Street, Durgapur",
+      "pincode": "560419",
+      "gst_number": "29AABC461A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-46-1",
+      "phone": "9900000461"
+    },
+    {
+      "bidder_id": "BID-GEN-47-0",
+      "name": "Eastern Pharma Hub",
+      "registration_number": "We/GST/2022/00470",
+      "address": "10, Commercial Street, Durgapur",
+      "pincode": "560876",
+      "gst_number": "29AABC470A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000470"
+    },
+    {
+      "bidder_id": "BID-GEN-47-1",
+      "name": "Co-Bidder BID-GEN-47-1",
+      "registration_number": "We/GST/2022/00471",
+      "address": "15, Commercial Street, Durgapur",
+      "pincode": "560224",
+      "gst_number": "29AABC471A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-47-1",
+      "phone": "9900000471"
+    },
+    {
+      "bidder_id": "BID-GEN-47-2",
+      "name": "Co-Bidder BID-GEN-47-2",
+      "registration_number": "We/GST/2022/00472",
+      "address": "20, Commercial Street, Durgapur",
+      "pincode": "560305",
+      "gst_number": "29AABC472A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-47-2",
+      "phone": "9900000472"
+    },
+    {
+      "bidder_id": "BID-GEN-48-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Ka/GST/2022/00480",
+      "address": "10, Commercial Street, Mysuru",
+      "pincode": "560435",
+      "gst_number": "29AABC480A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000480"
+    },
+    {
+      "bidder_id": "BID-GEN-48-1",
+      "name": "Co-Bidder BID-GEN-48-1",
+      "registration_number": "Ka/GST/2022/00481",
+      "address": "15, Commercial Street, Mysuru",
+      "pincode": "560705",
+      "gst_number": "29AABC481A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-48-1",
+      "phone": "9900000481"
+    },
+    {
+      "bidder_id": "BID-GEN-48-2",
+      "name": "Co-Bidder BID-GEN-48-2",
+      "registration_number": "Ka/GST/2022/00482",
+      "address": "20, Commercial Street, Mysuru",
+      "pincode": "560435",
+      "gst_number": "29AABC482A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-48-2",
+      "phone": "9900000482"
+    },
+    {
+      "bidder_id": "BID-GEN-49-0",
+      "name": "Hindustan Pipe Distributors",
+      "registration_number": "Gu/GST/2022/00490",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560514",
+      "gst_number": "29AABC490A1Z9",
+      "director_name": "Director Hindustan Pipe Distributors",
+      "phone": "9900000490"
+    },
+    {
+      "bidder_id": "BID-GEN-49-1",
+      "name": "Co-Bidder BID-GEN-49-1",
+      "registration_number": "Gu/GST/2022/00491",
+      "address": "15, Commercial Street, Ahmedabad",
+      "pincode": "560910",
+      "gst_number": "29AABC491A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-49-1",
+      "phone": "9900000491"
+    },
+    {
+      "bidder_id": "BID-GEN-50-0",
+      "name": "Eastern Pharma Hub",
+      "registration_number": "Gu/GST/2022/00500",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560742",
+      "gst_number": "29AABC500A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000500"
+    },
+    {
+      "bidder_id": "BID-GEN-50-1",
+      "name": "Co-Bidder BID-GEN-50-1",
+      "registration_number": "Gu/GST/2022/00501",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560742",
+      "gst_number": "29AABC501A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000501"
+    },
+    {
+      "bidder_id": "BID-GEN-51-0",
+      "name": "Eastern Pharma Hub",
+      "registration_number": "Ka/GST/2022/00510",
+      "address": "10, Commercial Street, Mangaluru",
+      "pincode": "560577",
+      "gst_number": "29AABC510A1Z9",
+      "director_name": "Director Eastern Pharma Hub",
+      "phone": "9900000510"
+    },
+    {
+      "bidder_id": "BID-GEN-51-1",
+      "name": "Co-Bidder BID-GEN-51-1",
+      "registration_number": "Ka/GST/2022/00511",
+      "address": "15, Commercial Street, Mangaluru",
+      "pincode": "560694",
+      "gst_number": "29AABC511A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-51-1",
+      "phone": "9900000511"
+    },
+    {
+      "bidder_id": "BID-GEN-51-2",
+      "name": "Co-Bidder BID-GEN-51-2",
+      "registration_number": "Ka/GST/2022/00512",
+      "address": "20, Commercial Street, Mangaluru",
+      "pincode": "560938",
+      "gst_number": "29AABC512A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-51-2",
+      "phone": "9900000512"
+    },
+    {
+      "bidder_id": "BID-GEN-51-3",
+      "name": "Co-Bidder BID-GEN-51-3",
+      "registration_number": "Ka/GST/2022/00513",
+      "address": "25, Commercial Street, Mangaluru",
+      "pincode": "560248",
+      "gst_number": "29AABC513A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-51-3",
+      "phone": "9900000513"
+    },
+    {
+      "bidder_id": "BID-GEN-51-4",
+      "name": "Co-Bidder BID-GEN-51-4",
+      "registration_number": "Ka/GST/2022/00514",
+      "address": "30, Commercial Street, Mangaluru",
+      "pincode": "560186",
+      "gst_number": "29AABC514A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-51-4",
+      "phone": "9900000514"
+    },
+    {
+      "bidder_id": "BID-GEN-52-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Od/GST/2022/00520",
+      "address": "10, Commercial Street, Rourkela",
+      "pincode": "560026",
+      "gst_number": "29AABC520A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000520"
+    },
+    {
+      "bidder_id": "BID-GEN-53-0",
+      "name": "GreenPower Energy Systems",
+      "registration_number": "Od/GST/2022/00530",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560579",
+      "gst_number": "29AABC530A1Z9",
+      "director_name": "Director GreenPower Energy Systems",
+      "phone": "9900000530"
+    },
+    {
+      "bidder_id": "BID-GEN-53-1",
+      "name": "Co-Bidder BID-GEN-53-1",
+      "registration_number": "Od/GST/2022/00531",
+      "address": "15, Commercial Street, Bhubaneswar",
+      "pincode": "560705",
+      "gst_number": "29AABC531A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-53-1",
+      "phone": "9900000531"
+    },
+    {
+      "bidder_id": "BID-GEN-53-2",
+      "name": "Co-Bidder BID-GEN-53-2",
+      "registration_number": "Od/GST/2022/00532",
+      "address": "20, Commercial Street, Bhubaneswar",
+      "pincode": "560342",
+      "gst_number": "29AABC532A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-53-2",
+      "phone": "9900000532"
+    },
+    {
+      "bidder_id": "BID-GEN-54-0",
+      "name": "GreenPower Energy Systems",
+      "registration_number": "Gu/GST/2022/00540",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560497",
+      "gst_number": "29AABC540A1Z9",
+      "director_name": "Director GreenPower Energy Systems",
+      "phone": "9900000540"
+    },
+    {
+      "bidder_id": "BID-GEN-54-1",
+      "name": "Co-Bidder BID-GEN-54-1",
+      "registration_number": "Gu/GST/2022/00541",
+      "address": "15, Commercial Street, Rajkot",
+      "pincode": "560509",
+      "gst_number": "29AABC541A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-54-1",
+      "phone": "9900000541"
+    },
+    {
+      "bidder_id": "BID-GEN-54-2",
+      "name": "Co-Bidder BID-GEN-54-2",
+      "registration_number": "Gu/GST/2022/00542",
+      "address": "20, Commercial Street, Rajkot",
+      "pincode": "560570",
+      "gst_number": "29AABC542A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-54-2",
+      "phone": "9900000542"
+    },
+    {
+      "bidder_id": "BID-GEN-55-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Gu/GST/2022/00550",
+      "address": "10, Commercial Street, Rajkot",
+      "pincode": "560237",
+      "gst_number": "29AABC550A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000550"
+    },
+    {
+      "bidder_id": "BID-GEN-56-0",
+      "name": "Falcon Steel Corp",
+      "registration_number": "Od/GST/2022/00560",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560222",
+      "gst_number": "29AABC560A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000560"
+    },
+    {
+      "bidder_id": "BID-GEN-56-1",
+      "name": "Co-Bidder BID-GEN-56-1",
+      "registration_number": "Od/GST/2022/00561",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560222",
+      "gst_number": "29AABC561A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000561"
+    },
+    {
+      "bidder_id": "BID-GEN-56-2",
+      "name": "Co-Bidder BID-GEN-56-2",
+      "registration_number": "Od/GST/2022/00562",
+      "address": "20, Commercial Street, Bhubaneswar",
+      "pincode": "560139",
+      "gst_number": "29AABC562A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-56-2",
+      "phone": "9900000562"
+    },
+    {
+      "bidder_id": "BID-GEN-56-3",
+      "name": "Co-Bidder BID-GEN-56-3",
+      "registration_number": "Od/GST/2022/00563",
+      "address": "25, Commercial Street, Bhubaneswar",
+      "pincode": "560479",
+      "gst_number": "29AABC563A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-56-3",
+      "phone": "9900000563"
+    },
+    {
+      "bidder_id": "BID-GEN-57-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Gu/GST/2022/00570",
+      "address": "10, Commercial Street, Surat",
+      "pincode": "560316",
+      "gst_number": "29AABC570A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000570"
+    },
+    {
+      "bidder_id": "BID-GEN-58-0",
+      "name": "Falcon Steel Corp",
+      "registration_number": "Od/GST/2022/00580",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560098",
+      "gst_number": "29AABC580A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000580"
+    },
+    {
+      "bidder_id": "BID-GEN-59-0",
+      "name": "Hindustan Pipe Distributors",
+      "registration_number": "Od/GST/2022/00590",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560620",
+      "gst_number": "29AABC590A1Z9",
+      "director_name": "Director Hindustan Pipe Distributors",
+      "phone": "9900000590"
+    },
+    {
+      "bidder_id": "BID-GEN-60-0",
+      "name": "GreenPower Energy Systems",
+      "registration_number": "We/GST/2022/00600",
+      "address": "10, Commercial Street, Howrah",
+      "pincode": "560747",
+      "gst_number": "29AABC600A1Z9",
+      "director_name": "Director GreenPower Energy Systems",
+      "phone": "9900000600"
+    },
+    {
+      "bidder_id": "BID-GEN-60-1",
+      "name": "Co-Bidder BID-GEN-60-1",
+      "registration_number": "We/GST/2022/00601",
+      "address": "15, Commercial Street, Howrah",
+      "pincode": "560402",
+      "gst_number": "29AABC601A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-60-1",
+      "phone": "9900000601"
+    },
+    {
+      "bidder_id": "BID-GEN-60-2",
+      "name": "Co-Bidder BID-GEN-60-2",
+      "registration_number": "We/GST/2022/00602",
+      "address": "20, Commercial Street, Howrah",
+      "pincode": "560237",
+      "gst_number": "29AABC602A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-60-2",
+      "phone": "9900000602"
+    },
+    {
+      "bidder_id": "BID-GEN-60-3",
+      "name": "Co-Bidder BID-GEN-60-3",
+      "registration_number": "We/GST/2022/00603",
+      "address": "25, Commercial Street, Howrah",
+      "pincode": "560943",
+      "gst_number": "29AABC603A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-60-3",
+      "phone": "9900000603"
+    },
+    {
+      "bidder_id": "BID-GEN-61-0",
+      "name": "Jyoti Medical Supplies",
+      "registration_number": "We/GST/2022/00610",
+      "address": "10, Commercial Street, Darjeeling",
+      "pincode": "560316",
+      "gst_number": "29AABC610A1Z9",
+      "director_name": "Director Jyoti Medical Supplies",
+      "phone": "9900000610"
+    },
+    {
+      "bidder_id": "BID-GEN-61-1",
+      "name": "Co-Bidder BID-GEN-61-1",
+      "registration_number": "We/GST/2022/00611",
+      "address": "15, Commercial Street, Darjeeling",
+      "pincode": "560167",
+      "gst_number": "29AABC611A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-61-1",
+      "phone": "9900000611"
+    },
+    {
+      "bidder_id": "BID-GEN-61-2",
+      "name": "Co-Bidder BID-GEN-61-2",
+      "registration_number": "We/GST/2022/00612",
+      "address": "10, Commercial Street, Darjeeling",
+      "pincode": "560316",
+      "gst_number": "29AABC612A1Z9",
+      "director_name": "Director Jyoti Medical Supplies",
+      "phone": "9900000612"
+    },
+    {
+      "bidder_id": "BID-GEN-61-3",
+      "name": "Co-Bidder BID-GEN-61-3",
+      "registration_number": "We/GST/2022/00613",
+      "address": "25, Commercial Street, Darjeeling",
+      "pincode": "560615",
+      "gst_number": "29AABC613A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-61-3",
+      "phone": "9900000613"
+    },
+    {
+      "bidder_id": "BID-GEN-62-0",
+      "name": "BlueStar Office Supplies",
+      "registration_number": "Ta/GST/2022/00620",
+      "address": "10, Commercial Street, Trichy",
+      "pincode": "560612",
+      "gst_number": "29AABC620A1Z9",
+      "director_name": "Director BlueStar Office Supplies",
+      "phone": "9900000620"
+    },
+    {
+      "bidder_id": "BID-GEN-62-1",
+      "name": "Co-Bidder BID-GEN-62-1",
+      "registration_number": "Ta/GST/2022/00621",
+      "address": "15, Commercial Street, Trichy",
+      "pincode": "560790",
+      "gst_number": "29AABC621A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-62-1",
+      "phone": "9900000621"
+    },
+    {
+      "bidder_id": "BID-GEN-62-2",
+      "name": "Co-Bidder BID-GEN-62-2",
+      "registration_number": "Ta/GST/2022/00622",
+      "address": "20, Commercial Street, Trichy",
+      "pincode": "560284",
+      "gst_number": "29AABC622A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-62-2",
+      "phone": "9900000622"
+    },
+    {
+      "bidder_id": "BID-GEN-62-3",
+      "name": "Co-Bidder BID-GEN-62-3",
+      "registration_number": "Ta/GST/2022/00623",
+      "address": "25, Commercial Street, Trichy",
+      "pincode": "560991",
+      "gst_number": "29AABC623A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-62-3",
+      "phone": "9900000623"
+    },
+    {
+      "bidder_id": "BID-GEN-63-0",
+      "name": "Cauvery Construction Materials",
+      "registration_number": "Ta/GST/2022/00630",
+      "address": "10, Commercial Street, Madurai",
+      "pincode": "560801",
+      "gst_number": "29AABC630A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000630"
+    },
+    {
+      "bidder_id": "BID-GEN-63-1",
+      "name": "Co-Bidder BID-GEN-63-1",
+      "registration_number": "Ta/GST/2022/00631",
+      "address": "15, Commercial Street, Madurai",
+      "pincode": "560915",
+      "gst_number": "29AABC631A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-63-1",
+      "phone": "9900000631"
+    },
+    {
+      "bidder_id": "BID-GEN-63-2",
+      "name": "Co-Bidder BID-GEN-63-2",
+      "registration_number": "Ta/GST/2022/00632",
+      "address": "10, Commercial Street, Madurai",
+      "pincode": "560801",
+      "gst_number": "29AABC632A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000632"
+    },
+    {
+      "bidder_id": "BID-GEN-63-3",
+      "name": "Co-Bidder BID-GEN-63-3",
+      "registration_number": "Ta/GST/2022/00633",
+      "address": "25, Commercial Street, Madurai",
+      "pincode": "560723",
+      "gst_number": "29AABC633A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-63-3",
+      "phone": "9900000633"
+    },
+    {
+      "bidder_id": "BID-GEN-63-4",
+      "name": "Co-Bidder BID-GEN-63-4",
+      "registration_number": "Ta/GST/2022/00634",
+      "address": "30, Commercial Street, Madurai",
+      "pincode": "560498",
+      "gst_number": "29AABC634A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-63-4",
+      "phone": "9900000634"
+    },
+    {
+      "bidder_id": "BID-GEN-64-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "Ta/GST/2022/00640",
+      "address": "10, Commercial Street, Coimbatore",
+      "pincode": "560832",
+      "gst_number": "29AABC640A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000640"
+    },
+    {
+      "bidder_id": "BID-GEN-64-1",
+      "name": "Co-Bidder BID-GEN-64-1",
+      "registration_number": "Ta/GST/2022/00641",
+      "address": "10, Commercial Street, Coimbatore",
+      "pincode": "560832",
+      "gst_number": "29AABC641A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000641"
+    },
+    {
+      "bidder_id": "BID-GEN-64-2",
+      "name": "Co-Bidder BID-GEN-64-2",
+      "registration_number": "Ta/GST/2022/00642",
+      "address": "20, Commercial Street, Coimbatore",
+      "pincode": "560119",
+      "gst_number": "29AABC642A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-64-2",
+      "phone": "9900000642"
+    },
+    {
+      "bidder_id": "BID-GEN-65-0",
+      "name": "Delta IT Solutions",
+      "registration_number": "Ka/GST/2022/00650",
+      "address": "10, Commercial Street, Bengaluru",
+      "pincode": "560907",
+      "gst_number": "29AABC650A1Z9",
+      "director_name": "Director Delta IT Solutions",
+      "phone": "9900000650"
+    },
+    {
+      "bidder_id": "BID-GEN-65-1",
+      "name": "Co-Bidder BID-GEN-65-1",
+      "registration_number": "Ka/GST/2022/00651",
+      "address": "15, Commercial Street, Bengaluru",
+      "pincode": "560186",
+      "gst_number": "29AABC651A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-65-1",
+      "phone": "9900000651"
+    },
+    {
+      "bidder_id": "BID-GEN-65-2",
+      "name": "Co-Bidder BID-GEN-65-2",
+      "registration_number": "Ka/GST/2022/00652",
+      "address": "20, Commercial Street, Bengaluru",
+      "pincode": "560655",
+      "gst_number": "29AABC652A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-65-2",
+      "phone": "9900000652"
+    },
+    {
+      "bidder_id": "BID-GEN-65-3",
+      "name": "Co-Bidder BID-GEN-65-3",
+      "registration_number": "Ka/GST/2022/00653",
+      "address": "25, Commercial Street, Bengaluru",
+      "pincode": "560092",
+      "gst_number": "29AABC653A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-65-3",
+      "phone": "9900000653"
+    },
+    {
+      "bidder_id": "BID-GEN-65-4",
+      "name": "Co-Bidder BID-GEN-65-4",
+      "registration_number": "Ka/GST/2022/00654",
+      "address": "30, Commercial Street, Bengaluru",
+      "pincode": "560722",
+      "gst_number": "29AABC654A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-65-4",
+      "phone": "9900000654"
+    },
+    {
+      "bidder_id": "BID-GEN-66-0",
+      "name": "Cauvery Construction Materials",
+      "registration_number": "Gu/GST/2022/00660",
+      "address": "10, Commercial Street, Ahmedabad",
+      "pincode": "560110",
+      "gst_number": "29AABC660A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000660"
+    },
+    {
+      "bidder_id": "BID-GEN-66-1",
+      "name": "Co-Bidder BID-GEN-66-1",
+      "registration_number": "Gu/GST/2022/00661",
+      "address": "15, Commercial Street, Ahmedabad",
+      "pincode": "560323",
+      "gst_number": "29AABC661A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-66-1",
+      "phone": "9900000661"
+    },
+    {
+      "bidder_id": "BID-GEN-66-2",
+      "name": "Co-Bidder BID-GEN-66-2",
+      "registration_number": "Gu/GST/2022/00662",
+      "address": "20, Commercial Street, Ahmedabad",
+      "pincode": "560473",
+      "gst_number": "29AABC662A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-66-2",
+      "phone": "9900000662"
+    },
+    {
+      "bidder_id": "BID-GEN-66-3",
+      "name": "Co-Bidder BID-GEN-66-3",
+      "registration_number": "Gu/GST/2022/00663",
+      "address": "25, Commercial Street, Ahmedabad",
+      "pincode": "560228",
+      "gst_number": "29AABC663A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-66-3",
+      "phone": "9900000663"
+    },
+    {
+      "bidder_id": "BID-GEN-67-0",
+      "name": "Jyoti Medical Supplies",
+      "registration_number": "Od/GST/2022/00670",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560774",
+      "gst_number": "29AABC670A1Z9",
+      "director_name": "Director Jyoti Medical Supplies",
+      "phone": "9900000670"
+    },
+    {
+      "bidder_id": "BID-GEN-67-1",
+      "name": "Co-Bidder BID-GEN-67-1",
+      "registration_number": "Od/GST/2022/00671",
+      "address": "15, Commercial Street, Bhubaneswar",
+      "pincode": "560667",
+      "gst_number": "29AABC671A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-67-1",
+      "phone": "9900000671"
+    },
+    {
+      "bidder_id": "BID-GEN-68-0",
+      "name": "Hindustan Pipe Distributors",
+      "registration_number": "Od/GST/2022/00680",
+      "address": "10, Commercial Street, Bhubaneswar",
+      "pincode": "560362",
+      "gst_number": "29AABC680A1Z9",
+      "director_name": "Director Hindustan Pipe Distributors",
+      "phone": "9900000680"
+    },
+    {
+      "bidder_id": "BID-GEN-68-1",
+      "name": "Co-Bidder BID-GEN-68-1",
+      "registration_number": "Od/GST/2022/00681",
+      "address": "15, Commercial Street, Bhubaneswar",
+      "pincode": "560887",
+      "gst_number": "29AABC681A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-68-1",
+      "phone": "9900000681"
+    },
+    {
+      "bidder_id": "BID-GEN-68-2",
+      "name": "Co-Bidder BID-GEN-68-2",
+      "registration_number": "Od/GST/2022/00682",
+      "address": "20, Commercial Street, Bhubaneswar",
+      "pincode": "560343",
+      "gst_number": "29AABC682A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-68-2",
+      "phone": "9900000682"
+    },
+    {
+      "bidder_id": "BID-GEN-69-0",
+      "name": "Jyoti Medical Supplies",
+      "registration_number": "Ta/GST/2022/00690",
+      "address": "10, Commercial Street, Trichy",
+      "pincode": "560456",
+      "gst_number": "29AABC690A1Z9",
+      "director_name": "Director Jyoti Medical Supplies",
+      "phone": "9900000690"
+    },
+    {
+      "bidder_id": "BID-GEN-69-1",
+      "name": "Co-Bidder BID-GEN-69-1",
+      "registration_number": "Ta/GST/2022/00691",
+      "address": "15, Commercial Street, Trichy",
+      "pincode": "560403",
+      "gst_number": "29AABC691A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-69-1",
+      "phone": "9900000691"
+    },
+    {
+      "bidder_id": "BID-GEN-69-2",
+      "name": "Co-Bidder BID-GEN-69-2",
+      "registration_number": "Ta/GST/2022/00692",
+      "address": "20, Commercial Street, Trichy",
+      "pincode": "560786",
+      "gst_number": "29AABC692A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-69-2",
+      "phone": "9900000692"
+    },
+    {
+      "bidder_id": "BID-GEN-70-0",
+      "name": "Hindustan Pipe Distributors",
+      "registration_number": "We/GST/2022/00700",
+      "address": "10, Commercial Street, Darjeeling",
+      "pincode": "560843",
+      "gst_number": "29AABC700A1Z9",
+      "director_name": "Director Hindustan Pipe Distributors",
+      "phone": "9900000700"
+    },
+    {
+      "bidder_id": "BID-GEN-70-1",
+      "name": "Co-Bidder BID-GEN-70-1",
+      "registration_number": "We/GST/2022/00701",
+      "address": "15, Commercial Street, Darjeeling",
+      "pincode": "560868",
+      "gst_number": "29AABC701A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-70-1",
+      "phone": "9900000701"
+    },
+    {
+      "bidder_id": "BID-GEN-70-2",
+      "name": "Co-Bidder BID-GEN-70-2",
+      "registration_number": "We/GST/2022/00702",
+      "address": "20, Commercial Street, Darjeeling",
+      "pincode": "560315",
+      "gst_number": "29AABC702A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-70-2",
+      "phone": "9900000702"
+    },
+    {
+      "bidder_id": "BID-GEN-71-0",
+      "name": "Falcon Steel Corp",
+      "registration_number": "Ka/GST/2022/00710",
+      "address": "10, Commercial Street, Bengaluru",
+      "pincode": "560630",
+      "gst_number": "29AABC710A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000710"
+    },
+    {
+      "bidder_id": "BID-GEN-71-1",
+      "name": "Co-Bidder BID-GEN-71-1",
+      "registration_number": "Ka/GST/2022/00711",
+      "address": "15, Commercial Street, Bengaluru",
+      "pincode": "560071",
+      "gst_number": "29AABC711A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-71-1",
+      "phone": "9900000711"
+    },
+    {
+      "bidder_id": "BID-GEN-71-2",
+      "name": "Co-Bidder BID-GEN-71-2",
+      "registration_number": "Ka/GST/2022/00712",
+      "address": "20, Commercial Street, Bengaluru",
+      "pincode": "560474",
+      "gst_number": "29AABC712A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-71-2",
+      "phone": "9900000712"
+    },
+    {
+      "bidder_id": "BID-GEN-71-3",
+      "name": "Co-Bidder BID-GEN-71-3",
+      "registration_number": "Ka/GST/2022/00713",
+      "address": "25, Commercial Street, Bengaluru",
+      "pincode": "560492",
+      "gst_number": "29AABC713A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-71-3",
+      "phone": "9900000713"
+    },
+    {
+      "bidder_id": "BID-GEN-71-4",
+      "name": "Co-Bidder BID-GEN-71-4",
+      "registration_number": "Ka/GST/2022/00714",
+      "address": "30, Commercial Street, Bengaluru",
+      "pincode": "560716",
+      "gst_number": "29AABC714A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-71-4",
+      "phone": "9900000714"
+    },
+    {
+      "bidder_id": "BID-GEN-72-0",
+      "name": "Falcon Steel Corp",
+      "registration_number": "Ka/GST/2022/00720",
+      "address": "10, Commercial Street, Hubballi",
+      "pincode": "560370",
+      "gst_number": "29AABC720A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000720"
+    },
+    {
+      "bidder_id": "BID-GEN-72-1",
+      "name": "Co-Bidder BID-GEN-72-1",
+      "registration_number": "Ka/GST/2022/00721",
+      "address": "15, Commercial Street, Hubballi",
+      "pincode": "560981",
+      "gst_number": "29AABC721A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-72-1",
+      "phone": "9900000721"
+    },
+    {
+      "bidder_id": "BID-GEN-72-2",
+      "name": "Co-Bidder BID-GEN-72-2",
+      "registration_number": "Ka/GST/2022/00722",
+      "address": "20, Commercial Street, Hubballi",
+      "pincode": "560589",
+      "gst_number": "29AABC722A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-72-2",
+      "phone": "9900000722"
+    },
+    {
+      "bidder_id": "BID-GEN-72-3",
+      "name": "Co-Bidder BID-GEN-72-3",
+      "registration_number": "Ka/GST/2022/00723",
+      "address": "25, Commercial Street, Hubballi",
+      "pincode": "560329",
+      "gst_number": "29AABC723A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-72-3",
+      "phone": "9900000723"
+    },
+    {
+      "bidder_id": "BID-GEN-73-0",
+      "name": "Apex Infra Projects",
+      "registration_number": "We/GST/2022/00730",
+      "address": "10, Commercial Street, Durgapur",
+      "pincode": "560237",
+      "gst_number": "29AABC730A1Z9",
+      "director_name": "Director Apex Infra Projects",
+      "phone": "9900000730"
+    },
+    {
+      "bidder_id": "BID-GEN-73-1",
+      "name": "Co-Bidder BID-GEN-73-1",
+      "registration_number": "We/GST/2022/00731",
+      "address": "15, Commercial Street, Durgapur",
+      "pincode": "560323",
+      "gst_number": "29AABC731A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-73-1",
+      "phone": "9900000731"
+    },
+    {
+      "bidder_id": "BID-GEN-74-0",
+      "name": "Cauvery Construction Materials",
+      "registration_number": "We/GST/2022/00740",
+      "address": "10, Commercial Street, Kolkata",
+      "pincode": "560811",
+      "gst_number": "29AABC740A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000740"
+    },
+    {
+      "bidder_id": "BID-GEN-74-1",
+      "name": "Co-Bidder BID-GEN-74-1",
+      "registration_number": "We/GST/2022/00741",
+      "address": "15, Commercial Street, Kolkata",
+      "pincode": "560696",
+      "gst_number": "29AABC741A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-74-1",
+      "phone": "9900000741"
+    },
+    {
+      "bidder_id": "BID-GEN-74-2",
+      "name": "Co-Bidder BID-GEN-74-2",
+      "registration_number": "We/GST/2022/00742",
+      "address": "10, Commercial Street, Kolkata",
+      "pincode": "560811",
+      "gst_number": "29AABC742A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000742"
+    },
+    {
+      "bidder_id": "BID-GEN-74-3",
+      "name": "Co-Bidder BID-GEN-74-3",
+      "registration_number": "We/GST/2022/00743",
+      "address": "10, Commercial Street, Kolkata",
+      "pincode": "560811",
+      "gst_number": "29AABC743A1Z9",
+      "director_name": "Director Cauvery Construction Materials",
+      "phone": "9900000743"
+    },
+    {
+      "bidder_id": "BID-GEN-75-0",
+      "name": "Falcon Steel Corp",
+      "registration_number": "We/GST/2022/00750",
+      "address": "10, Commercial Street, Howrah",
+      "pincode": "560660",
+      "gst_number": "29AABC750A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000750"
+    },
+    {
+      "bidder_id": "BID-GEN-75-1",
+      "name": "Co-Bidder BID-GEN-75-1",
+      "registration_number": "We/GST/2022/00751",
+      "address": "10, Commercial Street, Howrah",
+      "pincode": "560660",
+      "gst_number": "29AABC751A1Z9",
+      "director_name": "Director Falcon Steel Corp",
+      "phone": "9900000751"
+    },
+    {
+      "bidder_id": "BID-GEN-75-2",
+      "name": "Co-Bidder BID-GEN-75-2",
+      "registration_number": "We/GST/2022/00752",
+      "address": "20, Commercial Street, Howrah",
+      "pincode": "560126",
+      "gst_number": "29AABC752A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-75-2",
+      "phone": "9900000752"
+    },
+    {
+      "bidder_id": "BID-GEN-75-3",
+      "name": "Co-Bidder BID-GEN-75-3",
+      "registration_number": "We/GST/2022/00753",
+      "address": "25, Commercial Street, Howrah",
+      "pincode": "560183",
+      "gst_number": "29AABC753A1Z9",
+      "director_name": "Director Co-Bidder BID-GEN-75-3",
+      "phone": "9900000753"
+    },
+    {
+      "bidder_id": "BID-PA-001-0",
+      "name": "InflateCo Supplies 1 Ltd",
+      "registration_number": "REG-BID-PA-001-0",
+      "address": "20, Main Road, Lucknow",
+      "pincode": "400000",
+      "gst_number": "GST0010",
+      "director_name": "Director-PA-0-0",
+      "phone": "980010"
+    },
+    {
+      "bidder_id": "BID-PA-001-1",
+      "name": "Bidder 1 for T-076",
+      "registration_number": "REG-BID-PA-001-1",
+      "address": "21, Main Road, Lucknow",
+      "pincode": "400001",
+      "gst_number": "GST0011",
+      "director_name": "Director-PA-0-1",
+      "phone": "980011"
+    },
+    {
+      "bidder_id": "BID-PA-001-2",
+      "name": "Bidder 2 for T-076",
+      "registration_number": "REG-BID-PA-001-2",
+      "address": "22, Main Road, Lucknow",
+      "pincode": "400002",
+      "gst_number": "GST0012",
+      "director_name": "Director-PA-0-2",
+      "phone": "980012"
+    },
+    {
+      "bidder_id": "BID-PA-002-0",
+      "name": "InflateCo Supplies 2 Ltd",
+      "registration_number": "REG-BID-PA-002-0",
+      "address": "20, Main Road, Patna",
+      "pincode": "400010",
+      "gst_number": "GST0020",
+      "director_name": "Director-PA-1-0",
+      "phone": "980020"
+    },
+    {
+      "bidder_id": "BID-PA-002-1",
+      "name": "Bidder 1 for T-077",
+      "registration_number": "REG-BID-PA-002-1",
+      "address": "21, Main Road, Patna",
+      "pincode": "400011",
+      "gst_number": "GST0021",
+      "director_name": "Director-PA-1-1",
+      "phone": "980021"
+    },
+    {
+      "bidder_id": "BID-PA-003-0",
+      "name": "InflateCo Supplies 3 Ltd",
+      "registration_number": "REG-BID-PA-003-0",
+      "address": "20, Main Road, Bhopal",
+      "pincode": "400020",
+      "gst_number": "GST0030",
+      "director_name": "Director-PA-2-0",
+      "phone": "980030"
+    },
+    {
+      "bidder_id": "BID-PA-003-1",
+      "name": "Bidder 1 for T-078",
+      "registration_number": "REG-BID-PA-003-1",
+      "address": "21, Main Road, Bhopal",
+      "pincode": "400021",
+      "gst_number": "GST0031",
+      "director_name": "Director-PA-2-1",
+      "phone": "980031"
+    },
+    {
+      "bidder_id": "BID-PA-003-2",
+      "name": "Bidder 2 for T-078",
+      "registration_number": "REG-BID-PA-003-2",
+      "address": "22, Main Road, Bhopal",
+      "pincode": "400022",
+      "gst_number": "GST0032",
+      "director_name": "Director-PA-2-2",
+      "phone": "980032"
+    },
+    {
+      "bidder_id": "BID-PA-003-3",
+      "name": "Bidder 3 for T-078",
+      "registration_number": "REG-BID-PA-003-3",
+      "address": "23, Main Road, Bhopal",
+      "pincode": "400023",
+      "gst_number": "GST0033",
+      "director_name": "Director-PA-2-3",
+      "phone": "980033"
+    },
+    {
+      "bidder_id": "BID-PA-004-0",
+      "name": "InflateCo Supplies 4 Ltd",
+      "registration_number": "REG-BID-PA-004-0",
+      "address": "20, Main Road, Jaipur",
+      "pincode": "400030",
+      "gst_number": "GST0040",
+      "director_name": "Director-PA-3-0",
+      "phone": "980040"
+    },
+    {
+      "bidder_id": "BID-PA-004-1",
+      "name": "Bidder 1 for T-079",
+      "registration_number": "REG-BID-PA-004-1",
+      "address": "21, Main Road, Jaipur",
+      "pincode": "400031",
+      "gst_number": "GST0041",
+      "director_name": "Director-PA-3-1",
+      "phone": "980041"
+    },
+    {
+      "bidder_id": "BID-PA-005-0",
+      "name": "InflateCo Supplies 5 Ltd",
+      "registration_number": "REG-BID-PA-005-0",
+      "address": "20, Main Road, Gurugram",
+      "pincode": "400040",
+      "gst_number": "GST0050",
+      "director_name": "Director-PA-4-0",
+      "phone": "980050"
+    },
+    {
+      "bidder_id": "BID-PA-006-0",
+      "name": "InflateCo Supplies 6 Ltd",
+      "registration_number": "REG-BID-PA-006-0",
+      "address": "20, Main Road, Amritsar",
+      "pincode": "400050",
+      "gst_number": "GST0060",
+      "director_name": "Director-PA-5-0",
+      "phone": "980060"
+    },
+    {
+      "bidder_id": "BID-PA-006-1",
+      "name": "Bidder 1 for T-081",
+      "registration_number": "REG-BID-PA-006-1",
+      "address": "21, Main Road, Amritsar",
+      "pincode": "400051",
+      "gst_number": "GST0061",
+      "director_name": "Director-PA-5-1",
+      "phone": "980061"
+    },
+    {
+      "bidder_id": "BID-PA-006-2",
+      "name": "Bidder 2 for T-081",
+      "registration_number": "REG-BID-PA-006-2",
+      "address": "22, Main Road, Amritsar",
+      "pincode": "400052",
+      "gst_number": "GST0062",
+      "director_name": "Director-PA-5-2",
+      "phone": "980062"
+    },
+    {
+      "bidder_id": "BID-PA-007-0",
+      "name": "InflateCo Supplies 7 Ltd",
+      "registration_number": "REG-BID-PA-007-0",
+      "address": "20, Main Road, Agra",
+      "pincode": "400060",
+      "gst_number": "GST0070",
+      "director_name": "Director-PA-6-0",
+      "phone": "980070"
+    },
+    {
+      "bidder_id": "BID-PA-007-1",
+      "name": "Bidder 1 for T-082",
+      "registration_number": "REG-BID-PA-007-1",
+      "address": "21, Main Road, Agra",
+      "pincode": "400061",
+      "gst_number": "GST0071",
+      "director_name": "Director-PA-6-1",
+      "phone": "980071"
+    },
+    {
+      "bidder_id": "BID-PA-008-0",
+      "name": "InflateCo Supplies 8 Ltd",
+      "registration_number": "REG-BID-PA-008-0",
+      "address": "20, Main Road, Ranchi",
+      "pincode": "400070",
+      "gst_number": "GST0080",
+      "director_name": "Director-PA-7-0",
+      "phone": "980080"
+    },
+    {
+      "bidder_id": "BID-PA-008-1",
+      "name": "Bidder 1 for T-083",
+      "registration_number": "REG-BID-PA-008-1",
+      "address": "21, Main Road, Ranchi",
+      "pincode": "400071",
+      "gst_number": "GST0081",
+      "director_name": "Director-PA-7-1",
+      "phone": "980081"
+    },
+    {
+      "bidder_id": "BID-PA-009-0",
+      "name": "InflateCo Supplies 9 Ltd",
+      "registration_number": "REG-BID-PA-009-0",
+      "address": "20, Main Road, Raipur",
+      "pincode": "400080",
+      "gst_number": "GST0090",
+      "director_name": "Director-PA-8-0",
+      "phone": "980090"
+    },
+    {
+      "bidder_id": "BID-PA-009-1",
+      "name": "Bidder 1 for T-084",
+      "registration_number": "REG-BID-PA-009-1",
+      "address": "21, Main Road, Raipur",
+      "pincode": "400081",
+      "gst_number": "GST0091",
+      "director_name": "Director-PA-8-1",
+      "phone": "980091"
+    },
+    {
+      "bidder_id": "BID-PA-009-2",
+      "name": "Bidder 2 for T-084",
+      "registration_number": "REG-BID-PA-009-2",
+      "address": "22, Main Road, Raipur",
+      "pincode": "400082",
+      "gst_number": "GST0092",
+      "director_name": "Director-PA-8-2",
+      "phone": "980092"
+    },
+    {
+      "bidder_id": "BID-PA-010-0",
+      "name": "InflateCo Supplies 10 Ltd",
+      "registration_number": "REG-BID-PA-010-0",
+      "address": "20, Main Road, Guwahati",
+      "pincode": "400090",
+      "gst_number": "GST0100",
+      "director_name": "Director-PA-9-0",
+      "phone": "980100"
+    },
+    {
+      "bidder_id": "BID-PA-010-1",
+      "name": "Bidder 1 for T-085",
+      "registration_number": "REG-BID-PA-010-1",
+      "address": "21, Main Road, Guwahati",
+      "pincode": "400091",
+      "gst_number": "GST0101",
+      "director_name": "Director-PA-9-1",
+      "phone": "980101"
+    },
+    {
+      "bidder_id": "BID-PA-010-2",
+      "name": "Bidder 2 for T-085",
+      "registration_number": "REG-BID-PA-010-2",
+      "address": "22, Main Road, Guwahati",
+      "pincode": "400092",
+      "gst_number": "GST0102",
+      "director_name": "Director-PA-9-2",
+      "phone": "980102"
+    },
+    {
+      "bidder_id": "BID-PA-010-3",
+      "name": "Bidder 3 for T-085",
+      "registration_number": "REG-BID-PA-010-3",
+      "address": "23, Main Road, Guwahati",
+      "pincode": "400093",
+      "gst_number": "GST0103",
+      "director_name": "Director-PA-9-3",
+      "phone": "980103"
+    },
+    {
+      "bidder_id": "BID-PA-011-0",
+      "name": "InflateCo Supplies 11 Ltd",
+      "registration_number": "REG-BID-PA-011-0",
+      "address": "20, Main Road, Shimla",
+      "pincode": "400100",
+      "gst_number": "GST0110",
+      "director_name": "Director-PA-10-0",
+      "phone": "980110"
+    },
+    {
+      "bidder_id": "BID-PA-011-1",
+      "name": "Bidder 1 for T-086",
+      "registration_number": "REG-BID-PA-011-1",
+      "address": "21, Main Road, Shimla",
+      "pincode": "400101",
+      "gst_number": "GST0111",
+      "director_name": "Director-PA-10-1",
+      "phone": "980111"
+    },
+    {
+      "bidder_id": "BID-PA-012-0",
+      "name": "InflateCo Supplies 12 Ltd",
+      "registration_number": "REG-BID-PA-012-0",
+      "address": "20, Main Road, Thiruvananthapuram",
+      "pincode": "400110",
+      "gst_number": "GST0120",
+      "director_name": "Director-PA-11-0",
+      "phone": "980120"
+    },
+    {
+      "bidder_id": "BID-PA-012-1",
+      "name": "Bidder 1 for T-087",
+      "registration_number": "REG-BID-PA-012-1",
+      "address": "21, Main Road, Thiruvananthapuram",
+      "pincode": "400111",
+      "gst_number": "GST0121",
+      "director_name": "Director-PA-11-1",
+      "phone": "980121"
+    },
+    {
+      "bidder_id": "BID-PA-012-2",
+      "name": "Bidder 2 for T-087",
+      "registration_number": "REG-BID-PA-012-2",
+      "address": "22, Main Road, Thiruvananthapuram",
+      "pincode": "400112",
+      "gst_number": "GST0122",
+      "director_name": "Director-PA-11-2",
+      "phone": "980122"
+    },
+    {
+      "bidder_id": "BID-PA-013-0",
+      "name": "InflateCo Supplies 13 Ltd",
+      "registration_number": "REG-BID-PA-013-0",
+      "address": "20, Main Road, Panaji",
+      "pincode": "400120",
+      "gst_number": "GST0130",
+      "director_name": "Director-PA-12-0",
+      "phone": "980130"
+    },
+    {
+      "bidder_id": "BID-PA-013-1",
+      "name": "Bidder 1 for T-088",
+      "registration_number": "REG-BID-PA-013-1",
+      "address": "21, Main Road, Panaji",
+      "pincode": "400121",
+      "gst_number": "GST0131",
+      "director_name": "Director-PA-12-1",
+      "phone": "980131"
+    },
+    {
+      "bidder_id": "BID-PA-014-0",
+      "name": "InflateCo Supplies 14 Ltd",
+      "registration_number": "REG-BID-PA-014-0",
+      "address": "20, Main Road, Dehradun",
+      "pincode": "400130",
+      "gst_number": "GST0140",
+      "director_name": "Director-PA-13-0",
+      "phone": "980140"
+    },
+    {
+      "bidder_id": "BID-PA-014-1",
+      "name": "Bidder 1 for T-089",
+      "registration_number": "REG-BID-PA-014-1",
+      "address": "21, Main Road, Dehradun",
+      "pincode": "400131",
+      "gst_number": "GST0141",
+      "director_name": "Director-PA-13-1",
+      "phone": "980141"
+    },
+    {
+      "bidder_id": "BID-PA-014-2",
+      "name": "Bidder 2 for T-089",
+      "registration_number": "REG-BID-PA-014-2",
+      "address": "22, Main Road, Dehradun",
+      "pincode": "400132",
+      "gst_number": "GST0142",
+      "director_name": "Director-PA-13-2",
+      "phone": "980142"
+    },
+    {
+      "bidder_id": "BID-PA-015-0",
+      "name": "InflateCo Supplies 15 Ltd",
+      "registration_number": "REG-BID-PA-015-0",
+      "address": "20, Main Road, Hyderabad",
+      "pincode": "400140",
+      "gst_number": "GST0150",
+      "director_name": "Director-PA-14-0",
+      "phone": "980150"
+    },
+    {
+      "bidder_id": "BID-VC-001-000-0",
+      "name": "Monopoly Road Works Pvt Ltd",
+      "registration_number": "REG-BID-VC-001-000-0",
+      "address": "100, Ring Road, Lucknow",
+      "pincode": "500000",
+      "gst_number": "GSTVC0010000",
+      "director_name": "Director-VC-0",
+      "phone": "980010000"
+    },
+    {
+      "bidder_id": "BID-VC-001-000-1",
+      "name": "Token Bidder BID-VC-001-000-1",
+      "registration_number": "REG-BID-VC-001-000-1",
+      "address": "101, Ring Road, Lucknow",
+      "pincode": "500001",
+      "gst_number": "GSTVC0010001",
+      "director_name": "Director-VC-0",
+      "phone": "980010001"
+    },
+    {
+      "bidder_id": "BID-VC-001-001-0",
+      "name": "Monopoly Road Works Pvt Ltd",
+      "registration_number": "REG-BID-VC-001-001-0",
+      "address": "110, Ring Road, Kanpur",
+      "pincode": "500010",
+      "gst_number": "GSTVC0010010",
+      "director_name": "Director-VC-0",
+      "phone": "980010010"
+    },
+    {
+      "bidder_id": "BID-VC-001-001-1",
+      "name": "Token Bidder BID-VC-001-001-1",
+      "registration_number": "REG-BID-VC-001-001-1",
+      "address": "111, Ring Road, Kanpur",
+      "pincode": "500011",
+      "gst_number": "GSTVC0010011",
+      "director_name": "Director-VC-0",
+      "phone": "980010011"
+    },
+    {
+      "bidder_id": "BID-VC-001-002-0",
+      "name": "Monopoly Road Works Pvt Ltd",
+      "registration_number": "REG-BID-VC-001-002-0",
+      "address": "120, Ring Road, Varanasi",
+      "pincode": "500020",
+      "gst_number": "GSTVC0010020",
+      "director_name": "Director-VC-0",
+      "phone": "980010020"
+    },
+    {
+      "bidder_id": "BID-VC-001-002-1",
+      "name": "Token Bidder BID-VC-001-002-1",
+      "registration_number": "REG-BID-VC-001-002-1",
+      "address": "121, Ring Road, Varanasi",
+      "pincode": "500021",
+      "gst_number": "GSTVC0010021",
+      "director_name": "Director-VC-0",
+      "phone": "980010021"
+    },
+    {
+      "bidder_id": "BID-VC-002-000-0",
+      "name": "United Pharma Suppliers Ltd",
+      "registration_number": "REG-BID-VC-002-000-0",
+      "address": "100, Ring Road, Patna",
+      "pincode": "500100",
+      "gst_number": "GSTVC0020000",
+      "director_name": "Director-VC-1",
+      "phone": "980020000"
+    },
+    {
+      "bidder_id": "BID-VC-002-000-1",
+      "name": "Token Bidder BID-VC-002-000-1",
+      "registration_number": "REG-BID-VC-002-000-1",
+      "address": "101, Ring Road, Patna",
+      "pincode": "500101",
+      "gst_number": "GSTVC0020001",
+      "director_name": "Director-VC-1",
+      "phone": "980020001"
+    },
+    {
+      "bidder_id": "BID-VC-002-001-0",
+      "name": "United Pharma Suppliers Ltd",
+      "registration_number": "REG-BID-VC-002-001-0",
+      "address": "110, Ring Road, Gaya",
+      "pincode": "500110",
+      "gst_number": "GSTVC0020010",
+      "director_name": "Director-VC-1",
+      "phone": "980020010"
+    },
+    {
+      "bidder_id": "BID-VC-002-001-1",
+      "name": "Token Bidder BID-VC-002-001-1",
+      "registration_number": "REG-BID-VC-002-001-1",
+      "address": "111, Ring Road, Gaya",
+      "pincode": "500111",
+      "gst_number": "GSTVC0020011",
+      "director_name": "Director-VC-1",
+      "phone": "980020011"
+    },
+    {
+      "bidder_id": "BID-VC-002-002-0",
+      "name": "United Pharma Suppliers Ltd",
+      "registration_number": "REG-BID-VC-002-002-0",
+      "address": "120, Ring Road, Bhagalpur",
+      "pincode": "500120",
+      "gst_number": "GSTVC0020020",
+      "director_name": "Director-VC-1",
+      "phone": "980020020"
+    },
+    {
+      "bidder_id": "BID-VC-002-002-1",
+      "name": "Token Bidder BID-VC-002-002-1",
+      "registration_number": "REG-BID-VC-002-002-1",
+      "address": "121, Ring Road, Bhagalpur",
+      "pincode": "500121",
+      "gst_number": "GSTVC0020021",
+      "director_name": "Director-VC-1",
+      "phone": "980020021"
+    },
+    {
+      "bidder_id": "BID-VC-003-000-0",
+      "name": "AceTech Digital Solutions",
+      "registration_number": "REG-BID-VC-003-000-0",
+      "address": "100, Ring Road, Jaipur",
+      "pincode": "500200",
+      "gst_number": "GSTVC0030000",
+      "director_name": "Director-VC-2",
+      "phone": "980030000"
+    },
+    {
+      "bidder_id": "BID-VC-003-000-1",
+      "name": "Token Bidder BID-VC-003-000-1",
+      "registration_number": "REG-BID-VC-003-000-1",
+      "address": "101, Ring Road, Jaipur",
+      "pincode": "500201",
+      "gst_number": "GSTVC0030001",
+      "director_name": "Director-VC-2",
+      "phone": "980030001"
+    },
+    {
+      "bidder_id": "BID-VC-003-001-0",
+      "name": "AceTech Digital Solutions",
+      "registration_number": "REG-BID-VC-003-001-0",
+      "address": "110, Ring Road, Jodhpur",
+      "pincode": "500210",
+      "gst_number": "GSTVC0030010",
+      "director_name": "Director-VC-2",
+      "phone": "980030010"
+    },
+    {
+      "bidder_id": "BID-VC-003-001-1",
+      "name": "Token Bidder BID-VC-003-001-1",
+      "registration_number": "REG-BID-VC-003-001-1",
+      "address": "111, Ring Road, Jodhpur",
+      "pincode": "500211",
+      "gst_number": "GSTVC0030011",
+      "director_name": "Director-VC-2",
+      "phone": "980030011"
+    },
+    {
+      "bidder_id": "BID-VC-003-002-0",
+      "name": "AceTech Digital Solutions",
+      "registration_number": "REG-BID-VC-003-002-0",
+      "address": "120, Ring Road, Udaipur",
+      "pincode": "500220",
+      "gst_number": "GSTVC0030020",
+      "director_name": "Director-VC-2",
+      "phone": "980030020"
+    },
+    {
+      "bidder_id": "BID-VC-003-002-1",
+      "name": "Token Bidder BID-VC-003-002-1",
+      "registration_number": "REG-BID-VC-003-002-1",
+      "address": "121, Ring Road, Udaipur",
+      "pincode": "500221",
+      "gst_number": "GSTVC0030021",
+      "director_name": "Director-VC-2",
+      "phone": "980030021"
+    },
+    {
+      "bidder_id": "BID-VC-003-002-2",
+      "name": "Token Bidder BID-VC-003-002-2",
+      "registration_number": "REG-BID-VC-003-002-2",
+      "address": "122, Ring Road, Udaipur",
+      "pincode": "500222",
+      "gst_number": "GSTVC0030022",
+      "director_name": "Director-VC-2",
+      "phone": "980030022"
+    },
+    {
+      "bidder_id": "BID-VC-004-000-0",
+      "name": "Srinivasa Infra Corp",
+      "registration_number": "REG-BID-VC-004-000-0",
+      "address": "100, Ring Road, Visakhapatnam",
+      "pincode": "500300",
+      "gst_number": "GSTVC0040000",
+      "director_name": "Director-VC-3",
+      "phone": "980040000"
+    },
+    {
+      "bidder_id": "BID-VC-004-000-1",
+      "name": "Token Bidder BID-VC-004-000-1",
+      "registration_number": "REG-BID-VC-004-000-1",
+      "address": "101, Ring Road, Visakhapatnam",
+      "pincode": "500301",
+      "gst_number": "GSTVC0040001",
+      "director_name": "Director-VC-3",
+      "phone": "980040001"
+    },
+    {
+      "bidder_id": "BID-VC-004-001-0",
+      "name": "Srinivasa Infra Corp",
+      "registration_number": "REG-BID-VC-004-001-0",
+      "address": "110, Ring Road, Vijayawada",
+      "pincode": "500310",
+      "gst_number": "GSTVC0040010",
+      "director_name": "Director-VC-3",
+      "phone": "980040010"
+    },
+    {
+      "bidder_id": "BID-VC-004-001-1",
+      "name": "Token Bidder BID-VC-004-001-1",
+      "registration_number": "REG-BID-VC-004-001-1",
+      "address": "111, Ring Road, Vijayawada",
+      "pincode": "500311",
+      "gst_number": "GSTVC0040011",
+      "director_name": "Director-VC-3",
+      "phone": "980040011"
+    },
+    {
+      "bidder_id": "BID-VC-004-002-0",
+      "name": "Srinivasa Infra Corp",
+      "registration_number": "REG-BID-VC-004-002-0",
+      "address": "120, Ring Road, Tirupati",
+      "pincode": "500320",
+      "gst_number": "GSTVC0040020",
+      "director_name": "Director-VC-3",
+      "phone": "980040020"
+    },
+    {
+      "bidder_id": "BID-VC-004-002-1",
+      "name": "Token Bidder BID-VC-004-002-1",
+      "registration_number": "REG-BID-VC-004-002-1",
+      "address": "121, Ring Road, Tirupati",
+      "pincode": "500321",
+      "gst_number": "GSTVC0040021",
+      "director_name": "Director-VC-3",
+      "phone": "980040021"
+    },
+    {
+      "bidder_id": "BID-VC-004-002-2",
+      "name": "Token Bidder BID-VC-004-002-2",
+      "registration_number": "REG-BID-VC-004-002-2",
+      "address": "122, Ring Road, Tirupati",
+      "pincode": "500322",
+      "gst_number": "GSTVC0040022",
+      "director_name": "Director-VC-3",
+      "phone": "980040022"
+    },
+    {
+      "bidder_id": "BID-VC-005-000-0",
+      "name": "Himalayan Power Systems",
+      "registration_number": "REG-BID-VC-005-000-0",
+      "address": "100, Ring Road, Shimla",
+      "pincode": "500400",
+      "gst_number": "GSTVC0050000",
+      "director_name": "Director-VC-4",
+      "phone": "980050000"
+    },
+    {
+      "bidder_id": "BID-VC-005-000-1",
+      "name": "Token Bidder BID-VC-005-000-1",
+      "registration_number": "REG-BID-VC-005-000-1",
+      "address": "101, Ring Road, Shimla",
+      "pincode": "500401",
+      "gst_number": "GSTVC0050001",
+      "director_name": "Director-VC-4",
+      "phone": "980050001"
+    },
+    {
+      "bidder_id": "BID-VC-005-001-0",
+      "name": "Himalayan Power Systems",
+      "registration_number": "REG-BID-VC-005-001-0",
+      "address": "110, Ring Road, Manali",
+      "pincode": "500410",
+      "gst_number": "GSTVC0050010",
+      "director_name": "Director-VC-4",
+      "phone": "980050010"
+    },
+    {
+      "bidder_id": "BID-VC-005-001-1",
+      "name": "Token Bidder BID-VC-005-001-1",
+      "registration_number": "REG-BID-VC-005-001-1",
+      "address": "111, Ring Road, Manali",
+      "pincode": "500411",
+      "gst_number": "GSTVC0050011",
+      "director_name": "Director-VC-4",
+      "phone": "980050011"
+    },
+    {
+      "bidder_id": "BID-VC-005-001-2",
+      "name": "Token Bidder BID-VC-005-001-2",
+      "registration_number": "REG-BID-VC-005-001-2",
+      "address": "112, Ring Road, Manali",
+      "pincode": "500412",
+      "gst_number": "GSTVC0050012",
+      "director_name": "Director-VC-4",
+      "phone": "980050012"
+    },
+    {
+      "bidder_id": "BID-VC-005-002-0",
+      "name": "Himalayan Power Systems",
+      "registration_number": "REG-BID-VC-005-002-0",
+      "address": "120, Ring Road, Dharamshala",
+      "pincode": "500420",
+      "gst_number": "GSTVC0050020",
+      "director_name": "Director-VC-4",
+      "phone": "980050020"
+    },
+    {
+      "bidder_id": "BID-VC-005-002-1",
+      "name": "Token Bidder BID-VC-005-002-1",
+      "registration_number": "REG-BID-VC-005-002-1",
+      "address": "121, Ring Road, Dharamshala",
+      "pincode": "500421",
+      "gst_number": "GSTVC0050021",
+      "director_name": "Director-VC-4",
+      "phone": "980050021"
+    },
+    {
+      "bidder_id": "BID-VC-005-002-2",
+      "name": "Token Bidder BID-VC-005-002-2",
+      "registration_number": "REG-BID-VC-005-002-2",
+      "address": "122, Ring Road, Dharamshala",
+      "pincode": "500422",
+      "gst_number": "GSTVC0050022",
+      "director_name": "Director-VC-4",
+      "phone": "980050022"
+    },
+    {
+      "bidder_id": "BID-CG-A-001",
+      "name": "Lucknow Infra Builders Pvt Ltd",
+      "registration_number": "REG-BID-CG-A-001",
+      "address": "14-B, Hazratganj Commercial Complex, Lucknow, UP",
+      "pincode": "226001",
+      "gst_number": "GSTUPCGA001A1Z2",
+      "director_name": "Ramesh Kumar Srivastava",
+      "phone": "98001"
+    },
+    {
+      "bidder_id": "BID-CG-A-002",
+      "name": "Capital City Construction Ltd",
+      "registration_number": "REG-BID-CG-A-002",
+      "address": "14-B, Hazratganj Commercial Complex, Lucknow, UP",
+      "pincode": "226001",
+      "gst_number": "GSTUPCGA002A1Z3",
+      "director_name": "Ramesh Kumar Srivastava",
+      "phone": "98002"
+    },
+    {
+      "bidder_id": "BID-CG-A-003",
+      "name": "North India Projects Corp",
+      "registration_number": "REG-BID-CG-A-003",
+      "address": "14-B, Hazratganj Commercial Complex, Lucknow, UP",
+      "pincode": "226001",
+      "gst_number": "GSTUPCGA003A1Z4",
+      "director_name": "Ramesh Kumar Srivastava",
+      "phone": "98003"
+    },
+    {
+      "bidder_id": "BID-CG-B-001",
+      "name": "Chennai Tech Procurements Ltd",
+      "registration_number": "REG-BID-CG-B-001",
+      "address": "7, Anna Salai, Nungambakkam, Chennai",
+      "pincode": "600034",
+      "gst_number": "GSTTNCGB001A1Z5",
+      "director_name": "Karthik Venkataraman",
+      "phone": "98001"
+    },
+    {
+      "bidder_id": "BID-CG-B-002",
+      "name": "SouthStar IT Services Pvt Ltd",
+      "registration_number": "REG-BID-CG-B-002",
+      "address": "7, Anna Salai, Nungambakkam, Chennai",
+      "pincode": "600034",
+      "gst_number": "GSTTNCGB002A1Z6",
+      "director_name": "Karthik Venkataraman",
+      "phone": "98002"
+    },
+    {
+      "bidder_id": "BID-CG-C-001",
+      "name": "Bihar General Traders Pvt Ltd",
+      "registration_number": "REG-BID-CG-C-001",
+      "address": "22, Fraser Road, Patna, Bihar",
+      "pincode": "800001",
+      "gst_number": "GSTBRCGC001A1Z7",
+      "director_name": "Anil Kumar Mishra",
+      "phone": "98001"
+    },
+    {
+      "bidder_id": "BID-CG-C-002",
+      "name": "Patna Procurement Solutions Ltd",
+      "registration_number": "REG-BID-CG-C-002",
+      "address": "22, Fraser Road, Patna, Bihar",
+      "pincode": "800001",
+      "gst_number": "GSTBRCGC002A1Z8",
+      "director_name": "Anil Kumar Mishra",
+      "phone": "98002"
+    },
+    {
+      "bidder_id": "BID-CG-C-003",
+      "name": "Ganga Infra Services Corp",
+      "registration_number": "REG-BID-CG-C-003",
+      "address": "22, Fraser Road, Patna, Bihar",
+      "pincode": "800001",
+      "gst_number": "GSTBRCGC003A1Z9",
+      "director_name": "Anil Kumar Mishra",
+      "phone": "98003"
+    },
+    {
+      "bidder_id": "BID-CG-D-001",
+      "name": "HydroTech Systems Pvt Ltd",
+      "registration_number": "REG-BID-CG-D-001",
+      "address": "Plot 23, Cyber Towers, Hitech City, Hyderabad",
+      "pincode": "500081",
+      "gst_number": "GSTTSCGD001A1Z1",
+      "director_name": "Suresh Naidu Reddy",
+      "phone": "98001"
+    },
+    {
+      "bidder_id": "BID-CG-D-002",
+      "name": "Deccan Energy Solutions Ltd",
+      "registration_number": "REG-BID-CG-D-002",
+      "address": "Plot 23, Cyber Towers, Hitech City, Hyderabad",
+      "pincode": "500081",
+      "gst_number": "GSTTSCGD002A1Z2",
+      "director_name": "Suresh Naidu Reddy",
+      "phone": "98002"
+    },
+    {
+      "bidder_id": "BID-CG-E-001",
+      "name": "Rajputana Medical Supplies Pvt Ltd",
+      "registration_number": "REG-BID-CG-E-001",
+      "address": "B-107, Malviya Nagar Industrial Area, Jaipur",
+      "pincode": "302017",
+      "gst_number": "GSTRJCGE001A1Z3",
+      "director_name": "Vijay Singh Shekhawat",
+      "phone": "98001"
+    },
+    {
+      "bidder_id": "BID-CG-E-002",
+      "name": "Desert State Pharma Corp",
+      "registration_number": "REG-BID-CG-E-002",
+      "address": "B-107, Malviya Nagar Industrial Area, Jaipur",
+      "pincode": "302017",
+      "gst_number": "GSTRJCGE002A1Z4",
+      "director_name": "Vijay Singh Shekhawat",
+      "phone": "98002"
+    },
+    {
+      "bidder_id": "BID-CG-E-003",
+      "name": "Jaipur Healthcare Traders Ltd",
+      "registration_number": "REG-BID-CG-E-003",
+      "address": "B-107, Malviya Nagar Industrial Area, Jaipur",
+      "pincode": "302017",
+      "gst_number": "GSTRJCGE003A1Z5",
+      "director_name": "Vijay Singh Shekhawat",
+      "phone": "98003"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-0",
+      "name": "Sunrise Construction Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-001-0",
+      "address": "50, Industrial Estate, Block 1, Nashik",
+      "pincode": "600000",
+      "gst_number": "GSTCL0010",
+      "director_name": "Director-CL-0-0",
+      "phone": "980010"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-1",
+      "name": "Clean Bidder 1 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-1",
+      "address": "62, Industrial Estate, Block 2, Nashik",
+      "pincode": "600001",
+      "gst_number": "GSTCL0011",
+      "director_name": "Director-CL-0-1",
+      "phone": "980011"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-2",
+      "name": "Clean Bidder 2 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-2",
+      "address": "74, Industrial Estate, Block 3, Nashik",
+      "pincode": "600002",
+      "gst_number": "GSTCL0012",
+      "director_name": "Director-CL-0-2",
+      "phone": "980012"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-3",
+      "name": "Clean Bidder 3 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-3",
+      "address": "86, Industrial Estate, Block 4, Nashik",
+      "pincode": "600003",
+      "gst_number": "GSTCL0013",
+      "director_name": "Director-CL-0-3",
+      "phone": "980013"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-4",
+      "name": "Clean Bidder 4 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-4",
+      "address": "98, Industrial Estate, Block 5, Nashik",
+      "pincode": "600004",
+      "gst_number": "GSTCL0014",
+      "director_name": "Director-CL-0-4",
+      "phone": "980014"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-5",
+      "name": "Clean Bidder 5 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-5",
+      "address": "110, Industrial Estate, Block 6, Nashik",
+      "pincode": "600005",
+      "gst_number": "GSTCL0015",
+      "director_name": "Director-CL-0-5",
+      "phone": "980015"
+    },
+    {
+      "bidder_id": "BID-CLEAN-001-6",
+      "name": "Clean Bidder 6 for T-121",
+      "registration_number": "REG-BID-CLEAN-001-6",
+      "address": "122, Industrial Estate, Block 7, Nashik",
+      "pincode": "600006",
+      "gst_number": "GSTCL0016",
+      "director_name": "Director-CL-0-6",
+      "phone": "980016"
+    },
+    {
+      "bidder_id": "BID-CLEAN-002-0",
+      "name": "National Building Materials",
+      "registration_number": "REG-BID-CLEAN-002-0",
+      "address": "50, Industrial Estate, Block 1, Hubballi",
+      "pincode": "600007",
+      "gst_number": "GSTCL0020",
+      "director_name": "Director-CL-1-0",
+      "phone": "980020"
+    },
+    {
+      "bidder_id": "BID-CLEAN-002-1",
+      "name": "Clean Bidder 1 for T-122",
+      "registration_number": "REG-BID-CLEAN-002-1",
+      "address": "62, Industrial Estate, Block 2, Hubballi",
+      "pincode": "600008",
+      "gst_number": "GSTCL0021",
+      "director_name": "Director-CL-1-1",
+      "phone": "980021"
+    },
+    {
+      "bidder_id": "BID-CLEAN-002-2",
+      "name": "Clean Bidder 2 for T-122",
+      "registration_number": "REG-BID-CLEAN-002-2",
+      "address": "74, Industrial Estate, Block 3, Hubballi",
+      "pincode": "600009",
+      "gst_number": "GSTCL0022",
+      "director_name": "Director-CL-1-2",
+      "phone": "980022"
+    },
+    {
+      "bidder_id": "BID-CLEAN-002-3",
+      "name": "Clean Bidder 3 for T-122",
+      "registration_number": "REG-BID-CLEAN-002-3",
+      "address": "86, Industrial Estate, Block 4, Hubballi",
+      "pincode": "600010",
+      "gst_number": "GSTCL0023",
+      "director_name": "Director-CL-1-3",
+      "phone": "980023"
+    },
+    {
+      "bidder_id": "BID-CLEAN-003-0",
+      "name": "ProTech Systems India",
+      "registration_number": "REG-BID-CLEAN-003-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600014",
+      "gst_number": "GSTCL0030",
+      "director_name": "Director-CL-2-0",
+      "phone": "980030"
+    },
+    {
+      "bidder_id": "BID-CLEAN-003-1",
+      "name": "Clean Bidder 1 for T-123",
+      "registration_number": "REG-BID-CLEAN-003-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600015",
+      "gst_number": "GSTCL0031",
+      "director_name": "Director-CL-2-1",
+      "phone": "980031"
+    },
+    {
+      "bidder_id": "BID-CLEAN-003-2",
+      "name": "Clean Bidder 2 for T-123",
+      "registration_number": "REG-BID-CLEAN-003-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600016",
+      "gst_number": "GSTCL0032",
+      "director_name": "Director-CL-2-2",
+      "phone": "980032"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-0",
+      "name": "AquaFlow Pipes Co.",
+      "registration_number": "REG-BID-CLEAN-004-0",
+      "address": "50, Industrial Estate, Block 1, Trichy",
+      "pincode": "600021",
+      "gst_number": "GSTCL0040",
+      "director_name": "Director-CL-3-0",
+      "phone": "980040"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-1",
+      "name": "Clean Bidder 1 for T-124",
+      "registration_number": "REG-BID-CLEAN-004-1",
+      "address": "62, Industrial Estate, Block 2, Trichy",
+      "pincode": "600022",
+      "gst_number": "GSTCL0041",
+      "director_name": "Director-CL-3-1",
+      "phone": "980041"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-2",
+      "name": "Clean Bidder 2 for T-124",
+      "registration_number": "REG-BID-CLEAN-004-2",
+      "address": "74, Industrial Estate, Block 3, Trichy",
+      "pincode": "600023",
+      "gst_number": "GSTCL0042",
+      "director_name": "Director-CL-3-2",
+      "phone": "980042"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-3",
+      "name": "Clean Bidder 3 for T-124",
+      "registration_number": "REG-BID-CLEAN-004-3",
+      "address": "86, Industrial Estate, Block 4, Trichy",
+      "pincode": "600024",
+      "gst_number": "GSTCL0043",
+      "director_name": "Director-CL-3-3",
+      "phone": "980043"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-4",
+      "name": "Clean Bidder 4 for T-124",
+      "registration_number": "REG-BID-CLEAN-004-4",
+      "address": "98, Industrial Estate, Block 5, Trichy",
+      "pincode": "600025",
+      "gst_number": "GSTCL0044",
+      "director_name": "Director-CL-3-4",
+      "phone": "980044"
+    },
+    {
+      "bidder_id": "BID-CLEAN-004-5",
+      "name": "Clean Bidder 5 for T-124",
+      "registration_number": "REG-BID-CLEAN-004-5",
+      "address": "110, Industrial Estate, Block 6, Trichy",
+      "pincode": "600026",
+      "gst_number": "GSTCL0045",
+      "director_name": "Director-CL-3-5",
+      "phone": "980045"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-0",
+      "name": "MediCare Distributors Ltd",
+      "registration_number": "REG-BID-CLEAN-005-0",
+      "address": "50, Industrial Estate, Block 1, Thrissur",
+      "pincode": "600028",
+      "gst_number": "GSTCL0050",
+      "director_name": "Director-CL-4-0",
+      "phone": "980050"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-1",
+      "name": "Clean Bidder 1 for T-125",
+      "registration_number": "REG-BID-CLEAN-005-1",
+      "address": "62, Industrial Estate, Block 2, Thrissur",
+      "pincode": "600029",
+      "gst_number": "GSTCL0051",
+      "director_name": "Director-CL-4-1",
+      "phone": "980051"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-2",
+      "name": "Clean Bidder 2 for T-125",
+      "registration_number": "REG-BID-CLEAN-005-2",
+      "address": "74, Industrial Estate, Block 3, Thrissur",
+      "pincode": "600030",
+      "gst_number": "GSTCL0052",
+      "director_name": "Director-CL-4-2",
+      "phone": "980052"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-3",
+      "name": "Clean Bidder 3 for T-125",
+      "registration_number": "REG-BID-CLEAN-005-3",
+      "address": "86, Industrial Estate, Block 4, Thrissur",
+      "pincode": "600031",
+      "gst_number": "GSTCL0053",
+      "director_name": "Director-CL-4-3",
+      "phone": "980053"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-4",
+      "name": "Clean Bidder 4 for T-125",
+      "registration_number": "REG-BID-CLEAN-005-4",
+      "address": "98, Industrial Estate, Block 5, Thrissur",
+      "pincode": "600032",
+      "gst_number": "GSTCL0054",
+      "director_name": "Director-CL-4-4",
+      "phone": "980054"
+    },
+    {
+      "bidder_id": "BID-CLEAN-005-5",
+      "name": "Clean Bidder 5 for T-125",
+      "registration_number": "REG-BID-CLEAN-005-5",
+      "address": "110, Industrial Estate, Block 6, Thrissur",
+      "pincode": "600033",
+      "gst_number": "GSTCL0055",
+      "director_name": "Director-CL-4-5",
+      "phone": "980055"
+    },
+    {
+      "bidder_id": "BID-CLEAN-006-0",
+      "name": "BrightPath Solar Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-006-0",
+      "address": "50, Industrial Estate, Block 1, Mumbai",
+      "pincode": "600035",
+      "gst_number": "GSTCL0060",
+      "director_name": "Director-CL-5-0",
+      "phone": "980060"
+    },
+    {
+      "bidder_id": "BID-CLEAN-006-1",
+      "name": "Clean Bidder 1 for T-126",
+      "registration_number": "REG-BID-CLEAN-006-1",
+      "address": "62, Industrial Estate, Block 2, Mumbai",
+      "pincode": "600036",
+      "gst_number": "GSTCL0061",
+      "director_name": "Director-CL-5-1",
+      "phone": "980061"
+    },
+    {
+      "bidder_id": "BID-CLEAN-006-2",
+      "name": "Clean Bidder 2 for T-126",
+      "registration_number": "REG-BID-CLEAN-006-2",
+      "address": "74, Industrial Estate, Block 3, Mumbai",
+      "pincode": "600037",
+      "gst_number": "GSTCL0062",
+      "director_name": "Director-CL-5-2",
+      "phone": "980062"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-0",
+      "name": "GreenBuild Infra",
+      "registration_number": "REG-BID-CLEAN-007-0",
+      "address": "50, Industrial Estate, Block 1, Bengaluru",
+      "pincode": "600042",
+      "gst_number": "GSTCL0070",
+      "director_name": "Director-CL-6-0",
+      "phone": "980070"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-1",
+      "name": "Clean Bidder 1 for T-127",
+      "registration_number": "REG-BID-CLEAN-007-1",
+      "address": "62, Industrial Estate, Block 2, Bengaluru",
+      "pincode": "600043",
+      "gst_number": "GSTCL0071",
+      "director_name": "Director-CL-6-1",
+      "phone": "980071"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-2",
+      "name": "Clean Bidder 2 for T-127",
+      "registration_number": "REG-BID-CLEAN-007-2",
+      "address": "74, Industrial Estate, Block 3, Bengaluru",
+      "pincode": "600044",
+      "gst_number": "GSTCL0072",
+      "director_name": "Director-CL-6-2",
+      "phone": "980072"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-3",
+      "name": "Clean Bidder 3 for T-127",
+      "registration_number": "REG-BID-CLEAN-007-3",
+      "address": "86, Industrial Estate, Block 4, Bengaluru",
+      "pincode": "600045",
+      "gst_number": "GSTCL0073",
+      "director_name": "Director-CL-6-3",
+      "phone": "980073"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-4",
+      "name": "Clean Bidder 4 for T-127",
+      "registration_number": "REG-BID-CLEAN-007-4",
+      "address": "98, Industrial Estate, Block 5, Bengaluru",
+      "pincode": "600046",
+      "gst_number": "GSTCL0074",
+      "director_name": "Director-CL-6-4",
+      "phone": "980074"
+    },
+    {
+      "bidder_id": "BID-CLEAN-007-5",
+      "name": "Clean Bidder 5 for T-127",
+      "registration_number": "REG-BID-CLEAN-007-5",
+      "address": "110, Industrial Estate, Block 6, Bengaluru",
+      "pincode": "600047",
+      "gst_number": "GSTCL0075",
+      "director_name": "Director-CL-6-5",
+      "phone": "980075"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-0",
+      "name": "Reliable Cement Corp",
+      "registration_number": "REG-BID-CLEAN-008-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600049",
+      "gst_number": "GSTCL0080",
+      "director_name": "Director-CL-7-0",
+      "phone": "980080"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-1",
+      "name": "Clean Bidder 1 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600050",
+      "gst_number": "GSTCL0081",
+      "director_name": "Director-CL-7-1",
+      "phone": "980081"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-2",
+      "name": "Clean Bidder 2 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600051",
+      "gst_number": "GSTCL0082",
+      "director_name": "Director-CL-7-2",
+      "phone": "980082"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-3",
+      "name": "Clean Bidder 3 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-3",
+      "address": "86, Industrial Estate, Block 4, Ahmedabad",
+      "pincode": "600052",
+      "gst_number": "GSTCL0083",
+      "director_name": "Director-CL-7-3",
+      "phone": "980083"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-4",
+      "name": "Clean Bidder 4 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-4",
+      "address": "98, Industrial Estate, Block 5, Ahmedabad",
+      "pincode": "600053",
+      "gst_number": "GSTCL0084",
+      "director_name": "Director-CL-7-4",
+      "phone": "980084"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-5",
+      "name": "Clean Bidder 5 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-5",
+      "address": "110, Industrial Estate, Block 6, Ahmedabad",
+      "pincode": "600054",
+      "gst_number": "GSTCL0085",
+      "director_name": "Director-CL-7-5",
+      "phone": "980085"
+    },
+    {
+      "bidder_id": "BID-CLEAN-008-6",
+      "name": "Clean Bidder 6 for T-128",
+      "registration_number": "REG-BID-CLEAN-008-6",
+      "address": "122, Industrial Estate, Block 7, Ahmedabad",
+      "pincode": "600055",
+      "gst_number": "GSTCL0086",
+      "director_name": "Director-CL-7-6",
+      "phone": "980086"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-0",
+      "name": "SafeRoad Bitumen Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-009-0",
+      "address": "50, Industrial Estate, Block 1, Coimbatore",
+      "pincode": "600056",
+      "gst_number": "GSTCL0090",
+      "director_name": "Director-CL-8-0",
+      "phone": "980090"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-1",
+      "name": "Clean Bidder 1 for T-129",
+      "registration_number": "REG-BID-CLEAN-009-1",
+      "address": "62, Industrial Estate, Block 2, Coimbatore",
+      "pincode": "600057",
+      "gst_number": "GSTCL0091",
+      "director_name": "Director-CL-8-1",
+      "phone": "980091"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-2",
+      "name": "Clean Bidder 2 for T-129",
+      "registration_number": "REG-BID-CLEAN-009-2",
+      "address": "74, Industrial Estate, Block 3, Coimbatore",
+      "pincode": "600058",
+      "gst_number": "GSTCL0092",
+      "director_name": "Director-CL-8-2",
+      "phone": "980092"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-3",
+      "name": "Clean Bidder 3 for T-129",
+      "registration_number": "REG-BID-CLEAN-009-3",
+      "address": "86, Industrial Estate, Block 4, Coimbatore",
+      "pincode": "600059",
+      "gst_number": "GSTCL0093",
+      "director_name": "Director-CL-8-3",
+      "phone": "980093"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-4",
+      "name": "Clean Bidder 4 for T-129",
+      "registration_number": "REG-BID-CLEAN-009-4",
+      "address": "98, Industrial Estate, Block 5, Coimbatore",
+      "pincode": "600060",
+      "gst_number": "GSTCL0094",
+      "director_name": "Director-CL-8-4",
+      "phone": "980094"
+    },
+    {
+      "bidder_id": "BID-CLEAN-009-5",
+      "name": "Clean Bidder 5 for T-129",
+      "registration_number": "REG-BID-CLEAN-009-5",
+      "address": "110, Industrial Estate, Block 6, Coimbatore",
+      "pincode": "600061",
+      "gst_number": "GSTCL0095",
+      "director_name": "Director-CL-8-5",
+      "phone": "980095"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-0",
+      "name": "EduTech Hardware Solutions",
+      "registration_number": "REG-BID-CLEAN-010-0",
+      "address": "50, Industrial Estate, Block 1, Kozhikode",
+      "pincode": "600063",
+      "gst_number": "GSTCL0100",
+      "director_name": "Director-CL-9-0",
+      "phone": "980100"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-1",
+      "name": "Clean Bidder 1 for T-130",
+      "registration_number": "REG-BID-CLEAN-010-1",
+      "address": "62, Industrial Estate, Block 2, Kozhikode",
+      "pincode": "600064",
+      "gst_number": "GSTCL0101",
+      "director_name": "Director-CL-9-1",
+      "phone": "980101"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-2",
+      "name": "Clean Bidder 2 for T-130",
+      "registration_number": "REG-BID-CLEAN-010-2",
+      "address": "74, Industrial Estate, Block 3, Kozhikode",
+      "pincode": "600065",
+      "gst_number": "GSTCL0102",
+      "director_name": "Director-CL-9-2",
+      "phone": "980102"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-3",
+      "name": "Clean Bidder 3 for T-130",
+      "registration_number": "REG-BID-CLEAN-010-3",
+      "address": "86, Industrial Estate, Block 4, Kozhikode",
+      "pincode": "600066",
+      "gst_number": "GSTCL0103",
+      "director_name": "Director-CL-9-3",
+      "phone": "980103"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-4",
+      "name": "Clean Bidder 4 for T-130",
+      "registration_number": "REG-BID-CLEAN-010-4",
+      "address": "98, Industrial Estate, Block 5, Kozhikode",
+      "pincode": "600067",
+      "gst_number": "GSTCL0104",
+      "director_name": "Director-CL-9-4",
+      "phone": "980104"
+    },
+    {
+      "bidder_id": "BID-CLEAN-010-5",
+      "name": "Clean Bidder 5 for T-130",
+      "registration_number": "REG-BID-CLEAN-010-5",
+      "address": "110, Industrial Estate, Block 6, Kozhikode",
+      "pincode": "600068",
+      "gst_number": "GSTCL0105",
+      "director_name": "Director-CL-9-5",
+      "phone": "980105"
+    },
+    {
+      "bidder_id": "BID-CLEAN-011-0",
+      "name": "Sunrise Construction Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-011-0",
+      "address": "50, Industrial Estate, Block 1, Nashik",
+      "pincode": "600070",
+      "gst_number": "GSTCL0110",
+      "director_name": "Director-CL-10-0",
+      "phone": "980110"
+    },
+    {
+      "bidder_id": "BID-CLEAN-011-1",
+      "name": "Clean Bidder 1 for T-131",
+      "registration_number": "REG-BID-CLEAN-011-1",
+      "address": "62, Industrial Estate, Block 2, Nashik",
+      "pincode": "600071",
+      "gst_number": "GSTCL0111",
+      "director_name": "Director-CL-10-1",
+      "phone": "980111"
+    },
+    {
+      "bidder_id": "BID-CLEAN-011-2",
+      "name": "Clean Bidder 2 for T-131",
+      "registration_number": "REG-BID-CLEAN-011-2",
+      "address": "74, Industrial Estate, Block 3, Nashik",
+      "pincode": "600072",
+      "gst_number": "GSTCL0112",
+      "director_name": "Director-CL-10-2",
+      "phone": "980112"
+    },
+    {
+      "bidder_id": "BID-CLEAN-011-3",
+      "name": "Clean Bidder 3 for T-131",
+      "registration_number": "REG-BID-CLEAN-011-3",
+      "address": "86, Industrial Estate, Block 4, Nashik",
+      "pincode": "600073",
+      "gst_number": "GSTCL0113",
+      "director_name": "Director-CL-10-3",
+      "phone": "980113"
+    },
+    {
+      "bidder_id": "BID-CLEAN-012-0",
+      "name": "National Building Materials",
+      "registration_number": "REG-BID-CLEAN-012-0",
+      "address": "50, Industrial Estate, Block 1, Mysuru",
+      "pincode": "600077",
+      "gst_number": "GSTCL0120",
+      "director_name": "Director-CL-11-0",
+      "phone": "980120"
+    },
+    {
+      "bidder_id": "BID-CLEAN-012-1",
+      "name": "Clean Bidder 1 for T-132",
+      "registration_number": "REG-BID-CLEAN-012-1",
+      "address": "62, Industrial Estate, Block 2, Mysuru",
+      "pincode": "600078",
+      "gst_number": "GSTCL0121",
+      "director_name": "Director-CL-11-1",
+      "phone": "980121"
+    },
+    {
+      "bidder_id": "BID-CLEAN-012-2",
+      "name": "Clean Bidder 2 for T-132",
+      "registration_number": "REG-BID-CLEAN-012-2",
+      "address": "74, Industrial Estate, Block 3, Mysuru",
+      "pincode": "600079",
+      "gst_number": "GSTCL0122",
+      "director_name": "Director-CL-11-2",
+      "phone": "980122"
+    },
+    {
+      "bidder_id": "BID-CLEAN-012-3",
+      "name": "Clean Bidder 3 for T-132",
+      "registration_number": "REG-BID-CLEAN-012-3",
+      "address": "86, Industrial Estate, Block 4, Mysuru",
+      "pincode": "600080",
+      "gst_number": "GSTCL0123",
+      "director_name": "Director-CL-11-3",
+      "phone": "980123"
+    },
+    {
+      "bidder_id": "BID-CLEAN-013-0",
+      "name": "ProTech Systems India",
+      "registration_number": "REG-BID-CLEAN-013-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600084",
+      "gst_number": "GSTCL0130",
+      "director_name": "Director-CL-12-0",
+      "phone": "980130"
+    },
+    {
+      "bidder_id": "BID-CLEAN-013-1",
+      "name": "Clean Bidder 1 for T-133",
+      "registration_number": "REG-BID-CLEAN-013-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600085",
+      "gst_number": "GSTCL0131",
+      "director_name": "Director-CL-12-1",
+      "phone": "980131"
+    },
+    {
+      "bidder_id": "BID-CLEAN-013-2",
+      "name": "Clean Bidder 2 for T-133",
+      "registration_number": "REG-BID-CLEAN-013-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600086",
+      "gst_number": "GSTCL0132",
+      "director_name": "Director-CL-12-2",
+      "phone": "980132"
+    },
+    {
+      "bidder_id": "BID-CLEAN-013-3",
+      "name": "Clean Bidder 3 for T-133",
+      "registration_number": "REG-BID-CLEAN-013-3",
+      "address": "86, Industrial Estate, Block 4, Ahmedabad",
+      "pincode": "600087",
+      "gst_number": "GSTCL0133",
+      "director_name": "Director-CL-12-3",
+      "phone": "980133"
+    },
+    {
+      "bidder_id": "BID-CLEAN-014-0",
+      "name": "AquaFlow Pipes Co.",
+      "registration_number": "REG-BID-CLEAN-014-0",
+      "address": "50, Industrial Estate, Block 1, Trichy",
+      "pincode": "600091",
+      "gst_number": "GSTCL0140",
+      "director_name": "Director-CL-13-0",
+      "phone": "980140"
+    },
+    {
+      "bidder_id": "BID-CLEAN-014-1",
+      "name": "Clean Bidder 1 for T-134",
+      "registration_number": "REG-BID-CLEAN-014-1",
+      "address": "62, Industrial Estate, Block 2, Trichy",
+      "pincode": "600092",
+      "gst_number": "GSTCL0141",
+      "director_name": "Director-CL-13-1",
+      "phone": "980141"
+    },
+    {
+      "bidder_id": "BID-CLEAN-014-2",
+      "name": "Clean Bidder 2 for T-134",
+      "registration_number": "REG-BID-CLEAN-014-2",
+      "address": "74, Industrial Estate, Block 3, Trichy",
+      "pincode": "600093",
+      "gst_number": "GSTCL0142",
+      "director_name": "Director-CL-13-2",
+      "phone": "980142"
+    },
+    {
+      "bidder_id": "BID-CLEAN-014-3",
+      "name": "Clean Bidder 3 for T-134",
+      "registration_number": "REG-BID-CLEAN-014-3",
+      "address": "86, Industrial Estate, Block 4, Trichy",
+      "pincode": "600094",
+      "gst_number": "GSTCL0143",
+      "director_name": "Director-CL-13-3",
+      "phone": "980143"
+    },
+    {
+      "bidder_id": "BID-CLEAN-015-0",
+      "name": "MediCare Distributors Ltd",
+      "registration_number": "REG-BID-CLEAN-015-0",
+      "address": "50, Industrial Estate, Block 1, Kozhikode",
+      "pincode": "600098",
+      "gst_number": "GSTCL0150",
+      "director_name": "Director-CL-14-0",
+      "phone": "980150"
+    },
+    {
+      "bidder_id": "BID-CLEAN-015-1",
+      "name": "Clean Bidder 1 for T-135",
+      "registration_number": "REG-BID-CLEAN-015-1",
+      "address": "62, Industrial Estate, Block 2, Kozhikode",
+      "pincode": "600099",
+      "gst_number": "GSTCL0151",
+      "director_name": "Director-CL-14-1",
+      "phone": "980151"
+    },
+    {
+      "bidder_id": "BID-CLEAN-015-2",
+      "name": "Clean Bidder 2 for T-135",
+      "registration_number": "REG-BID-CLEAN-015-2",
+      "address": "74, Industrial Estate, Block 3, Kozhikode",
+      "pincode": "600100",
+      "gst_number": "GSTCL0152",
+      "director_name": "Director-CL-14-2",
+      "phone": "980152"
+    },
+    {
+      "bidder_id": "BID-CLEAN-015-3",
+      "name": "Clean Bidder 3 for T-135",
+      "registration_number": "REG-BID-CLEAN-015-3",
+      "address": "86, Industrial Estate, Block 4, Kozhikode",
+      "pincode": "600101",
+      "gst_number": "GSTCL0153",
+      "director_name": "Director-CL-14-3",
+      "phone": "980153"
+    },
+    {
+      "bidder_id": "BID-CLEAN-016-0",
+      "name": "BrightPath Solar Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-016-0",
+      "address": "50, Industrial Estate, Block 1, Nagpur",
+      "pincode": "600105",
+      "gst_number": "GSTCL0160",
+      "director_name": "Director-CL-15-0",
+      "phone": "980160"
+    },
+    {
+      "bidder_id": "BID-CLEAN-016-1",
+      "name": "Clean Bidder 1 for T-136",
+      "registration_number": "REG-BID-CLEAN-016-1",
+      "address": "62, Industrial Estate, Block 2, Nagpur",
+      "pincode": "600106",
+      "gst_number": "GSTCL0161",
+      "director_name": "Director-CL-15-1",
+      "phone": "980161"
+    },
+    {
+      "bidder_id": "BID-CLEAN-016-2",
+      "name": "Clean Bidder 2 for T-136",
+      "registration_number": "REG-BID-CLEAN-016-2",
+      "address": "74, Industrial Estate, Block 3, Nagpur",
+      "pincode": "600107",
+      "gst_number": "GSTCL0162",
+      "director_name": "Director-CL-15-2",
+      "phone": "980162"
+    },
+    {
+      "bidder_id": "BID-CLEAN-017-0",
+      "name": "GreenBuild Infra",
+      "registration_number": "REG-BID-CLEAN-017-0",
+      "address": "50, Industrial Estate, Block 1, Hubballi",
+      "pincode": "600112",
+      "gst_number": "GSTCL0170",
+      "director_name": "Director-CL-16-0",
+      "phone": "980170"
+    },
+    {
+      "bidder_id": "BID-CLEAN-017-1",
+      "name": "Clean Bidder 1 for T-137",
+      "registration_number": "REG-BID-CLEAN-017-1",
+      "address": "62, Industrial Estate, Block 2, Hubballi",
+      "pincode": "600113",
+      "gst_number": "GSTCL0171",
+      "director_name": "Director-CL-16-1",
+      "phone": "980171"
+    },
+    {
+      "bidder_id": "BID-CLEAN-017-2",
+      "name": "Clean Bidder 2 for T-137",
+      "registration_number": "REG-BID-CLEAN-017-2",
+      "address": "74, Industrial Estate, Block 3, Hubballi",
+      "pincode": "600114",
+      "gst_number": "GSTCL0172",
+      "director_name": "Director-CL-16-2",
+      "phone": "980172"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-0",
+      "name": "Reliable Cement Corp",
+      "registration_number": "REG-BID-CLEAN-018-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600119",
+      "gst_number": "GSTCL0180",
+      "director_name": "Director-CL-17-0",
+      "phone": "980180"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-1",
+      "name": "Clean Bidder 1 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600120",
+      "gst_number": "GSTCL0181",
+      "director_name": "Director-CL-17-1",
+      "phone": "980181"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-2",
+      "name": "Clean Bidder 2 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600121",
+      "gst_number": "GSTCL0182",
+      "director_name": "Director-CL-17-2",
+      "phone": "980182"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-3",
+      "name": "Clean Bidder 3 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-3",
+      "address": "86, Industrial Estate, Block 4, Ahmedabad",
+      "pincode": "600122",
+      "gst_number": "GSTCL0183",
+      "director_name": "Director-CL-17-3",
+      "phone": "980183"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-4",
+      "name": "Clean Bidder 4 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-4",
+      "address": "98, Industrial Estate, Block 5, Ahmedabad",
+      "pincode": "600123",
+      "gst_number": "GSTCL0184",
+      "director_name": "Director-CL-17-4",
+      "phone": "980184"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-5",
+      "name": "Clean Bidder 5 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-5",
+      "address": "110, Industrial Estate, Block 6, Ahmedabad",
+      "pincode": "600124",
+      "gst_number": "GSTCL0185",
+      "director_name": "Director-CL-17-5",
+      "phone": "980185"
+    },
+    {
+      "bidder_id": "BID-CLEAN-018-6",
+      "name": "Clean Bidder 6 for T-138",
+      "registration_number": "REG-BID-CLEAN-018-6",
+      "address": "122, Industrial Estate, Block 7, Ahmedabad",
+      "pincode": "600125",
+      "gst_number": "GSTCL0186",
+      "director_name": "Director-CL-17-6",
+      "phone": "980186"
+    },
+    {
+      "bidder_id": "BID-CLEAN-019-0",
+      "name": "SafeRoad Bitumen Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-019-0",
+      "address": "50, Industrial Estate, Block 1, Trichy",
+      "pincode": "600126",
+      "gst_number": "GSTCL0190",
+      "director_name": "Director-CL-18-0",
+      "phone": "980190"
+    },
+    {
+      "bidder_id": "BID-CLEAN-019-1",
+      "name": "Clean Bidder 1 for T-139",
+      "registration_number": "REG-BID-CLEAN-019-1",
+      "address": "62, Industrial Estate, Block 2, Trichy",
+      "pincode": "600127",
+      "gst_number": "GSTCL0191",
+      "director_name": "Director-CL-18-1",
+      "phone": "980191"
+    },
+    {
+      "bidder_id": "BID-CLEAN-019-2",
+      "name": "Clean Bidder 2 for T-139",
+      "registration_number": "REG-BID-CLEAN-019-2",
+      "address": "74, Industrial Estate, Block 3, Trichy",
+      "pincode": "600128",
+      "gst_number": "GSTCL0192",
+      "director_name": "Director-CL-18-2",
+      "phone": "980192"
+    },
+    {
+      "bidder_id": "BID-CLEAN-019-3",
+      "name": "Clean Bidder 3 for T-139",
+      "registration_number": "REG-BID-CLEAN-019-3",
+      "address": "86, Industrial Estate, Block 4, Trichy",
+      "pincode": "600129",
+      "gst_number": "GSTCL0193",
+      "director_name": "Director-CL-18-3",
+      "phone": "980193"
+    },
+    {
+      "bidder_id": "BID-CLEAN-019-4",
+      "name": "Clean Bidder 4 for T-139",
+      "registration_number": "REG-BID-CLEAN-019-4",
+      "address": "98, Industrial Estate, Block 5, Trichy",
+      "pincode": "600130",
+      "gst_number": "GSTCL0194",
+      "director_name": "Director-CL-18-4",
+      "phone": "980194"
+    },
+    {
+      "bidder_id": "BID-CLEAN-020-0",
+      "name": "EduTech Hardware Solutions",
+      "registration_number": "REG-BID-CLEAN-020-0",
+      "address": "50, Industrial Estate, Block 1, Thrissur",
+      "pincode": "600133",
+      "gst_number": "GSTCL0200",
+      "director_name": "Director-CL-19-0",
+      "phone": "980200"
+    },
+    {
+      "bidder_id": "BID-CLEAN-020-1",
+      "name": "Clean Bidder 1 for T-140",
+      "registration_number": "REG-BID-CLEAN-020-1",
+      "address": "62, Industrial Estate, Block 2, Thrissur",
+      "pincode": "600134",
+      "gst_number": "GSTCL0201",
+      "director_name": "Director-CL-19-1",
+      "phone": "980201"
+    },
+    {
+      "bidder_id": "BID-CLEAN-020-2",
+      "name": "Clean Bidder 2 for T-140",
+      "registration_number": "REG-BID-CLEAN-020-2",
+      "address": "74, Industrial Estate, Block 3, Thrissur",
+      "pincode": "600135",
+      "gst_number": "GSTCL0202",
+      "director_name": "Director-CL-19-2",
+      "phone": "980202"
+    },
+    {
+      "bidder_id": "BID-CLEAN-020-3",
+      "name": "Clean Bidder 3 for T-140",
+      "registration_number": "REG-BID-CLEAN-020-3",
+      "address": "86, Industrial Estate, Block 4, Thrissur",
+      "pincode": "600136",
+      "gst_number": "GSTCL0203",
+      "director_name": "Director-CL-19-3",
+      "phone": "980203"
+    },
+    {
+      "bidder_id": "BID-CLEAN-021-0",
+      "name": "Sunrise Construction Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-021-0",
+      "address": "50, Industrial Estate, Block 1, Nashik",
+      "pincode": "600140",
+      "gst_number": "GSTCL0210",
+      "director_name": "Director-CL-20-0",
+      "phone": "980210"
+    },
+    {
+      "bidder_id": "BID-CLEAN-021-1",
+      "name": "Clean Bidder 1 for T-141",
+      "registration_number": "REG-BID-CLEAN-021-1",
+      "address": "62, Industrial Estate, Block 2, Nashik",
+      "pincode": "600141",
+      "gst_number": "GSTCL0211",
+      "director_name": "Director-CL-20-1",
+      "phone": "980211"
+    },
+    {
+      "bidder_id": "BID-CLEAN-021-2",
+      "name": "Clean Bidder 2 for T-141",
+      "registration_number": "REG-BID-CLEAN-021-2",
+      "address": "74, Industrial Estate, Block 3, Nashik",
+      "pincode": "600142",
+      "gst_number": "GSTCL0212",
+      "director_name": "Director-CL-20-2",
+      "phone": "980212"
+    },
+    {
+      "bidder_id": "BID-CLEAN-021-3",
+      "name": "Clean Bidder 3 for T-141",
+      "registration_number": "REG-BID-CLEAN-021-3",
+      "address": "86, Industrial Estate, Block 4, Nashik",
+      "pincode": "600143",
+      "gst_number": "GSTCL0213",
+      "director_name": "Director-CL-20-3",
+      "phone": "980213"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-0",
+      "name": "National Building Materials",
+      "registration_number": "REG-BID-CLEAN-022-0",
+      "address": "50, Industrial Estate, Block 1, Bengaluru",
+      "pincode": "600147",
+      "gst_number": "GSTCL0220",
+      "director_name": "Director-CL-21-0",
+      "phone": "980220"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-1",
+      "name": "Clean Bidder 1 for T-142",
+      "registration_number": "REG-BID-CLEAN-022-1",
+      "address": "62, Industrial Estate, Block 2, Bengaluru",
+      "pincode": "600148",
+      "gst_number": "GSTCL0221",
+      "director_name": "Director-CL-21-1",
+      "phone": "980221"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-2",
+      "name": "Clean Bidder 2 for T-142",
+      "registration_number": "REG-BID-CLEAN-022-2",
+      "address": "74, Industrial Estate, Block 3, Bengaluru",
+      "pincode": "600149",
+      "gst_number": "GSTCL0222",
+      "director_name": "Director-CL-21-2",
+      "phone": "980222"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-3",
+      "name": "Clean Bidder 3 for T-142",
+      "registration_number": "REG-BID-CLEAN-022-3",
+      "address": "86, Industrial Estate, Block 4, Bengaluru",
+      "pincode": "600150",
+      "gst_number": "GSTCL0223",
+      "director_name": "Director-CL-21-3",
+      "phone": "980223"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-4",
+      "name": "Clean Bidder 4 for T-142",
+      "registration_number": "REG-BID-CLEAN-022-4",
+      "address": "98, Industrial Estate, Block 5, Bengaluru",
+      "pincode": "600151",
+      "gst_number": "GSTCL0224",
+      "director_name": "Director-CL-21-4",
+      "phone": "980224"
+    },
+    {
+      "bidder_id": "BID-CLEAN-022-5",
+      "name": "Clean Bidder 5 for T-142",
+      "registration_number": "REG-BID-CLEAN-022-5",
+      "address": "110, Industrial Estate, Block 6, Bengaluru",
+      "pincode": "600152",
+      "gst_number": "GSTCL0225",
+      "director_name": "Director-CL-21-5",
+      "phone": "980225"
+    },
+    {
+      "bidder_id": "BID-CLEAN-023-0",
+      "name": "ProTech Systems India",
+      "registration_number": "REG-BID-CLEAN-023-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600154",
+      "gst_number": "GSTCL0230",
+      "director_name": "Director-CL-22-0",
+      "phone": "980230"
+    },
+    {
+      "bidder_id": "BID-CLEAN-023-1",
+      "name": "Clean Bidder 1 for T-143",
+      "registration_number": "REG-BID-CLEAN-023-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600155",
+      "gst_number": "GSTCL0231",
+      "director_name": "Director-CL-22-1",
+      "phone": "980231"
+    },
+    {
+      "bidder_id": "BID-CLEAN-023-2",
+      "name": "Clean Bidder 2 for T-143",
+      "registration_number": "REG-BID-CLEAN-023-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600156",
+      "gst_number": "GSTCL0232",
+      "director_name": "Director-CL-22-2",
+      "phone": "980232"
+    },
+    {
+      "bidder_id": "BID-CLEAN-024-0",
+      "name": "AquaFlow Pipes Co.",
+      "registration_number": "REG-BID-CLEAN-024-0",
+      "address": "50, Industrial Estate, Block 1, Trichy",
+      "pincode": "600161",
+      "gst_number": "GSTCL0240",
+      "director_name": "Director-CL-23-0",
+      "phone": "980240"
+    },
+    {
+      "bidder_id": "BID-CLEAN-024-1",
+      "name": "Clean Bidder 1 for T-144",
+      "registration_number": "REG-BID-CLEAN-024-1",
+      "address": "62, Industrial Estate, Block 2, Trichy",
+      "pincode": "600162",
+      "gst_number": "GSTCL0241",
+      "director_name": "Director-CL-23-1",
+      "phone": "980241"
+    },
+    {
+      "bidder_id": "BID-CLEAN-024-2",
+      "name": "Clean Bidder 2 for T-144",
+      "registration_number": "REG-BID-CLEAN-024-2",
+      "address": "74, Industrial Estate, Block 3, Trichy",
+      "pincode": "600163",
+      "gst_number": "GSTCL0242",
+      "director_name": "Director-CL-23-2",
+      "phone": "980242"
+    },
+    {
+      "bidder_id": "BID-CLEAN-024-3",
+      "name": "Clean Bidder 3 for T-144",
+      "registration_number": "REG-BID-CLEAN-024-3",
+      "address": "86, Industrial Estate, Block 4, Trichy",
+      "pincode": "600164",
+      "gst_number": "GSTCL0243",
+      "director_name": "Director-CL-23-3",
+      "phone": "980243"
+    },
+    {
+      "bidder_id": "BID-CLEAN-024-4",
+      "name": "Clean Bidder 4 for T-144",
+      "registration_number": "REG-BID-CLEAN-024-4",
+      "address": "98, Industrial Estate, Block 5, Trichy",
+      "pincode": "600165",
+      "gst_number": "GSTCL0244",
+      "director_name": "Director-CL-23-4",
+      "phone": "980244"
+    },
+    {
+      "bidder_id": "BID-CLEAN-025-0",
+      "name": "MediCare Distributors Ltd",
+      "registration_number": "REG-BID-CLEAN-025-0",
+      "address": "50, Industrial Estate, Block 1, Thrissur",
+      "pincode": "600168",
+      "gst_number": "GSTCL0250",
+      "director_name": "Director-CL-24-0",
+      "phone": "980250"
+    },
+    {
+      "bidder_id": "BID-CLEAN-025-1",
+      "name": "Clean Bidder 1 for T-145",
+      "registration_number": "REG-BID-CLEAN-025-1",
+      "address": "62, Industrial Estate, Block 2, Thrissur",
+      "pincode": "600169",
+      "gst_number": "GSTCL0251",
+      "director_name": "Director-CL-24-1",
+      "phone": "980251"
+    },
+    {
+      "bidder_id": "BID-CLEAN-025-2",
+      "name": "Clean Bidder 2 for T-145",
+      "registration_number": "REG-BID-CLEAN-025-2",
+      "address": "74, Industrial Estate, Block 3, Thrissur",
+      "pincode": "600170",
+      "gst_number": "GSTCL0252",
+      "director_name": "Director-CL-24-2",
+      "phone": "980252"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-0",
+      "name": "BrightPath Solar Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-026-0",
+      "address": "50, Industrial Estate, Block 1, Pune",
+      "pincode": "600175",
+      "gst_number": "GSTCL0260",
+      "director_name": "Director-CL-25-0",
+      "phone": "980260"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-1",
+      "name": "Clean Bidder 1 for T-146",
+      "registration_number": "REG-BID-CLEAN-026-1",
+      "address": "62, Industrial Estate, Block 2, Pune",
+      "pincode": "600176",
+      "gst_number": "GSTCL0261",
+      "director_name": "Director-CL-25-1",
+      "phone": "980261"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-2",
+      "name": "Clean Bidder 2 for T-146",
+      "registration_number": "REG-BID-CLEAN-026-2",
+      "address": "74, Industrial Estate, Block 3, Pune",
+      "pincode": "600177",
+      "gst_number": "GSTCL0262",
+      "director_name": "Director-CL-25-2",
+      "phone": "980262"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-3",
+      "name": "Clean Bidder 3 for T-146",
+      "registration_number": "REG-BID-CLEAN-026-3",
+      "address": "86, Industrial Estate, Block 4, Pune",
+      "pincode": "600178",
+      "gst_number": "GSTCL0263",
+      "director_name": "Director-CL-25-3",
+      "phone": "980263"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-4",
+      "name": "Clean Bidder 4 for T-146",
+      "registration_number": "REG-BID-CLEAN-026-4",
+      "address": "98, Industrial Estate, Block 5, Pune",
+      "pincode": "600179",
+      "gst_number": "GSTCL0264",
+      "director_name": "Director-CL-25-4",
+      "phone": "980264"
+    },
+    {
+      "bidder_id": "BID-CLEAN-026-5",
+      "name": "Clean Bidder 5 for T-146",
+      "registration_number": "REG-BID-CLEAN-026-5",
+      "address": "110, Industrial Estate, Block 6, Pune",
+      "pincode": "600180",
+      "gst_number": "GSTCL0265",
+      "director_name": "Director-CL-25-5",
+      "phone": "980265"
+    },
+    {
+      "bidder_id": "BID-CLEAN-027-0",
+      "name": "GreenBuild Infra",
+      "registration_number": "REG-BID-CLEAN-027-0",
+      "address": "50, Industrial Estate, Block 1, Mysuru",
+      "pincode": "600182",
+      "gst_number": "GSTCL0270",
+      "director_name": "Director-CL-26-0",
+      "phone": "980270"
+    },
+    {
+      "bidder_id": "BID-CLEAN-027-1",
+      "name": "Clean Bidder 1 for T-147",
+      "registration_number": "REG-BID-CLEAN-027-1",
+      "address": "62, Industrial Estate, Block 2, Mysuru",
+      "pincode": "600183",
+      "gst_number": "GSTCL0271",
+      "director_name": "Director-CL-26-1",
+      "phone": "980271"
+    },
+    {
+      "bidder_id": "BID-CLEAN-027-2",
+      "name": "Clean Bidder 2 for T-147",
+      "registration_number": "REG-BID-CLEAN-027-2",
+      "address": "74, Industrial Estate, Block 3, Mysuru",
+      "pincode": "600184",
+      "gst_number": "GSTCL0272",
+      "director_name": "Director-CL-26-2",
+      "phone": "980272"
+    },
+    {
+      "bidder_id": "BID-CLEAN-028-0",
+      "name": "Reliable Cement Corp",
+      "registration_number": "REG-BID-CLEAN-028-0",
+      "address": "50, Industrial Estate, Block 1, Ahmedabad",
+      "pincode": "600189",
+      "gst_number": "GSTCL0280",
+      "director_name": "Director-CL-27-0",
+      "phone": "980280"
+    },
+    {
+      "bidder_id": "BID-CLEAN-028-1",
+      "name": "Clean Bidder 1 for T-148",
+      "registration_number": "REG-BID-CLEAN-028-1",
+      "address": "62, Industrial Estate, Block 2, Ahmedabad",
+      "pincode": "600190",
+      "gst_number": "GSTCL0281",
+      "director_name": "Director-CL-27-1",
+      "phone": "980281"
+    },
+    {
+      "bidder_id": "BID-CLEAN-028-2",
+      "name": "Clean Bidder 2 for T-148",
+      "registration_number": "REG-BID-CLEAN-028-2",
+      "address": "74, Industrial Estate, Block 3, Ahmedabad",
+      "pincode": "600191",
+      "gst_number": "GSTCL0282",
+      "director_name": "Director-CL-27-2",
+      "phone": "980282"
+    },
+    {
+      "bidder_id": "BID-CLEAN-028-3",
+      "name": "Clean Bidder 3 for T-148",
+      "registration_number": "REG-BID-CLEAN-028-3",
+      "address": "86, Industrial Estate, Block 4, Ahmedabad",
+      "pincode": "600192",
+      "gst_number": "GSTCL0283",
+      "director_name": "Director-CL-27-3",
+      "phone": "980283"
+    },
+    {
+      "bidder_id": "BID-CLEAN-029-0",
+      "name": "SafeRoad Bitumen Pvt Ltd",
+      "registration_number": "REG-BID-CLEAN-029-0",
+      "address": "50, Industrial Estate, Block 1, Trichy",
+      "pincode": "600196",
+      "gst_number": "GSTCL0290",
+      "director_name": "Director-CL-28-0",
+      "phone": "980290"
+    },
+    {
+      "bidder_id": "BID-CLEAN-029-1",
+      "name": "Clean Bidder 1 for T-149",
+      "registration_number": "REG-BID-CLEAN-029-1",
+      "address": "62, Industrial Estate, Block 2, Trichy",
+      "pincode": "600197",
+      "gst_number": "GSTCL0291",
+      "director_name": "Director-CL-28-1",
+      "phone": "980291"
+    },
+    {
+      "bidder_id": "BID-CLEAN-029-2",
+      "name": "Clean Bidder 2 for T-149",
+      "registration_number": "REG-BID-CLEAN-029-2",
+      "address": "74, Industrial Estate, Block 3, Trichy",
+      "pincode": "600198",
+      "gst_number": "GSTCL0292",
+      "director_name": "Director-CL-28-2",
+      "phone": "980292"
+    },
+    {
+      "bidder_id": "BID-CLEAN-029-3",
+      "name": "Clean Bidder 3 for T-149",
+      "registration_number": "REG-BID-CLEAN-029-3",
+      "address": "86, Industrial Estate, Block 4, Trichy",
+      "pincode": "600199",
+      "gst_number": "GSTCL0293",
+      "director_name": "Director-CL-28-3",
+      "phone": "980293"
+    },
+    {
+      "bidder_id": "BID-CLEAN-029-4",
+      "name": "Clean Bidder 4 for T-149",
+      "registration_number": "REG-BID-CLEAN-029-4",
+      "address": "98, Industrial Estate, Block 5, Trichy",
+      "pincode": "600200",
+      "gst_number": "GSTCL0294",
+      "director_name": "Director-CL-28-4",
+      "phone": "980294"
+    },
+    {
+      "bidder_id": "BID-CLEAN-030-0",
+      "name": "EduTech Hardware Solutions",
+      "registration_number": "REG-BID-CLEAN-030-0",
+      "address": "50, Industrial Estate, Block 1, Kozhikode",
+      "pincode": "600203",
+      "gst_number": "GSTCL0300",
+      "director_name": "Director-CL-29-0",
+      "phone": "980300"
+    },
+    {
+      "bidder_id": "BID-CLEAN-030-1",
+      "name": "Clean Bidder 1 for T-150",
+      "registration_number": "REG-BID-CLEAN-030-1",
+      "address": "62, Industrial Estate, Block 2, Kozhikode",
+      "pincode": "600204",
+      "gst_number": "GSTCL0301",
+      "director_name": "Director-CL-29-1",
+      "phone": "980301"
+    },
+    {
+      "bidder_id": "BID-CLEAN-030-2",
+      "name": "Clean Bidder 2 for T-150",
+      "registration_number": "REG-BID-CLEAN-030-2",
+      "address": "74, Industrial Estate, Block 3, Kozhikode",
+      "pincode": "600205",
+      "gst_number": "GSTCL0302",
+      "director_name": "Director-CL-29-2",
+      "phone": "980302"
+    },
+    {
+      "bidder_id": "BID-CLEAN-030-3",
+      "name": "Clean Bidder 3 for T-150",
+      "registration_number": "REG-BID-CLEAN-030-3",
+      "address": "86, Industrial Estate, Block 4, Kozhikode",
+      "pincode": "600206",
+      "gst_number": "GSTCL0303",
+      "director_name": "Director-CL-29-3",
+      "phone": "980303"
+    },
+    {
+      "bidder_id": "BID-CLEAN-030-4",
+      "name": "Clean Bidder 4 for T-150",
+      "registration_number": "REG-BID-CLEAN-030-4",
+      "address": "98, Industrial Estate, Block 5, Kozhikode",
+      "pincode": "600207",
+      "gst_number": "GSTCL0304",
+      "director_name": "Director-CL-29-4",
+      "phone": "980304"
+    }
+  ]
+}

@@ -1,0 +1,2537 @@
+{
+  "metadata": {
+    "period": "2024-07-01 to 2025-06-30",
+    "source": "CPPP tender award notices, GeM order history",
+    "note": "Concentration ratio = awards to specific department / total awards in period"
+  },
+  "vendors": [
+    {
+      "vendor_id": "V-001",
+      "vendor_name": "Shree Ganesh Road Materials Pvt Ltd",
+      "total_awards": 23,
+      "total_value": 89500000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 21,
+          "total_value": 83000000,
+          "concentration_ratio": 0.91
+        },
+        {
+          "department": "PMGSY",
+          "awards": 2,
+          "total_value": 6500000,
+          "concentration_ratio": 0.09
+        }
+      ],
+      "districts": [
+        "Gurugram",
+        "Faridabad",
+        "Rohtak",
+        "Sonipat"
+      ],
+      "state": "Haryana",
+      "flags": [
+        "HIGH_CONCENTRATION",
+        "SINGLE_DEPARTMENT_DOMINANCE"
+      ]
+    },
+    {
+      "vendor_id": "V-002",
+      "vendor_name": "DigiTech Solutions Pvt Ltd",
+      "total_awards": 8,
+      "total_value": 142000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 7,
+          "total_value": 132000000,
+          "concentration_ratio": 0.875
+        },
+        {
+          "department": "Health Department",
+          "awards": 1,
+          "total_value": 10000000,
+          "concentration_ratio": 0.125
+        }
+      ],
+      "districts": [
+        "Hyderabad",
+        "Rangareddy",
+        "Warangal"
+      ],
+      "state": "Telangana",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-003",
+      "vendor_name": "National Office Mart",
+      "total_awards": 12,
+      "total_value": 28000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 9,
+          "total_value": 22000000,
+          "concentration_ratio": 0.75
+        },
+        {
+          "department": "District Administration",
+          "awards": 2,
+          "total_value": 4500000,
+          "concentration_ratio": 0.17
+        },
+        {
+          "department": "Education Department",
+          "awards": 1,
+          "total_value": 1500000,
+          "concentration_ratio": 0.08
+        }
+      ],
+      "districts": [
+        "Bhopal",
+        "Indore"
+      ],
+      "state": "Madhya Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-004",
+      "vendor_name": "Rajasthan Cement Traders",
+      "total_awards": 6,
+      "total_value": 18000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 3,
+          "total_value": 9000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Housing Department",
+          "awards": 2,
+          "total_value": 6000000,
+          "concentration_ratio": 0.33
+        },
+        {
+          "department": "PMGSY",
+          "awards": 1,
+          "total_value": 3000000,
+          "concentration_ratio": 0.17
+        }
+      ],
+      "districts": [
+        "Jaipur",
+        "Jodhpur",
+        "Ajmer"
+      ],
+      "state": "Rajasthan",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-005",
+      "vendor_name": "Bharat Office Supplies",
+      "total_awards": 9,
+      "total_value": 15000000,
+      "awards_by_department": [
+        {
+          "department": "District Administration",
+          "awards": 5,
+          "total_value": 9000000,
+          "concentration_ratio": 0.56
+        },
+        {
+          "department": "General Administration",
+          "awards": 3,
+          "total_value": 4500000,
+          "concentration_ratio": 0.33
+        },
+        {
+          "department": "Education Department",
+          "awards": 1,
+          "total_value": 1500000,
+          "concentration_ratio": 0.11
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Kanpur",
+        "Agra"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-006",
+      "vendor_name": "SunTech Energy Solutions",
+      "total_awards": 5,
+      "total_value": 32000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 4,
+          "total_value": 28000000,
+          "concentration_ratio": 0.8
+        },
+        {
+          "department": "Public Works Department",
+          "awards": 1,
+          "total_value": 4000000,
+          "concentration_ratio": 0.2
+        }
+      ],
+      "districts": [
+        "Pune",
+        "Nashik",
+        "Aurangabad"
+      ],
+      "state": "Maharashtra",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-007",
+      "vendor_name": "MediCare Distributors Pvt Ltd",
+      "total_awards": 7,
+      "total_value": 38000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 6,
+          "total_value": 34000000,
+          "concentration_ratio": 0.86
+        },
+        {
+          "department": "District Administration",
+          "awards": 1,
+          "total_value": 4000000,
+          "concentration_ratio": 0.14
+        }
+      ],
+      "districts": [
+        "Patna",
+        "Gaya",
+        "Muzaffarpur"
+      ],
+      "state": "Bihar",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-008",
+      "vendor_name": "IndianOil Distributor – Bhopal",
+      "total_awards": 4,
+      "total_value": 45000000,
+      "awards_by_department": [
+        {
+          "department": "Transport Department",
+          "awards": 2,
+          "total_value": 22000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Health Department",
+          "awards": 2,
+          "total_value": 23000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Bhopal",
+        "Jabalpur"
+      ],
+      "state": "Madhya Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-009",
+      "vendor_name": "Tata Steel Distributors",
+      "total_awards": 8,
+      "total_value": 125000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 4,
+          "total_value": 65000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Irrigation Department",
+          "awards": 2,
+          "total_value": 35000000,
+          "concentration_ratio": 0.25
+        },
+        {
+          "department": "Housing Department",
+          "awards": 2,
+          "total_value": 25000000,
+          "concentration_ratio": 0.25
+        }
+      ],
+      "districts": [
+        "Nashik",
+        "Pune",
+        "Mumbai"
+      ],
+      "state": "Maharashtra",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-010",
+      "vendor_name": "Finolex Pipes Dealers",
+      "total_awards": 6,
+      "total_value": 28000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 4,
+          "total_value": 20000000,
+          "concentration_ratio": 0.67
+        },
+        {
+          "department": "Irrigation Department",
+          "awards": 2,
+          "total_value": 8000000,
+          "concentration_ratio": 0.33
+        }
+      ],
+      "districts": [
+        "Nashik",
+        "Pune",
+        "Kolhapur"
+      ],
+      "state": "Maharashtra",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-011",
+      "vendor_name": "Havells Authorized Distributor",
+      "total_awards": 5,
+      "total_value": 52000000,
+      "awards_by_department": [
+        {
+          "department": "Power Department",
+          "awards": 3,
+          "total_value": 35000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Public Works Department",
+          "awards": 2,
+          "total_value": 17000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Raipur",
+        "Bilaspur"
+      ],
+      "state": "Chhattisgarh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-012",
+      "vendor_name": "Classic Furniture Works",
+      "total_awards": 4,
+      "total_value": 9000000,
+      "awards_by_department": [
+        {
+          "department": "District Administration",
+          "awards": 3,
+          "total_value": 7000000,
+          "concentration_ratio": 0.75
+        },
+        {
+          "department": "General Administration",
+          "awards": 1,
+          "total_value": 2000000,
+          "concentration_ratio": 0.25
+        }
+      ],
+      "districts": [
+        "Indore",
+        "Bhopal"
+      ],
+      "state": "Madhya Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-013",
+      "vendor_name": "Vinayak Stone Crushers",
+      "total_awards": 7,
+      "total_value": 32000000,
+      "awards_by_department": [
+        {
+          "department": "PMGSY",
+          "awards": 5,
+          "total_value": 24000000,
+          "concentration_ratio": 0.71
+        },
+        {
+          "department": "Public Works Department",
+          "awards": 2,
+          "total_value": 8000000,
+          "concentration_ratio": 0.29
+        }
+      ],
+      "districts": [
+        "Rewa",
+        "Satna",
+        "Jabalpur"
+      ],
+      "state": "Madhya Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-014",
+      "vendor_name": "Kumar Brick Kiln",
+      "total_awards": 5,
+      "total_value": 12000000,
+      "awards_by_department": [
+        {
+          "department": "Housing Department",
+          "awards": 3,
+          "total_value": 8000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "PMGSY",
+          "awards": 2,
+          "total_value": 4000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Agra",
+        "Mathura",
+        "Aligarh"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-015",
+      "vendor_name": "Asian Paints Dealer – Surat",
+      "total_awards": 3,
+      "total_value": 8000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 2,
+          "total_value": 5500000,
+          "concentration_ratio": 0.69
+        },
+        {
+          "department": "Education Department",
+          "awards": 1,
+          "total_value": 2500000,
+          "concentration_ratio": 0.31
+        }
+      ],
+      "districts": [
+        "Surat",
+        "Vadodara"
+      ],
+      "state": "Gujarat",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-016",
+      "vendor_name": "Ganga Sand Suppliers",
+      "total_awards": 4,
+      "total_value": 18000000,
+      "awards_by_department": [
+        {
+          "department": "Irrigation Department",
+          "awards": 2,
+          "total_value": 9000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Housing Department",
+          "awards": 2,
+          "total_value": 9000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Varanasi",
+        "Allahabad"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-017",
+      "vendor_name": "JSW Steel Distributors",
+      "total_awards": 6,
+      "total_value": 210000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 3,
+          "total_value": 105000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Irrigation Department",
+          "awards": 2,
+          "total_value": 70000000,
+          "concentration_ratio": 0.33
+        },
+        {
+          "department": "Housing Department",
+          "awards": 1,
+          "total_value": 35000000,
+          "concentration_ratio": 0.17
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Mysuru",
+        "Mangaluru"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-018",
+      "vendor_name": "Vikram Solar Dealers",
+      "total_awards": 4,
+      "total_value": 22000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 3,
+          "total_value": 17000000,
+          "concentration_ratio": 0.75
+        },
+        {
+          "department": "Public Works Department",
+          "awards": 1,
+          "total_value": 5000000,
+          "concentration_ratio": 0.25
+        }
+      ],
+      "districts": [
+        "Jaisalmer",
+        "Barmer"
+      ],
+      "state": "Rajasthan",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-019",
+      "vendor_name": "MediPrime Equipment Pvt Ltd",
+      "total_awards": 5,
+      "total_value": 28000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 4,
+          "total_value": 24000000,
+          "concentration_ratio": 0.8
+        },
+        {
+          "department": "District Administration",
+          "awards": 1,
+          "total_value": 4000000,
+          "concentration_ratio": 0.2
+        }
+      ],
+      "districts": [
+        "Kolkata",
+        "Howrah"
+      ],
+      "state": "West Bengal",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-020",
+      "vendor_name": "HP Petroleum Distributor",
+      "total_awards": 5,
+      "total_value": 38000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 3,
+          "total_value": 22000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Transport Department",
+          "awards": 2,
+          "total_value": 16000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Chennai",
+        "Coimbatore",
+        "Madurai"
+      ],
+      "state": "Tamil Nadu",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-10",
+      "vendor_name": "Apex Infra Projects",
+      "total_awards": 22,
+      "total_value": 110000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 10,
+          "total_value": 50000000,
+          "concentration_ratio": 0.45454545454545453
+        },
+        {
+          "department": "Energy Department",
+          "awards": 12,
+          "total_value": 60000000,
+          "concentration_ratio": 0.5454545454545454
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-11",
+      "vendor_name": "BlueStar Office Supplies",
+      "total_awards": 10,
+      "total_value": 50000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 6,
+          "total_value": 30000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Energy Department",
+          "awards": 4,
+          "total_value": 20000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-12",
+      "vendor_name": "Cauvery Construction Materials",
+      "total_awards": 20,
+      "total_value": 100000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 11,
+          "total_value": 55000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 9,
+          "total_value": 45000000,
+          "concentration_ratio": 0.45
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-13",
+      "vendor_name": "Delta IT Solutions",
+      "total_awards": 23,
+      "total_value": 115000000,
+      "awards_by_department": [
+        {
+          "department": "District Administration",
+          "awards": 9,
+          "total_value": 45000000,
+          "concentration_ratio": 0.391304347826087
+        },
+        {
+          "department": "General Administration",
+          "awards": 14,
+          "total_value": 70000000,
+          "concentration_ratio": 0.6086956521739131
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-14",
+      "vendor_name": "Eastern Pharma Hub",
+      "total_awards": 15,
+      "total_value": 75000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 9,
+          "total_value": 45000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "General Administration",
+          "awards": 6,
+          "total_value": 30000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-15",
+      "vendor_name": "Falcon Steel Corp",
+      "total_awards": 21,
+      "total_value": 105000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 8,
+          "total_value": 40000000,
+          "concentration_ratio": 0.38095238095238093
+        },
+        {
+          "department": "Education Department",
+          "awards": 13,
+          "total_value": 65000000,
+          "concentration_ratio": 0.6190476190476191
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-16",
+      "vendor_name": "GreenPower Energy Systems",
+      "total_awards": 19,
+      "total_value": 95000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 8,
+          "total_value": 40000000,
+          "concentration_ratio": 0.42105263157894735
+        },
+        {
+          "department": "Energy Department",
+          "awards": 11,
+          "total_value": 55000000,
+          "concentration_ratio": 0.5789473684210527
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-17",
+      "vendor_name": "Hindustan Pipe Distributors",
+      "total_awards": 13,
+      "total_value": 65000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 6,
+          "total_value": 30000000,
+          "concentration_ratio": 0.46153846153846156
+        },
+        {
+          "department": "Energy Department",
+          "awards": 7,
+          "total_value": 35000000,
+          "concentration_ratio": 0.5384615384615384
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-18",
+      "vendor_name": "Indo Cement Traders",
+      "total_awards": 14,
+      "total_value": 70000000,
+      "awards_by_department": [
+        {
+          "department": "District Administration",
+          "awards": 9,
+          "total_value": 45000000,
+          "concentration_ratio": 0.6428571428571429
+        },
+        {
+          "department": "General Administration",
+          "awards": 5,
+          "total_value": 25000000,
+          "concentration_ratio": 0.35714285714285715
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-GEN-19",
+      "vendor_name": "Jyoti Medical Supplies",
+      "total_awards": 18,
+      "total_value": 90000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 7,
+          "total_value": 35000000,
+          "concentration_ratio": 0.3888888888888889
+        },
+        {
+          "department": "Public Works Department",
+          "awards": 11,
+          "total_value": 55000000,
+          "concentration_ratio": 0.6111111111111112
+        }
+      ],
+      "districts": [
+        "Bengaluru",
+        "Chennai"
+      ],
+      "state": "Karnataka",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-001",
+      "vendor_name": "InflateCo Supplies 1 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-002",
+      "vendor_name": "InflateCo Supplies 2 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-003",
+      "vendor_name": "InflateCo Supplies 3 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-004",
+      "vendor_name": "InflateCo Supplies 4 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-005",
+      "vendor_name": "InflateCo Supplies 5 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-006",
+      "vendor_name": "InflateCo Supplies 6 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-007",
+      "vendor_name": "InflateCo Supplies 7 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "District Administration",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-008",
+      "vendor_name": "InflateCo Supplies 8 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-009",
+      "vendor_name": "InflateCo Supplies 9 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-010",
+      "vendor_name": "InflateCo Supplies 10 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-011",
+      "vendor_name": "InflateCo Supplies 11 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-012",
+      "vendor_name": "InflateCo Supplies 12 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-013",
+      "vendor_name": "InflateCo Supplies 13 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-014",
+      "vendor_name": "InflateCo Supplies 14 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-PA-015",
+      "vendor_name": "InflateCo Supplies 15 Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Housing Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-VC-001",
+      "vendor_name": "Monopoly Road Works Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 27,
+          "total_value": 216000000,
+          "concentration_ratio": 0.91
+        },
+        {
+          "department": "Other Departments",
+          "awards": 3,
+          "total_value": 24000000,
+          "concentration_ratio": 0.1
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-VC-002",
+      "vendor_name": "United Pharma Suppliers Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 26,
+          "total_value": 208000000,
+          "concentration_ratio": 0.88
+        },
+        {
+          "department": "Other Departments",
+          "awards": 4,
+          "total_value": 32000000,
+          "concentration_ratio": 0.13
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-VC-003",
+      "vendor_name": "AceTech Digital Solutions",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 28,
+          "total_value": 224000000,
+          "concentration_ratio": 0.93
+        },
+        {
+          "department": "Other Departments",
+          "awards": 2,
+          "total_value": 16000000,
+          "concentration_ratio": 0.07
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-VC-004",
+      "vendor_name": "Srinivasa Infra Corp",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 26,
+          "total_value": 208000000,
+          "concentration_ratio": 0.87
+        },
+        {
+          "department": "Other Departments",
+          "awards": 4,
+          "total_value": 32000000,
+          "concentration_ratio": 0.13
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-VC-005",
+      "vendor_name": "Himalayan Power Systems",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 29,
+          "total_value": 232000000,
+          "concentration_ratio": 0.95
+        },
+        {
+          "department": "Other Departments",
+          "awards": 1,
+          "total_value": 8000000,
+          "concentration_ratio": 0.03
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": [
+        "HIGH_CONCENTRATION"
+      ]
+    },
+    {
+      "vendor_id": "V-BR-CG-A-0",
+      "vendor_name": "Lucknow Infra Builders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-A-1",
+      "vendor_name": "Lucknow Infra Builders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-A-2",
+      "vendor_name": "Lucknow Infra Builders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-B-0",
+      "vendor_name": "Chennai Tech Procurements Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-B-1",
+      "vendor_name": "Chennai Tech Procurements Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-B-2",
+      "vendor_name": "Chennai Tech Procurements Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-C-0",
+      "vendor_name": "Bihar General Traders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-C-1",
+      "vendor_name": "Bihar General Traders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-C-2",
+      "vendor_name": "Bihar General Traders Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-D-0",
+      "vendor_name": "HydroTech Systems Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-D-1",
+      "vendor_name": "HydroTech Systems Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-D-2",
+      "vendor_name": "HydroTech Systems Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-E-0",
+      "vendor_name": "Rajputana Medical Supplies Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-E-1",
+      "vendor_name": "Rajputana Medical Supplies Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-BR-CG-E-2",
+      "vendor_name": "Rajputana Medical Supplies Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-001",
+      "vendor_name": "Sunrise Construction Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.57
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-002",
+      "vendor_name": "National Building Materials",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 16,
+          "total_value": 128000000,
+          "concentration_ratio": 0.52
+        },
+        {
+          "department": "Other Departments",
+          "awards": 14,
+          "total_value": 112000000,
+          "concentration_ratio": 0.47
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-003",
+      "vendor_name": "ProTech Systems India",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.33
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-004",
+      "vendor_name": "AquaFlow Pipes Co.",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-005",
+      "vendor_name": "MediCare Distributors Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.35
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-006",
+      "vendor_name": "BrightPath Solar Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 16,
+          "total_value": 128000000,
+          "concentration_ratio": 0.55
+        },
+        {
+          "department": "Other Departments",
+          "awards": 14,
+          "total_value": 112000000,
+          "concentration_ratio": 0.47
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-007",
+      "vendor_name": "GreenBuild Infra",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.45
+        },
+        {
+          "department": "Other Departments",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.57
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-008",
+      "vendor_name": "Reliable Cement Corp",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 14,
+          "total_value": 112000000,
+          "concentration_ratio": 0.46
+        },
+        {
+          "department": "Other Departments",
+          "awards": 16,
+          "total_value": 128000000,
+          "concentration_ratio": 0.53
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-009",
+      "vendor_name": "SafeRoad Bitumen Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 11,
+          "total_value": 88000000,
+          "concentration_ratio": 0.36
+        },
+        {
+          "department": "Other Departments",
+          "awards": 19,
+          "total_value": 152000000,
+          "concentration_ratio": 0.63
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-010",
+      "vendor_name": "EduTech Hardware Solutions",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.33
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-011",
+      "vendor_name": "Sunrise Construction Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.39
+        },
+        {
+          "department": "Other Departments",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-012",
+      "vendor_name": "National Building Materials",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.56
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-013",
+      "vendor_name": "ProTech Systems India",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        },
+        {
+          "department": "Other Departments",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.6
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-014",
+      "vendor_name": "AquaFlow Pipes Co.",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 16,
+          "total_value": 128000000,
+          "concentration_ratio": 0.52
+        },
+        {
+          "department": "Other Departments",
+          "awards": 14,
+          "total_value": 112000000,
+          "concentration_ratio": 0.47
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-015",
+      "vendor_name": "MediCare Distributors Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 18,
+          "total_value": 144000000,
+          "concentration_ratio": 0.59
+        },
+        {
+          "department": "Other Departments",
+          "awards": 12,
+          "total_value": 96000000,
+          "concentration_ratio": 0.4
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-016",
+      "vendor_name": "BrightPath Solar Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 11,
+          "total_value": 88000000,
+          "concentration_ratio": 0.35
+        },
+        {
+          "department": "Other Departments",
+          "awards": 19,
+          "total_value": 152000000,
+          "concentration_ratio": 0.63
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-017",
+      "vendor_name": "GreenBuild Infra",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.44
+        },
+        {
+          "department": "Other Departments",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.57
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-018",
+      "vendor_name": "Reliable Cement Corp",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.49
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-019",
+      "vendor_name": "SafeRoad Bitumen Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.34
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-020",
+      "vendor_name": "EduTech Hardware Solutions",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.49
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-021",
+      "vendor_name": "Sunrise Construction Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.44
+        },
+        {
+          "department": "Other Departments",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.57
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-022",
+      "vendor_name": "National Building Materials",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 16,
+          "total_value": 128000000,
+          "concentration_ratio": 0.53
+        },
+        {
+          "department": "Other Departments",
+          "awards": 14,
+          "total_value": 112000000,
+          "concentration_ratio": 0.47
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-023",
+      "vendor_name": "ProTech Systems India",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        },
+        {
+          "department": "Other Departments",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.57
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-024",
+      "vendor_name": "AquaFlow Pipes Co.",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.49
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-025",
+      "vendor_name": "MediCare Distributors Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Public Works Department",
+          "awards": 9,
+          "total_value": 72000000,
+          "concentration_ratio": 0.31
+        },
+        {
+          "department": "Other Departments",
+          "awards": 21,
+          "total_value": 168000000,
+          "concentration_ratio": 0.7
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-026",
+      "vendor_name": "BrightPath Solar Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Jal Jeevan Mission",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.52
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-027",
+      "vendor_name": "GreenBuild Infra",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Education Department",
+          "awards": 17,
+          "total_value": 136000000,
+          "concentration_ratio": 0.58
+        },
+        {
+          "department": "Other Departments",
+          "awards": 13,
+          "total_value": 104000000,
+          "concentration_ratio": 0.43
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-028",
+      "vendor_name": "Reliable Cement Corp",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Health Department",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.35
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-029",
+      "vendor_name": "SafeRoad Bitumen Pvt Ltd",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "Energy Department",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        },
+        {
+          "department": "Other Departments",
+          "awards": 15,
+          "total_value": 120000000,
+          "concentration_ratio": 0.5
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    },
+    {
+      "vendor_id": "V-CLEAN-030",
+      "vendor_name": "EduTech Hardware Solutions",
+      "total_awards": 30,
+      "total_value": 240000000,
+      "awards_by_department": [
+        {
+          "department": "General Administration",
+          "awards": 10,
+          "total_value": 80000000,
+          "concentration_ratio": 0.34
+        },
+        {
+          "department": "Other Departments",
+          "awards": 20,
+          "total_value": 160000000,
+          "concentration_ratio": 0.67
+        }
+      ],
+      "districts": [
+        "Lucknow",
+        "Patna"
+      ],
+      "state": "Uttar Pradesh",
+      "flags": []
+    }
+  ]
+}
